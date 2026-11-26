@@ -436,3 +436,27 @@ def _debug_overlays(sheet, side, bott, prof):
     d.text((pad, 10), "Reference-measured trunk profiles vs arc fraction s (0 = snout, 1 = tail tip)",
            fill=(230, 230, 230))
     chart.save(config.ANALYSIS_DIR / "profile_chart.png")
+
+
+def crest_envelope(window_s=0.012):
+    """Height of the dorsal crest (spike tips) above the trunk's dorsal line,
+    in units of L, measured on the left side view.  Returns (s, height_L)."""
+    sheet = load_sheet()
+    view = "side_left"
+    a = crop(sheet, view)
+    x0, y0, _, _ = REGIONS[view]
+    fg = close_mask(classify(a)[0], 2)
+    lm = LANDMARKS[view]
+    Lpx = view_length_px(view)
+    prof = load_profiles()
+    s_grid = np.array(prof["s"])
+    top_L = profile_array(prof, "top_L")
+    cols = np.arange(fg.shape[1]) + x0
+    s_cols = (cols - lm["nose"][0]) / Lpx
+    top_px = np.array([np.argmax(fg[:, i]) if fg[:, i].any() else np.nan for i in range(fg.shape[1])]) + y0
+    crest_L = (lm["ground_y"] - top_px) / Lpx
+    trunk_top = np.interp(s_cols, s_grid, fill_nan_linear(top_L))
+    h = crest_L - trunk_top
+    w = max(1, int(window_s * Lpx))
+    env = np.array([np.nanmax(h[max(0, i - w):i + w + 1]) for i in range(len(h))])
+    return s_cols, np.clip(env, 0, None)

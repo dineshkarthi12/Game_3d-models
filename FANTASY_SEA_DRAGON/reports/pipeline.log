@@ -1091,3 +1091,203 @@
 12:19:05 [INFO]   rendered M06_full_left.png
 12:19:09 [INFO]   rendered M06_full_top.png
 12:19:37 [INFO] M06 finished: COMPLETE (97.9s)
+12:20:42 [INFO] ========================================================================
+12:20:42 [INFO] M07 – Belly armour plates  (quality=standard)
+12:20:42 [INFO] ========================================================================
+12:20:42 [INFO] Opening project/FSD_M06_scales_v003.blend
+12:20:43 [INFO]   [PASS] DRG_Belly_Plates: geometry present: 11016 verts / 21600 edges / 10800 faces
+12:20:43 [INFO]   [PASS] DRG_Belly_Plates: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:20:43 [INFO]   [PASS] DRG_Belly_Plates: loose geometry: 0 wire edges, 0 loose verts
+12:20:43 [INFO]   [PASS] DRG_Belly_Plates: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.015e-04)
+12:20:43 [INFO]   [PASS] DRG_Belly_Plates: consistent normals: 0 edges between faces with opposing winding
+12:20:43 [ERROR]   [FAIL] DRG_Belly_Plates: normals point outward: signed volume -0.0484 m³
+12:20:43 [INFO]   [PASS] DRG_Belly_Plates: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:20:43 [INFO]   [PASS] DRG_Belly_Plates: material assigned: MAT_Belly_Beige
+12:20:43 [INFO]   [PASS] DRG_Belly_Plates: UV map present: UVMap
+12:20:43 [WARNING]   [WARNING] Plate count (sheet shows ~55 ventral plates): 108 plates from s 0.15 to 0.8
+12:20:43 [INFO]   [PASS] Belly plates clear of flank / tail scales: 0 intersecting face pairs with 5 objects
+12:20:43 [INFO]   [PASS] Plates follow body curvature: max distance to body surface 2.4 cm (mean 1.1 cm)
+12:20:43 [INFO]   [PASS] Consistent ventral alignment: plate centroid lateral offset 0.0 mm (symmetric about the midline)
+12:20:43 [INFO] Saved project/FSD_M07_belly_armour_v001.blend
+12:21:16 [INFO]   rendered M07_full_three_quarter_front_left.png
+12:21:20 [INFO]   rendered M07_full_left.png
+12:21:24 [INFO]   rendered M07_full_top.png
+12:21:58 [INFO] M07 finished: FAILED_VALIDATION (76.4s)
+12:22:09 [INFO] ========================================================================
+12:22:09 [INFO] M07 – Belly armour plates  (quality=standard)
+12:22:09 [INFO] ========================================================================
+12:22:09 [INFO] Opening project/FSD_M06_scales_v003.blend
+12:22:10 [INFO]   [PASS] DRG_Belly_Plates: geometry present: 7956 verts / 15600 edges / 7800 faces
+12:22:10 [INFO]   [PASS] DRG_Belly_Plates: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:22:10 [INFO]   [PASS] DRG_Belly_Plates: loose geometry: 0 wire edges, 0 loose verts
+12:22:10 [INFO]   [PASS] DRG_Belly_Plates: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.690e-04)
+12:22:10 [INFO]   [PASS] DRG_Belly_Plates: consistent normals: 0 edges between faces with opposing winding
+12:22:10 [INFO]   [PASS] DRG_Belly_Plates: normals point outward: signed volume 0.0484 m³
+12:22:10 [INFO]   [PASS] DRG_Belly_Plates: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:22:10 [INFO]   [PASS] DRG_Belly_Plates: material assigned: MAT_Belly_Beige
+12:22:10 [INFO]   [PASS] DRG_Belly_Plates: UV map present: UVMap
+12:22:10 [INFO]   [PASS] Plate count (sheet shows ~55 ventral plates): 78 plates from s 0.15 to 0.8
+12:22:10 [INFO]   [PASS] Belly plates clear of flank / tail scales: 0 intersecting face pairs with 5 objects
+12:22:10 [INFO]   [PASS] Plates follow body curvature: max distance to body surface 2.4 cm (mean 1.1 cm)
+12:22:10 [INFO]   [PASS] Consistent ventral alignment: plate centroid lateral offset 0.0 mm (symmetric about the midline)
+12:22:10 [INFO] Saved project/FSD_M07_belly_armour_v002.blend
+12:22:44 [INFO]   rendered M07_full_three_quarter_front_left.png
+12:22:48 [INFO]   rendered M07_full_left.png
+12:22:51 [INFO]   rendered M07_full_top.png
+12:23:26 [INFO] M07 finished: COMPLETE (77.4s)
+12:23:39 [INFO] ========================================================================
+12:23:39 [INFO] M07 – Belly armour plates  (quality=standard)
+12:23:39 [INFO] ========================================================================
+12:23:39 [INFO] Opening project/FSD_M06_scales_v003.blend
+12:23:41 [INFO]   [PASS] DRG_Belly_Plates: geometry present: 11076 verts / 21840 edges / 10920 faces
+12:23:41 [INFO]   [PASS] DRG_Belly_Plates: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:23:41 [INFO]   [PASS] DRG_Belly_Plates: loose geometry: 0 wire edges, 0 loose verts
+12:23:41 [INFO]   [PASS] DRG_Belly_Plates: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.957e-04)
+12:23:41 [INFO]   [PASS] DRG_Belly_Plates: consistent normals: 0 edges between faces with opposing winding
+12:23:41 [INFO]   [PASS] DRG_Belly_Plates: normals point outward: signed volume 0.0469 m³
+12:23:41 [INFO]   [PASS] DRG_Belly_Plates: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:23:41 [INFO]   [PASS] DRG_Belly_Plates: material assigned: MAT_Belly_Beige
+12:23:41 [INFO]   [PASS] DRG_Belly_Plates: UV map present: UVMap
+12:23:41 [INFO]   [PASS] Plate count (sheet shows ~55 ventral plates): 78 plates from s 0.15 to 0.8
+12:23:41 [ERROR]   [FAIL] Belly plates clear of flank / tail scales: 53 intersecting face pairs ({'DRG_Scales_Tail': 53})
+12:23:41 [INFO]   [PASS] Plates follow body curvature: max distance to body surface 2.3 cm (mean 1.1 cm)
+12:23:41 [INFO]   [PASS] Consistent ventral alignment: plate centroid lateral offset 0.0 mm (symmetric about the midline)
+12:23:41 [INFO] Saved project/FSD_M07_belly_armour_v003.blend
+12:24:16 [INFO]   rendered M07_full_three_quarter_front_left.png
+12:24:21 [INFO]   rendered M07_full_left.png
+12:24:24 [INFO]   rendered M07_full_top.png
+12:25:00 [INFO] M07 finished: FAILED_VALIDATION (80.3s)
+12:25:07 [INFO] ========================================================================
+12:25:07 [INFO] M07 – Belly armour plates  (quality=standard)
+12:25:07 [INFO] ========================================================================
+12:25:07 [INFO] Opening project/FSD_M06_scales_v003.blend
+12:25:09 [INFO]   [PASS] DRG_Belly_Plates: geometry present: 10934 verts / 21560 edges / 10780 faces
+12:25:09 [INFO]   [PASS] DRG_Belly_Plates: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:25:09 [INFO]   [PASS] DRG_Belly_Plates: loose geometry: 0 wire edges, 0 loose verts
+12:25:09 [INFO]   [PASS] DRG_Belly_Plates: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.025e-04)
+12:25:09 [INFO]   [PASS] DRG_Belly_Plates: consistent normals: 0 edges between faces with opposing winding
+12:25:09 [INFO]   [PASS] DRG_Belly_Plates: normals point outward: signed volume 0.0467 m³
+12:25:09 [INFO]   [PASS] DRG_Belly_Plates: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:25:09 [INFO]   [PASS] DRG_Belly_Plates: material assigned: MAT_Belly_Beige
+12:25:09 [INFO]   [PASS] DRG_Belly_Plates: UV map present: UVMap
+12:25:09 [INFO]   [PASS] Plate count (sheet shows ~55 ventral plates): 77 plates from s 0.15 to 0.8
+12:25:09 [INFO]   [PASS] Belly plates clear of flank / tail scales: 0 intersecting face pairs with 5 objects
+12:25:09 [INFO]   [PASS] Plates follow body curvature: max distance to body surface 2.3 cm (mean 1.1 cm)
+12:25:09 [INFO]   [PASS] Consistent ventral alignment: plate centroid lateral offset 0.0 mm (symmetric about the midline)
+12:25:09 [INFO] Saved project/FSD_M07_belly_armour_v004.blend
+12:25:42 [INFO]   rendered M07_full_three_quarter_front_left.png
+12:25:46 [INFO]   rendered M07_full_left.png
+12:25:49 [INFO]   rendered M07_full_top.png
+12:26:24 [INFO] M07 finished: COMPLETE (77.2s)
+12:27:37 [INFO] ========================================================================
+12:27:37 [INFO] M08 – Dorsal spikes  (quality=standard)
+12:27:37 [INFO] ========================================================================
+12:27:37 [INFO] Opening project/FSD_M07_belly_armour_v004.blend
+12:27:37 [INFO]   [PASS] DRG_Spikes_Neck: geometry present: 460 verts / 936 edges / 480 faces
+12:27:37 [INFO]   [PASS] DRG_Spikes_Neck: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:27:37 [INFO]   [PASS] DRG_Spikes_Neck: loose geometry: 0 wire edges, 0 loose verts
+12:27:37 [INFO]   [PASS] DRG_Spikes_Neck: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.877e-05)
+12:27:37 [INFO]   [PASS] DRG_Spikes_Neck: consistent normals: 0 edges between faces with opposing winding
+12:27:37 [INFO]   [PASS] DRG_Spikes_Neck: normals point outward: signed volume 0.0123 m³
+12:27:37 [INFO]   [PASS] DRG_Spikes_Neck: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:27:37 [INFO]   [PASS] DRG_Spikes_Neck: material assigned: MAT_Skin_DarkNavy, MAT_Spike_Orange
+12:27:37 [INFO]   [PASS] DRG_Spikes_Neck: UV map present: UVMap
+12:27:37 [INFO]   [PASS] DRG_Spikes_Neck: no smoothing modifier (sharp silhouette): geometry rendered as modelled
+12:27:37 [INFO]   [PASS] DRG_Spikes_UpperTorso: geometry present: 690 verts / 1404 edges / 720 faces
+12:27:37 [INFO]   [PASS] DRG_Spikes_UpperTorso: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:27:37 [INFO]   [PASS] DRG_Spikes_UpperTorso: loose geometry: 0 wire edges, 0 loose verts
+12:27:37 [INFO]   [PASS] DRG_Spikes_UpperTorso: degenerate faces: 0 faces with area < 1e-10 m² (min area 7.789e-05)
+12:27:37 [INFO]   [PASS] DRG_Spikes_UpperTorso: consistent normals: 0 edges between faces with opposing winding
+12:27:37 [INFO]   [PASS] DRG_Spikes_UpperTorso: normals point outward: signed volume 0.0573 m³
+12:27:37 [INFO]   [PASS] DRG_Spikes_UpperTorso: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:27:37 [INFO]   [PASS] DRG_Spikes_UpperTorso: material assigned: MAT_Skin_DarkNavy, MAT_Spike_Orange
+12:27:37 [INFO]   [PASS] DRG_Spikes_UpperTorso: UV map present: UVMap
+12:27:37 [INFO]   [PASS] DRG_Spikes_UpperTorso: no smoothing modifier (sharp silhouette): geometry rendered as modelled
+12:27:37 [INFO]   [PASS] DRG_Spikes_MidBody: geometry present: 690 verts / 1404 edges / 720 faces
+12:27:37 [INFO]   [PASS] DRG_Spikes_MidBody: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:27:37 [INFO]   [PASS] DRG_Spikes_MidBody: loose geometry: 0 wire edges, 0 loose verts
+12:27:37 [INFO]   [PASS] DRG_Spikes_MidBody: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.083e-05)
+12:27:37 [INFO]   [PASS] DRG_Spikes_MidBody: consistent normals: 0 edges between faces with opposing winding
+12:27:37 [INFO]   [PASS] DRG_Spikes_MidBody: normals point outward: signed volume 0.0262 m³
+12:27:37 [INFO]   [PASS] DRG_Spikes_MidBody: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:27:37 [INFO]   [PASS] DRG_Spikes_MidBody: material assigned: MAT_Skin_DarkNavy, MAT_Spike_Orange
+12:27:37 [INFO]   [PASS] DRG_Spikes_MidBody: UV map present: UVMap
+12:27:37 [INFO]   [PASS] DRG_Spikes_MidBody: no smoothing modifier (sharp silhouette): geometry rendered as modelled
+12:27:37 [INFO]   [PASS] DRG_Spikes_Tail: geometry present: 1610 verts / 3276 edges / 1680 faces
+12:27:37 [INFO]   [PASS] DRG_Spikes_Tail: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:27:37 [INFO]   [PASS] DRG_Spikes_Tail: loose geometry: 0 wire edges, 0 loose verts
+12:27:37 [INFO]   [PASS] DRG_Spikes_Tail: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.724e-05)
+12:27:37 [INFO]   [PASS] DRG_Spikes_Tail: consistent normals: 0 edges between faces with opposing winding
+12:27:37 [INFO]   [PASS] DRG_Spikes_Tail: normals point outward: signed volume 0.0080 m³
+12:27:37 [INFO]   [PASS] DRG_Spikes_Tail: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:27:37 [INFO]   [PASS] DRG_Spikes_Tail: material assigned: MAT_Skin_DarkNavy, MAT_Spike_Orange
+12:27:37 [INFO]   [PASS] DRG_Spikes_Tail: UV map present: UVMap
+12:27:37 [INFO]   [PASS] DRG_Spikes_Tail: no smoothing modifier (sharp silhouette): geometry rendered as modelled
+12:27:37 [ERROR]   [FAIL] Spike tip sharpness: tip half-angle 49.0° mean, 49.7° max (limit 15°)
+12:27:37 [INFO]   [PASS] DRG_Spikes_Neck clear of scales: 0 intersecting face pairs with 5 objects
+12:27:37 [INFO]   [PASS] DRG_Spikes_UpperTorso clear of scales: 0 intersecting face pairs with 5 objects
+12:27:38 [INFO]   [PASS] DRG_Spikes_MidBody clear of scales: 0 intersecting face pairs with 5 objects
+12:27:38 [INFO]   [PASS] DRG_Spikes_Tail clear of scales: 0 intersecting face pairs with 5 objects
+12:27:38 [INFO]   [PASS] Spike categories: {'Neck': 2, 'UpperTorso': 3, 'MidBody': 3, 'Tail': 7}
+12:27:38 [INFO]   [PASS] Crest height follows reference envelope: mean |model - reference| tip height 0.052 m over 15 main spikes
+12:27:38 [INFO] Saved project/FSD_M08_dorsal_spikes_v001.blend
+12:28:18 [INFO]   rendered M08_full_three_quarter_front_left.png
+12:28:22 [INFO]   rendered M08_full_left.png
+12:28:26 [INFO]   rendered M08_full_top.png
+12:29:03 [INFO] M08 finished: FAILED_VALIDATION (86.8s)
+12:29:36 [INFO] ========================================================================
+12:29:36 [INFO] M08 – Dorsal spikes  (quality=standard)
+12:29:36 [INFO] ========================================================================
+12:29:36 [INFO] Opening project/FSD_M07_belly_armour_v004.blend
+12:29:36 [INFO]   [PASS] DRG_Spikes_Neck: geometry present: 920 verts / 1872 edges / 960 faces
+12:29:36 [INFO]   [PASS] DRG_Spikes_Neck: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:29:36 [INFO]   [PASS] DRG_Spikes_Neck: loose geometry: 0 wire edges, 0 loose verts
+12:29:36 [INFO]   [PASS] DRG_Spikes_Neck: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.410e-06)
+12:29:36 [INFO]   [PASS] DRG_Spikes_Neck: consistent normals: 0 edges between faces with opposing winding
+12:29:36 [INFO]   [PASS] DRG_Spikes_Neck: normals point outward: signed volume 0.0071 m³
+12:29:36 [INFO]   [PASS] DRG_Spikes_Neck: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:29:36 [INFO]   [PASS] DRG_Spikes_Neck: material assigned: MAT_Skin_DarkNavy, MAT_Spike_Orange
+12:29:36 [INFO]   [PASS] DRG_Spikes_Neck: UV map present: UVMap
+12:29:36 [INFO]   [PASS] DRG_Spikes_Neck: no smoothing modifier (sharp silhouette): geometry rendered as modelled
+12:29:36 [INFO]   [PASS] DRG_Spikes_UpperTorso: geometry present: 1150 verts / 2340 edges / 1200 faces
+12:29:36 [INFO]   [PASS] DRG_Spikes_UpperTorso: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:29:36 [INFO]   [PASS] DRG_Spikes_UpperTorso: loose geometry: 0 wire edges, 0 loose verts
+12:29:36 [INFO]   [PASS] DRG_Spikes_UpperTorso: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.037e-05)
+12:29:36 [INFO]   [PASS] DRG_Spikes_UpperTorso: consistent normals: 0 edges between faces with opposing winding
+12:29:36 [INFO]   [PASS] DRG_Spikes_UpperTorso: normals point outward: signed volume 0.0204 m³
+12:29:36 [INFO]   [PASS] DRG_Spikes_UpperTorso: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:29:36 [INFO]   [PASS] DRG_Spikes_UpperTorso: material assigned: MAT_Skin_DarkNavy, MAT_Spike_Orange
+12:29:36 [INFO]   [PASS] DRG_Spikes_UpperTorso: UV map present: UVMap
+12:29:36 [INFO]   [PASS] DRG_Spikes_UpperTorso: no smoothing modifier (sharp silhouette): geometry rendered as modelled
+12:29:36 [INFO]   [PASS] DRG_Spikes_MidBody: geometry present: 2156 verts / 4392 edges / 2256 faces
+12:29:36 [INFO]   [PASS] DRG_Spikes_MidBody: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:29:36 [INFO]   [PASS] DRG_Spikes_MidBody: loose geometry: 0 wire edges, 0 loose verts
+12:29:36 [INFO]   [PASS] DRG_Spikes_MidBody: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.157e-06)
+12:29:36 [INFO]   [PASS] DRG_Spikes_MidBody: consistent normals: 0 edges between faces with opposing winding
+12:29:36 [INFO]   [PASS] DRG_Spikes_MidBody: normals point outward: signed volume 0.0204 m³
+12:29:36 [INFO]   [PASS] DRG_Spikes_MidBody: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:29:36 [INFO]   [PASS] DRG_Spikes_MidBody: material assigned: MAT_Skin_DarkNavy, MAT_Spike_Orange
+12:29:36 [INFO]   [PASS] DRG_Spikes_MidBody: UV map present: UVMap
+12:29:36 [INFO]   [PASS] DRG_Spikes_MidBody: no smoothing modifier (sharp silhouette): geometry rendered as modelled
+12:29:36 [INFO]   [PASS] DRG_Spikes_Tail: geometry present: 3722 verts / 7596 edges / 3912 faces
+12:29:36 [INFO]   [PASS] DRG_Spikes_Tail: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:29:36 [INFO]   [PASS] DRG_Spikes_Tail: loose geometry: 0 wire edges, 0 loose verts
+12:29:36 [INFO]   [PASS] DRG_Spikes_Tail: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.692e-06)
+12:29:36 [INFO]   [PASS] DRG_Spikes_Tail: consistent normals: 0 edges between faces with opposing winding
+12:29:36 [INFO]   [PASS] DRG_Spikes_Tail: normals point outward: signed volume 0.0038 m³
+12:29:36 [INFO]   [PASS] DRG_Spikes_Tail: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:29:36 [INFO]   [PASS] DRG_Spikes_Tail: material assigned: MAT_Skin_DarkNavy, MAT_Spike_Orange
+12:29:36 [INFO]   [PASS] DRG_Spikes_Tail: UV map present: UVMap
+12:29:36 [INFO]   [PASS] DRG_Spikes_Tail: no smoothing modifier (sharp silhouette): geometry rendered as modelled
+12:29:36 [INFO]   [PASS] Spike tip sharpness: tip half-angle 8.4° mean, 14.1° max (limit 15°)
+12:29:36 [INFO]   [PASS] DRG_Spikes_Neck clear of scales: 0 intersecting face pairs with 5 objects
+12:29:37 [INFO]   [PASS] DRG_Spikes_UpperTorso clear of scales: 0 intersecting face pairs with 5 objects
+12:29:37 [INFO]   [PASS] DRG_Spikes_MidBody clear of scales: 0 intersecting face pairs with 5 objects
+12:29:37 [INFO]   [PASS] DRG_Spikes_Tail clear of scales: 0 intersecting face pairs with 5 objects
+12:29:37 [INFO]   [PASS] Spike categories: {'Neck': 4, 'UpperTorso': 5, 'MidBody': 10, 'Tail': 19}
+12:29:37 [INFO]   [PASS] Crest height follows reference envelope: mean |model - reference| tip height 0.052 m over 27 main spikes
+12:29:37 [INFO] Saved project/FSD_M08_dorsal_spikes_v002.blend
+12:30:15 [INFO]   rendered M08_full_three_quarter_front_left.png
+12:30:20 [INFO]   rendered M08_full_left.png
+12:30:23 [INFO]   rendered M08_full_top.png
+12:31:00 [INFO] M08 finished: COMPLETE (84.0s)

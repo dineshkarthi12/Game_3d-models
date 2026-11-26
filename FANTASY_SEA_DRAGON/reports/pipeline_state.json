@@ -55,6 +55,20 @@
       "blend": "project/FSD_M06_scales_v003.blend",
       "finished": "2026-11-26T12:19:37",
       "quality": "standard"
+    },
+    "M07": {
+      "title": "Belly armour plates",
+      "status": "COMPLETE",
+      "blend": "project/FSD_M07_belly_armour_v004.blend",
+      "finished": "2026-11-26T12:26:24",
+      "quality": "standard"
+    },
+    "M08": {
+      "title": "Dorsal spikes",
+      "status": "COMPLETE",
+      "blend": "project/FSD_M08_dorsal_spikes_v002.blend",
+      "finished": "2026-11-26T12:31:00",
+      "quality": "standard"
     }
   }
 }

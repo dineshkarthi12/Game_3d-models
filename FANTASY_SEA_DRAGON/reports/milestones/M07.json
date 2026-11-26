@@ -1,0 +1,131 @@
+{
+  "id": "M07",
+  "title": "Belly armour plates",
+  "scripts": [
+    "07_belly_armour.py"
+  ],
+  "quality": "standard",
+  "started": "2026-11-26T12:25:07",
+  "finished": "2026-11-26T12:26:24",
+  "duration_s": 77.17,
+  "status": "COMPLETE",
+  "blend": "project/FSD_M07_belly_armour_v004.blend",
+  "outputs": {
+    "blend": [
+      "project/FSD_M07_belly_armour_v004.blend"
+    ],
+    "render": [
+      "renders/M07/M07_full_three_quarter_front_left.png",
+      "renders/M07/M07_full_left.png",
+      "renders/M07/M07_full_top.png",
+      "renders/M07/M07_focus_0.png",
+      "renders/M07/M07_focus_1.png",
+      "renders/M07/M07_aligned_side_left.png",
+      "renders/M07/M07_aligned_bottom.png"
+    ],
+    "preview": [
+      "renders/M07/M07_review_sheet.png"
+    ]
+  },
+  "metrics": {
+    "plates": 77,
+    "plate length (m)": "0.080\u20130.174",
+    "plate faces": 10780
+  },
+  "checks": [
+    {
+      "check": "DRG_Belly_Plates: geometry present",
+      "status": "PASS",
+      "detail": "10934 verts / 21560 edges / 10780 faces",
+      "value": 10780,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Belly_Plates: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Belly_Plates: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Belly_Plates: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 2.025e-04)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Belly_Plates: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Belly_Plates: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0467 m\u00b3",
+      "value": 0.046672457070802816,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Belly_Plates: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Belly_Plates: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Belly_Beige",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Belly_Plates: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "Plate count (sheet shows ~55 ventral plates)",
+      "status": "PASS",
+      "detail": "77 plates from s 0.15 to 0.8",
+      "value": 77,
+      "threshold": "40\u201390"
+    },
+    {
+      "check": "Belly plates clear of flank / tail scales",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 5 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "Plates follow body curvature",
+      "status": "PASS",
+      "detail": "max distance to body surface 2.3 cm (mean 1.1 cm)",
+      "value": 0.02337353490293026,
+      "threshold": 0.04
+    },
+    {
+      "check": "Consistent ventral alignment",
+      "status": "PASS",
+      "detail": "plate centroid lateral offset 0.0 mm (symmetric about the midline)",
+      "value": null,
+      "threshold": null
+    }
+  ],
+  "notes": [],
+  "assumptions": [],
+  "error": null
+}

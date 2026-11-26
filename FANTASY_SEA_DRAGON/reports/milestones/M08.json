@@ -1,0 +1,379 @@
+{
+  "id": "M08",
+  "title": "Dorsal spikes",
+  "scripts": [
+    "08_spine_generator.py"
+  ],
+  "quality": "standard",
+  "started": "2026-11-26T12:29:36",
+  "finished": "2026-11-26T12:31:00",
+  "duration_s": 83.99,
+  "status": "COMPLETE",
+  "blend": "project/FSD_M08_dorsal_spikes_v002.blend",
+  "outputs": {
+    "blend": [
+      "project/FSD_M08_dorsal_spikes_v002.blend"
+    ],
+    "render": [
+      "renders/M08/M08_full_three_quarter_front_left.png",
+      "renders/M08/M08_full_left.png",
+      "renders/M08/M08_full_top.png",
+      "renders/M08/M08_focus_0.png",
+      "renders/M08/M08_focus_1.png",
+      "renders/M08/M08_aligned_side_left.png"
+    ],
+    "preview": [
+      "renders/M08/M08_review_sheet.png"
+    ]
+  },
+  "metrics": {
+    "spikes per category": {
+      "Neck": 4,
+      "UpperTorso": 5,
+      "MidBody": 10,
+      "Tail": 19
+    },
+    "rejected (would intersect a neighbour)": 17,
+    "spike length range (m)": "0.06\u20130.84",
+    "dorsal scales removed under spike roots": {
+      "DRG_Scales_Neck": 24,
+      "DRG_Scales_Back": 136,
+      "DRG_Scales_Tail": 9
+    },
+    "crest height MAE vs reference envelope (m)": 0.052
+  },
+  "checks": [
+    {
+      "check": "DRG_Spikes_Neck: geometry present",
+      "status": "PASS",
+      "detail": "920 verts / 1872 edges / 960 faces",
+      "value": 960,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Spikes_Neck: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Neck: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Neck: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 4.410e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Neck: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Neck: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0071 m\u00b3",
+      "value": 0.007123131903953102,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Neck: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Neck: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Skin_DarkNavy, MAT_Spike_Orange",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Spikes_Neck: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Spikes_Neck: no smoothing modifier (sharp silhouette)",
+      "status": "PASS",
+      "detail": "geometry rendered as modelled",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Spikes_UpperTorso: geometry present",
+      "status": "PASS",
+      "detail": "1150 verts / 2340 edges / 1200 faces",
+      "value": 1200,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Spikes_UpperTorso: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_UpperTorso: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_UpperTorso: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 1.037e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_UpperTorso: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_UpperTorso: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0204 m\u00b3",
+      "value": 0.020426832593293302,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_UpperTorso: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_UpperTorso: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Skin_DarkNavy, MAT_Spike_Orange",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Spikes_UpperTorso: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Spikes_UpperTorso: no smoothing modifier (sharp silhouette)",
+      "status": "PASS",
+      "detail": "geometry rendered as modelled",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Spikes_MidBody: geometry present",
+      "status": "PASS",
+      "detail": "2156 verts / 4392 edges / 2256 faces",
+      "value": 2256,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Spikes_MidBody: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_MidBody: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_MidBody: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 3.157e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_MidBody: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_MidBody: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0204 m\u00b3",
+      "value": 0.020371505874522255,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_MidBody: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_MidBody: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Skin_DarkNavy, MAT_Spike_Orange",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Spikes_MidBody: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Spikes_MidBody: no smoothing modifier (sharp silhouette)",
+      "status": "PASS",
+      "detail": "geometry rendered as modelled",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Spikes_Tail: geometry present",
+      "status": "PASS",
+      "detail": "3722 verts / 7596 edges / 3912 faces",
+      "value": 3912,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Spikes_Tail: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Tail: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Tail: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 1.692e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Tail: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Tail: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0038 m\u00b3",
+      "value": 0.003828830182872619,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Tail: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Tail: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Skin_DarkNavy, MAT_Spike_Orange",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Spikes_Tail: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Spikes_Tail: no smoothing modifier (sharp silhouette)",
+      "status": "PASS",
+      "detail": "geometry rendered as modelled",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Spike tip sharpness",
+      "status": "PASS",
+      "detail": "tip half-angle 8.4\u00b0 mean, 14.1\u00b0 max (limit 15\u00b0)",
+      "value": 14.139927638274873,
+      "threshold": 15
+    },
+    {
+      "check": "DRG_Spikes_Neck clear of scales",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 5 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_UpperTorso clear of scales",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 5 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_MidBody clear of scales",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 5 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Spikes_Tail clear of scales",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 5 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "Spike categories",
+      "status": "PASS",
+      "detail": "{'Neck': 4, 'UpperTorso': 5, 'MidBody': 10, 'Tail': 19}",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Crest height follows reference envelope",
+      "status": "PASS",
+      "detail": "mean |model - reference| tip height 0.052 m over 27 main spikes",
+      "value": 0.05231860359654939,
+      "threshold": 0.12
+    }
+  ],
+  "notes": [],
+  "assumptions": [],
+  "error": null
+}

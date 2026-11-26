@@ -266,3 +266,67 @@
 * faces per colour material: {'MAT_Scale_MetallicBlue': 74272, 'MAT_Scale_Turquoise': 43680, 'MAT_Scale_Gold': 18304, 'MAT_Scale_DarkNavy': 31072}  
 * **Notes:**
   * Scales are embedded ~0.035 x length at their front edge (attached to the skin), so contact with DRG_Body / DRG_Head_Skull is intentional and not counted as an intersection.
+
+## M07 – Belly armour plates
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:21:58 (76.39 s, quality `standard`)  
+* **Scripts:** 07_belly_armour.py  
+* **Project file:** `project/FSD_M07_belly_armour_v001.blend`  
+* **Checks:** 11 PASS / 1 WARNING / 1 FAIL  
+* plates: 108  
+* plate length (m): 0.060–0.124  
+* plate faces: 10800  
+
+## M07 – Belly armour plates
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:23:26 (77.38 s, quality `standard`)  
+* **Scripts:** 07_belly_armour.py  
+* **Project file:** `project/FSD_M07_belly_armour_v002.blend`  
+* **Checks:** 13 PASS / 0 WARNING / 0 FAIL  
+* plates: 78  
+* plate length (m): 0.080–0.174  
+* plate faces: 7800  
+
+## M07 – Belly armour plates
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:25:00 (80.27 s, quality `standard`)  
+* **Scripts:** 07_belly_armour.py  
+* **Project file:** `project/FSD_M07_belly_armour_v003.blend`  
+* **Checks:** 12 PASS / 0 WARNING / 1 FAIL  
+* plates: 78  
+* plate length (m): 0.080–0.174  
+* plate faces: 10920  
+
+## M07 – Belly armour plates
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:26:24 (77.17 s, quality `standard`)  
+* **Scripts:** 07_belly_armour.py  
+* **Project file:** `project/FSD_M07_belly_armour_v004.blend`  
+* **Checks:** 13 PASS / 0 WARNING / 0 FAIL  
+* plates: 77  
+* plate length (m): 0.080–0.174  
+* plate faces: 10780  
+
+## M08 – Dorsal spikes
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:29:03 (86.76 s, quality `standard`)  
+* **Scripts:** 08_spine_generator.py  
+* **Project file:** `project/FSD_M08_dorsal_spikes_v001.blend`  
+* **Checks:** 46 PASS / 0 WARNING / 1 FAIL  
+* spikes per category: {'Neck': 2, 'UpperTorso': 3, 'MidBody': 3, 'Tail': 7}  
+* rejected (would intersect a neighbour): 32  
+* spike length range (m): 0.18–1.01  
+* dorsal scales removed under spike roots: {'DRG_Scales_Neck': 18, 'DRG_Scales_Back': 135, 'DRG_Scales_Tail': 9}  
+* crest height MAE vs reference envelope (m): 0.052  
+
+## M08 – Dorsal spikes
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:31:00 (83.99 s, quality `standard`)  
+* **Scripts:** 08_spine_generator.py  
+* **Project file:** `project/FSD_M08_dorsal_spikes_v002.blend`  
+* **Checks:** 47 PASS / 0 WARNING / 0 FAIL  
+* spikes per category: {'Neck': 4, 'UpperTorso': 5, 'MidBody': 10, 'Tail': 19}  
+* rejected (would intersect a neighbour): 17  
+* spike length range (m): 0.06–0.84  
+* dorsal scales removed under spike roots: {'DRG_Scales_Neck': 24, 'DRG_Scales_Back': 136, 'DRG_Scales_Tail': 9}  
+* crest height MAE vs reference envelope (m): 0.052  
