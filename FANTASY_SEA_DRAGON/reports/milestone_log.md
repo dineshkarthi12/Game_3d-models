@@ -330,3 +330,102 @@
 * spike length range (m): 0.06–0.84  
 * dorsal scales removed under spike roots: {'DRG_Scales_Neck': 24, 'DRG_Scales_Back': 136, 'DRG_Scales_Tail': 9}  
 * crest height MAE vs reference envelope (m): 0.052  
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:35:09 (93.36 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v001.blend`  
+* **Checks:** 52 PASS / 0 WARNING / 1 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 12512, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 840}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:36:47 (87.6 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v002.blend`  
+* **Checks:** 52 PASS / 0 WARNING / 1 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 12512, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 840}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:38:19 (85.61 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v003.blend`  
+* **Checks:** 52 PASS / 0 WARNING / 1 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 12512, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 840}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:40:16 (88.46 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v004.blend`  
+* **Checks:** 52 PASS / 0 WARNING / 1 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 12512, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 140}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:41:54 (86.5 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v005.blend`  
+* **Checks:** 52 PASS / 0 WARNING / 1 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 12512, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 140}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:43:34 (86.75 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v006.blend`  
+* **Checks:** 52 PASS / 0 WARNING / 1 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 12512, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 140}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:45:17 (88.16 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v007.blend`  
+* **Checks:** 53 PASS / 0 WARNING / 0 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 12512, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 140}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:46:58 (86.42 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v008.blend`  
+* **Checks:** 48 PASS / 0 WARNING / 5 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 13120, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 140}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:48:47 (92.72 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v009.blend`  
+* **Checks:** 53 PASS / 0 WARNING / 0 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 12448, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 140}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.

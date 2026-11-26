@@ -38,10 +38,10 @@ STEPS = [
     ("M06", "06_scale_generator.py", []),
     ("M07", "07_belly_armour.py", []),
     ("M08", "08_spine_generator.py", []),
+    ("M09", "09_fin_generator.py", []),
 ]
 PLANNED = [
 
-    ("M09", "09_fin_generator.py"),
     ("M10", "10_limb_generator.py"), ("M11", "11_claw_generator.py"), ("M12", "12_tail_generator.py"),
     ("M13", "13_material_generator.py"), ("M14", "14_uv_generator.py"), ("M15", "15_rigging.py"),
     ("M16", "16_lighting_render.py"), ("M17", "17_quality_validation.py"), ("M18", "18_export.py"),

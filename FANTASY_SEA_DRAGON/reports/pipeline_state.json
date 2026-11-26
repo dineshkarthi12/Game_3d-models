@@ -69,6 +69,13 @@
       "blend": "project/FSD_M08_dorsal_spikes_v002.blend",
       "finished": "2026-11-26T12:31:00",
       "quality": "standard"
+    },
+    "M09": {
+      "title": "Fins (neck, dorsal, side, leg, tail fan)",
+      "status": "COMPLETE",
+      "blend": "project/FSD_M09_fins_v009.blend",
+      "finished": "2026-11-26T12:48:47",
+      "quality": "standard"
     }
   }
 }

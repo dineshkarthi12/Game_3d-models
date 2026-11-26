@@ -247,3 +247,44 @@ def bvh_for(objs, evaluated=True):
     tree = BVHTree.FromBMesh(bm)
     bm.free()
     return tree
+
+
+def remove_islands_touching(ob, others):
+    """Delete whole islands of *ob* (e.g. scales) that intersect any of *others*."""
+    import bmesh
+    from mathutils.bvhtree import BVHTree
+    bm = bmesh.new()
+    bm.from_mesh(ob.data)
+    bm.faces.ensure_lookup_table()
+    tree = BVHTree.FromBMesh(bm)
+    hit = set()
+    for o in others:
+        bo = bmesh.new()
+        bo.from_mesh(o.data)
+        bo.transform(o.matrix_world)
+        bo.transform(ob.matrix_world.inverted())
+        to = BVHTree.FromBMesh(bo)
+        bo.free()
+        hit |= {i for i, _ in tree.overlap(to)}
+    seen, kill = set(), set()
+    for fi in hit:
+        if fi in seen:
+            continue
+        stack = [bm.faces[fi]]
+        while stack:
+            f = stack.pop()
+            if f.index in seen:
+                continue
+            seen.add(f.index)
+            for v in f.verts:
+                kill.add(v)
+            for e in f.edges:
+                stack.extend(x for x in e.link_faces if x.index not in seen)
+    if kill:
+        bmesh.ops.delete(bm, geom=list(kill), context="VERTS")
+    bm.to_mesh(ob.data)
+    bm.free()
+    ob.data.update()
+    return len(hit)
+
+

@@ -460,3 +460,26 @@ def crest_envelope(window_s=0.012):
     w = max(1, int(window_s * Lpx))
     env = np.array([np.nanmax(h[max(0, i - w):i + w + 1]) for i in range(len(h))])
     return s_cols, np.clip(env, 0, None)
+
+
+def tail_fan_envelope(view="side_left"):
+    """Outer extents of the tail fan (sheet px -> L units) for s >= 0.70.
+
+    side views: returns (s, top_L, bottom_L) heights above ground;
+    top/bottom views: returns (s, left_L, right_L) lateral offsets from the midline."""
+    sheet = load_sheet()
+    a = crop(sheet, view)
+    x0, y0, _, _ = REGIONS[view]
+    fg = close_mask(classify(a)[0], 2)
+    lm = LANDMARKS[view]
+    Lpx = view_length_px(view)
+    cols = np.arange(fg.shape[1]) + x0
+    s = (cols - lm["nose"][0]) / Lpx
+    sel = s >= 0.70
+    lo = np.array([np.argmax(fg[:, i]) if fg[:, i].any() else np.nan for i in range(fg.shape[1])]) + y0
+    hi = np.array([fg.shape[0] - 1 - np.argmax(fg[::-1, i]) if fg[:, i].any() else np.nan
+                   for i in range(fg.shape[1])]) + y0
+    if view.startswith("side"):
+        return s[sel], ((lm["ground_y"] - lo) / Lpx)[sel], ((lm["ground_y"] - hi) / Lpx)[sel]
+    row0 = lm["nose"][1]
+    return s[sel], ((row0 - lo) / Lpx)[sel], ((hi - row0) / Lpx)[sel]

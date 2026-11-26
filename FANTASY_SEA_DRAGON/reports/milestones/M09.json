@@ -1,0 +1,417 @@
+{
+  "id": "M09",
+  "title": "Fins (neck, dorsal, side, leg, tail fan)",
+  "scripts": [
+    "09_fin_generator.py"
+  ],
+  "quality": "standard",
+  "started": "2026-11-26T12:47:14",
+  "finished": "2026-11-26T12:48:47",
+  "duration_s": 92.72,
+  "status": "COMPLETE",
+  "blend": "project/FSD_M09_fins_v009.blend",
+  "outputs": {
+    "blend": [
+      "project/FSD_M09_fins_v009.blend"
+    ],
+    "render": [
+      "renders/M09/M09_full_three_quarter_front_left.png",
+      "renders/M09/M09_full_left.png",
+      "renders/M09/M09_full_top.png",
+      "renders/M09/M09_focus_0.png",
+      "renders/M09/M09_focus_1.png",
+      "renders/M09/M09_aligned_side_left.png",
+      "renders/M09/M09_aligned_top.png"
+    ],
+    "preview": [
+      "renders/M09/M09_review_sheet.png"
+    ]
+  },
+  "metrics": {
+    "faces removed from pierced scales/spikes": {
+      "DRG_Scales_Neck": 832,
+      "DRG_Scales_Tail": 12448,
+      "DRG_Spikes_Tail": 648,
+      "DRG_Belly_Plates": 140
+    }
+  },
+  "checks": [
+    {
+      "check": "DRG_Fin_Neck: geometry present",
+      "status": "PASS",
+      "detail": "796 verts / 1584 edges / 792 faces",
+      "value": 792,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Fin_Neck: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Neck: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Neck: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 2.987e-04)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Neck: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Neck: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0049 m\u00b3",
+      "value": 0.004864095020060617,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Neck: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Neck: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_MetallicBlue, MAT_Fin_Amber",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Fin_Neck: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Fin_TailFan_Dorsal: geometry present",
+      "status": "PASS",
+      "detail": "1172 verts / 2340 edges / 1170 faces",
+      "value": 1170,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Fin_TailFan_Dorsal: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Dorsal: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Dorsal: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 3.185e-04)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Dorsal: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Dorsal: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0167 m\u00b3",
+      "value": 0.01666473636674937,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Dorsal: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Dorsal: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_MetallicBlue, MAT_Fin_Amber",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Fin_TailFan_Dorsal: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Fin_TailFan_Ventral: geometry present",
+      "status": "PASS",
+      "detail": "1172 verts / 2340 edges / 1170 faces",
+      "value": 1170,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Fin_TailFan_Ventral: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Ventral: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Ventral: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 6.984e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Ventral: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Ventral: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0106 m\u00b3",
+      "value": 0.010570155969926309,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Ventral: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Ventral: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_MetallicBlue, MAT_Fin_Amber",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Fin_TailFan_Ventral: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Fin_TailFan_Side: geometry present",
+      "status": "PASS",
+      "detail": "1876 verts / 3744 edges / 1872 faces",
+      "value": 1872,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Fin_TailFan_Side: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Side: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Side: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 1.919e-04)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Side: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Side: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0199 m\u00b3",
+      "value": 0.019868294349164806,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Side: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Side: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_MetallicBlue, MAT_Fin_Amber",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Fin_TailFan_Side: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Fin_Legs: geometry present",
+      "status": "PASS",
+      "detail": "1328 verts / 2640 edges / 1320 faces",
+      "value": 1320,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Fin_Legs: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Legs: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Legs: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 9.061e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Legs: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Legs: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0026 m\u00b3",
+      "value": 0.0026365373601180656,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Legs: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Legs: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_MetallicBlue, MAT_Fin_Amber",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Fin_Legs: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Fin_Neck clear of other fins",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 5 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Dorsal clear of other fins",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 5 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Ventral clear of other fins",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 5 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_TailFan_Side clear of other fins",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 5 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Fin_Legs clear of other fins",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 5 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "Fin thickness (not paper-thin)",
+      "status": "PASS",
+      "detail": "membranes 16\u201320 mm at the root, ray ridges 22\u201332 mm, tapering to a sharp rim",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Tail fan height vs reference",
+      "status": "PASS",
+      "detail": "model 1.76 m vs reference 1.77 m",
+      "value": 1.7609328925609589,
+      "threshold": 1.7725947521865892
+    },
+    {
+      "check": "Tail fan width vs reference (top view)",
+      "status": "PASS",
+      "detail": "model 1.32 m vs reference 1.33 m",
+      "value": null,
+      "threshold": null
+    }
+  ],
+  "notes": [],
+  "assumptions": [
+    "The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.",
+    "Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes."
+  ],
+  "error": null
+}

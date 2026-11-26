@@ -72,43 +72,6 @@ def tip_half_angle(part, radial=12):
     return math.degrees(math.atan2(r, np.linalg.norm(tip - c)))
 
 
-def remove_islands_touching(ob, others):
-    """Delete whole islands of *ob* (e.g. scales) that intersect any of *others*."""
-    bm = bmesh.new()
-    bm.from_mesh(ob.data)
-    bm.faces.ensure_lookup_table()
-    tree = BVHTree.FromBMesh(bm)
-    hit = set()
-    for o in others:
-        bo = bmesh.new()
-        bo.from_mesh(o.data)
-        bo.transform(o.matrix_world)
-        bo.transform(ob.matrix_world.inverted())
-        to = BVHTree.FromBMesh(bo)
-        bo.free()
-        hit |= {i for i, _ in tree.overlap(to)}
-    seen, kill = set(), set()
-    for fi in hit:
-        if fi in seen:
-            continue
-        stack = [bm.faces[fi]]
-        while stack:
-            f = stack.pop()
-            if f.index in seen:
-                continue
-            seen.add(f.index)
-            for v in f.verts:
-                kill.add(v)
-            for e in f.edges:
-                stack.extend(x for x in e.link_faces if x.index not in seen)
-    if kill:
-        bmesh.ops.delete(bm, geom=list(kill), context="VERTS")
-    bm.to_mesh(ob.data)
-    bm.free()
-    ob.data.update()
-    return len(hit)
-
-
 def main():
     with MilestoneRun("M08", "Dorsal spikes", ["08_spine_generator.py"]) as run:
         bu.open_blend(latest_blend("M07"))
@@ -160,7 +123,7 @@ def main():
         removed = {}
         for nm in ("DRG_Scales_Neck", "DRG_Scales_Back", "DRG_Scales_Tail"):
             n0 = len(O[nm].data.polygons)
-            remove_islands_touching(O[nm], objs)
+            bu.remove_islands_touching(O[nm], objs)
             removed[nm] = (n0 - len(O[nm].data.polygons)) // 32
         run.metrics["dorsal scales removed under spike roots"] = removed
 
