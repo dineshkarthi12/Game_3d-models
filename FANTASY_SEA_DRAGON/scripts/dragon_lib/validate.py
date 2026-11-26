@@ -111,3 +111,33 @@ def uv_check(ob) -> dict:
     n = len(ob.data.uv_layers)
     return check(f"{ob.name}: UV map present", "PASS" if n else "FAIL",
                  ", ".join(u.name for u in ob.data.uv_layers) or "none", n, 1)
+
+
+def _tree(ob, evaluated=False, vertex_mask_attr=None, min_value=None):
+    bm = _bm_from(ob, evaluated)
+    if vertex_mask_attr is not None and not evaluated:
+        layer = bm.verts.layers.float.get(vertex_mask_attr)
+        if layer is not None:
+            kill = [f for f in bm.faces if all(v[layer] < min_value for v in f.verts)]
+            bmesh.ops.delete(bm, geom=kill, context="FACES_ONLY")
+    t = BVHTree.FromBMesh(bm, epsilon=0.0)
+    bm.free()
+    return t
+
+
+def objects_overlap(a, b, a_mask=None, a_min=None) -> int:
+    """Number of intersecting face pairs between two objects (world space).
+    a_mask/a_min: ignore faces of *a* whose vertices all have attribute < a_min
+    (e.g. the buried root of a whisker, fsd_t < 0.08)."""
+    ta = _tree(a, vertex_mask_attr=a_mask, min_value=a_min)
+    tb = _tree(b)
+    return len(ta.overlap(tb))
+
+
+def overlap_check(name, a, others, a_mask=None, a_min=None, allowed=0) -> dict:
+    hits = {o.name: objects_overlap(a, o, a_mask, a_min) for o in others}
+    total = sum(hits.values())
+    bad = {k: v for k, v in hits.items() if v}
+    return check(name, "PASS" if total <= allowed else "FAIL",
+                 f"{total} intersecting face pairs" + (f" ({bad})" if bad else f" with {len(others)} objects"),
+                 total, allowed)

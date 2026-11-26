@@ -1,0 +1,255 @@
+{
+  "id": "M05",
+  "title": "Teeth and whiskers",
+  "scripts": [
+    "05_facial_details.py"
+  ],
+  "quality": "standard",
+  "started": "2026-11-26T12:10:03",
+  "finished": "2026-11-26T12:11:32",
+  "duration_s": 89.05,
+  "status": "COMPLETE",
+  "blend": "project/FSD_M05_facial_details_v001.blend",
+  "outputs": {
+    "blend": [
+      "project/FSD_M05_facial_details_v001.blend"
+    ],
+    "render": [
+      "renders/M05/M05_full_three_quarter_front_left.png",
+      "renders/M05/M05_full_left.png",
+      "renders/M05/M05_full_top.png",
+      "renders/M05/M05_focus_0.png",
+      "renders/M05/M05_focus_1.png",
+      "renders/M05/M05_aligned_side_left.png"
+    ],
+    "preview": [
+      "renders/M05/M05_review_sheet.png"
+    ]
+  },
+  "metrics": {
+    "teeth": "upper 37 (+3 rejected for overlap), lower 32 (+4 rejected)",
+    "whiskers": 6
+  },
+  "checks": [
+    {
+      "check": "DRG_Teeth_Upper: geometry present",
+      "status": "PASS",
+      "detail": "4068 verts / 8354 edges / 4360 faces",
+      "value": 4360,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Teeth_Upper: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Teeth_Upper: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Teeth_Upper: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 4.372e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Teeth_Upper: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Teeth_Upper: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0016 m\u00b3",
+      "value": 0.001642517501026797,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Teeth_Upper: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Teeth_Upper: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Teeth_Ivory",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Teeth_Upper: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Teeth_Lower: geometry present",
+      "status": "PASS",
+      "detail": "3508 verts / 7204 edges / 3760 faces",
+      "value": 3760,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Teeth_Lower: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Teeth_Lower: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Teeth_Lower: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 4.187e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Teeth_Lower: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Teeth_Lower: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0013 m\u00b3",
+      "value": 0.0013495843684537588,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Teeth_Lower: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Teeth_Lower: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Teeth_Ivory",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Teeth_Lower: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Whiskers: geometry present",
+      "status": "PASS",
+      "detail": "2952 verts / 5940 edges / 3000 faces",
+      "value": 3000,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Whiskers: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Whiskers: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Whiskers: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 8.752e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Whiskers: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Whiskers: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0032 m\u00b3",
+      "value": 0.003158858206748539,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Whiskers: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Whiskers: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Whisker",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Whiskers: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "Tooth count",
+      "status": "PASS",
+      "detail": "37 upper / 32 lower individual teeth",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Upper teeth clear of lower jaw/tongue",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 3 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "Lower teeth clear of skull/tongue",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 2 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "Whiskers clear of head parts (root excluded)",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 8 objects",
+      "value": 0,
+      "threshold": 0
+    }
+  ],
+  "notes": [],
+  "assumptions": [],
+  "error": null
+}

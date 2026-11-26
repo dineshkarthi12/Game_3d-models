@@ -171,3 +171,22 @@ def eye_centres():
         c = p + n * (e["radius"] * (e["protrude"] - 0.15))
         out[side] = dict(centre=to_world_skull(c), normal=dir_world_skull(n))
     return out
+
+
+def _unit(v):
+    v = np.asarray(v, float)
+    return v / np.linalg.norm(v, axis=-1, keepdims=True)
+
+
+def skull_point_world(t, th):
+    t, th = np.asarray(t, float), np.asarray(th, float)
+    p = skull_local(t, th)
+    n = surface_normal(skull_local, t, th)
+    return to_world_skull(p), _unit(dir_world_skull(n))
+
+
+def jaw_point_world(t, th):
+    t, th = np.asarray(t, float), np.asarray(th, float)
+    p = jaw_local(t, th)
+    n = surface_normal(jaw_local, t, th)
+    return to_world_jaw(p), _unit(dir_world_jaw(n))

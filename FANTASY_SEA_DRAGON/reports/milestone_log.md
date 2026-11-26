@@ -205,3 +205,64 @@
 * spikes: 19 placed, 18 skipped (base overlap)  
 * **Assumptions:**
   * Head proportions come from the side profile and head-detail panels; the skull width (~0.47 m) is taken from the top view without cheek fins.
+
+## M05 – Teeth and whiskers
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:11:32 (89.05 s, quality `standard`)  
+* **Scripts:** 05_facial_details.py  
+* **Project file:** `project/FSD_M05_facial_details_v001.blend`  
+* **Checks:** 31 PASS / 0 WARNING / 0 FAIL  
+* teeth: upper 37 (+3 rejected for overlap), lower 32 (+4 rejected)  
+* whiskers: 6  
+
+## M06 – Individual scale generation
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:15:15 (101.35 s, quality `standard`)  
+* **Scripts:** 06_scale_generator.py  
+* **Project file:** `project/FSD_M06_scales_v001.blend`  
+* **Checks:** 51 PASS / 0 WARNING / 10 FAIL  
+* scales per region: {'Neck': 358, 'Flank_R': 741, 'Back': 741, 'Flank_L': 741, 'Tail': 1298, 'Head': 788}  
+* total scales: 4667  
+* scale faces: 149344  
+* dropped (inside head): 0  
+* head scales skipped near eyes/armour/spikes: 331  
+* trunk scale length (m): 0.045–0.116  
+* scale area / scaled-skin area: 1.279  
+* faces per colour material: {'MAT_Scale_MetallicBlue': 61024, 'MAT_Scale_Turquoise': 37152, 'MAT_Scale_Gold': 21696, 'MAT_Scale_DarkNavy': 29472}  
+* **Notes:**
+  * Scales are embedded ~0.035 x length at their front edge (attached to the skin), so contact with DRG_Body / DRG_Head_Skull is intentional and not counted as an intersection.
+
+## M06 – Individual scale generation
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:17:43 (100.16 s, quality `standard`)  
+* **Scripts:** 06_scale_generator.py  
+* **Project file:** `project/FSD_M06_scales_v002.blend`  
+* **Checks:** 60 PASS / 0 WARNING / 1 FAIL  
+* scales per region: {'Neck': 423, 'Flank_R': 968, 'Back': 626, 'Flank_L': 968, 'Tail': 1416, 'Head': 844}  
+* total scales: 5245  
+* scale faces: 167840  
+* dropped (inside head): 0  
+* head scales skipped near eyes/armour/spikes: 359  
+* trunk scale length (m): 0.045–0.116  
+* scale area / scaled-skin area: 1.406  
+* faces per colour material: {'MAT_Scale_MetallicBlue': 74272, 'MAT_Scale_Turquoise': 43744, 'MAT_Scale_Gold': 18752, 'MAT_Scale_DarkNavy': 31072}  
+* **Notes:**
+  * Scales are embedded ~0.035 x length at their front edge (attached to the skin), so contact with DRG_Body / DRG_Head_Skull is intentional and not counted as an intersection.
+
+## M06 – Individual scale generation
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:19:37 (97.89 s, quality `standard`)  
+* **Scripts:** 06_scale_generator.py  
+* **Project file:** `project/FSD_M06_scales_v003.blend`  
+* **Checks:** 61 PASS / 0 WARNING / 0 FAIL  
+* head scales rejected (curvature overlap): 16  
+* scales per region: {'Neck': 423, 'Flank_R': 968, 'Back': 626, 'Flank_L': 968, 'Tail': 1416, 'Head': 828}  
+* total scales: 5229  
+* scale faces: 167328  
+* dropped (inside head): 0  
+* head scales skipped near eyes/armour/spikes: 359  
+* trunk scale length (m): 0.045–0.116  
+* scale area / scaled-skin area: 1.406  
+* faces per colour material: {'MAT_Scale_MetallicBlue': 74272, 'MAT_Scale_Turquoise': 43680, 'MAT_Scale_Gold': 18304, 'MAT_Scale_DarkNavy': 31072}  
+* **Notes:**
+  * Scales are embedded ~0.035 x length at their front edge (attached to the skin), so contact with DRG_Body / DRG_Head_Skull is intentional and not counted as an intersection.

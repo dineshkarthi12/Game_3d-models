@@ -51,7 +51,7 @@ def aligned_rows(aligned: dict, tmp: Path, crop_box=None):
 
 
 def render_focus(objs, out: Path, direction=(1.0, -1.2, 0.6), res=(1400, 900), samples=32,
-                 margin=1.15, lens=60.0, context_objs=None):
+                 margin=1.15, lens=60.0, context_objs=None, bbox=None):
     """Perspective close-up framing *objs* (other creature parts stay visible)."""
     cam = bpy.data.objects.get("CAM_focus")
     if cam is None:
@@ -60,7 +60,7 @@ def render_focus(objs, out: Path, direction=(1.0, -1.2, 0.6), res=(1400, 900), s
     cam.data.lens = lens
     cam.data.clip_start = 0.01
     cam.data.clip_end = 500
-    lo, hi = world_bbox(objs)
+    lo, hi = (np.asarray(bbox[0], float), np.asarray(bbox[1], float)) if bbox is not None else world_bbox(objs)
     centre = Vector(((lo + hi) / 2).tolist())
     d = Vector(direction).normalized()
     cam.rotation_euler = (-d).to_track_quat("-Z", "Y").to_euler()

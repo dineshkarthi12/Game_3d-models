@@ -1,0 +1,486 @@
+{
+  "id": "M06",
+  "title": "Individual scale generation",
+  "scripts": [
+    "06_scale_generator.py"
+  ],
+  "quality": "standard",
+  "started": "2026-11-26T12:17:59",
+  "finished": "2026-11-26T12:19:37",
+  "duration_s": 97.89,
+  "status": "COMPLETE",
+  "blend": "project/FSD_M06_scales_v003.blend",
+  "outputs": {
+    "blend": [
+      "project/FSD_M06_scales_v003.blend"
+    ],
+    "render": [
+      "renders/M06/M06_full_three_quarter_front_left.png",
+      "renders/M06/M06_full_left.png",
+      "renders/M06/M06_full_top.png",
+      "renders/M06/M06_focus_0.png",
+      "renders/M06/M06_focus_1.png",
+      "renders/M06/M06_aligned_side_left.png"
+    ],
+    "preview": [
+      "renders/M06/M06_review_sheet.png"
+    ]
+  },
+  "metrics": {
+    "head scales rejected (curvature overlap)": 16,
+    "scales per region": {
+      "Neck": 423,
+      "Flank_R": 968,
+      "Back": 626,
+      "Flank_L": 968,
+      "Tail": 1416,
+      "Head": 828
+    },
+    "total scales": 5229,
+    "scale faces": 167328,
+    "dropped (inside head)": 0,
+    "head scales skipped near eyes/armour/spikes": 359,
+    "trunk scale length (m)": "0.045\u20130.116",
+    "scale area / scaled-skin area": 1.406,
+    "faces per colour material": {
+      "MAT_Scale_MetallicBlue": 74272,
+      "MAT_Scale_Turquoise": 43680,
+      "MAT_Scale_Gold": 18304,
+      "MAT_Scale_DarkNavy": 31072
+    }
+  },
+  "checks": [
+    {
+      "check": "DRG_Scales_Neck: geometry present",
+      "status": "PASS",
+      "detail": "14382 verts / 27072 edges / 13536 faces",
+      "value": 13536,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Scales_Neck: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Neck: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Neck: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 2.581e-04)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Neck: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Neck: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0139 m\u00b3",
+      "value": 0.013932277486546258,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Neck: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Neck: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy",
+      "value": 4,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Neck: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Back: geometry present",
+      "status": "PASS",
+      "detail": "21284 verts / 40064 edges / 20032 faces",
+      "value": 20032,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Scales_Back: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Back: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Back: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 5.846e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Back: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Back: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0128 m\u00b3",
+      "value": 0.012820560289874666,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Back: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Back: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy",
+      "value": 4,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Back: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Flank_L: geometry present",
+      "status": "PASS",
+      "detail": "32912 verts / 61952 edges / 30976 faces",
+      "value": 30976,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Scales_Flank_L: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_L: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_L: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 6.247e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_L: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_L: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0197 m\u00b3",
+      "value": 0.019658145135331505,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_L: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_L: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy",
+      "value": 4,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Flank_L: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Flank_R: geometry present",
+      "status": "PASS",
+      "detail": "32912 verts / 61952 edges / 30976 faces",
+      "value": 30976,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Scales_Flank_R: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_R: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_R: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 6.246e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_R: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_R: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0197 m\u00b3",
+      "value": 0.01965710452659792,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_R: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_R: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy",
+      "value": 4,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Flank_R: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Tail: geometry present",
+      "status": "PASS",
+      "detail": "48144 verts / 90624 edges / 45312 faces",
+      "value": 45312,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Scales_Tail: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Tail: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Tail: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 4.072e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Tail: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Tail: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0036 m\u00b3",
+      "value": 0.0036427886145360866,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Tail: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Tail: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy",
+      "value": 4,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Tail: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Head: geometry present",
+      "status": "PASS",
+      "detail": "28152 verts / 52992 edges / 26496 faces",
+      "value": 26496,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Scales_Head: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Head: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Head: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 2.138e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Head: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Head: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0028 m\u00b3",
+      "value": 0.0028354311597266306,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Head: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Head: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy",
+      "value": 4,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Head: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Neck clear of neighbouring regions",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 4 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Back clear of neighbouring regions",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 4 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_L clear of neighbouring regions",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 4 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Flank_R clear of neighbouring regions",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 4 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Tail clear of neighbouring regions",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 4 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "Scale coverage (incl. overlap)",
+      "status": "PASS",
+      "detail": "scale top area 17.07 m\u00b2 over 12.14 m\u00b2 of non-ventral skin (1.41x)",
+      "value": 1.4062014963572596,
+      "threshold": 0.9
+    },
+    {
+      "check": "Colour variation (4 scale materials used)",
+      "status": "PASS",
+      "detail": "MetallicBlue 74272, Turquoise 43680, Gold 18304, DarkNavy 31072",
+      "value": null,
+      "threshold": null
+    }
+  ],
+  "notes": [
+    "Scales are embedded ~0.035 x length at their front edge (attached to the skin), so contact with DRG_Body / DRG_Head_Skull is intentional and not counted as an intersection."
+  ],
+  "assumptions": [],
+  "error": null
+}

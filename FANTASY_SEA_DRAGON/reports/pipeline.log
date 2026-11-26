@@ -838,3 +838,256 @@
 12:08:04 [INFO]   rendered M04_full_left.png
 12:08:07 [INFO]   rendered M04_full_top.png
 12:08:38 [INFO] M04 finished: COMPLETE (64.6s)
+12:10:03 [INFO] ========================================================================
+12:10:03 [INFO] M05 – Teeth and whiskers  (quality=standard)
+12:10:03 [INFO] ========================================================================
+12:10:03 [INFO] Opening project/FSD_M04_head_v005.blend
+12:10:04 [INFO]   [PASS] DRG_Teeth_Upper: geometry present: 4068 verts / 8354 edges / 4360 faces
+12:10:04 [INFO]   [PASS] DRG_Teeth_Upper: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:10:04 [INFO]   [PASS] DRG_Teeth_Upper: loose geometry: 0 wire edges, 0 loose verts
+12:10:04 [INFO]   [PASS] DRG_Teeth_Upper: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.372e-06)
+12:10:04 [INFO]   [PASS] DRG_Teeth_Upper: consistent normals: 0 edges between faces with opposing winding
+12:10:04 [INFO]   [PASS] DRG_Teeth_Upper: normals point outward: signed volume 0.0016 m³
+12:10:04 [INFO]   [PASS] DRG_Teeth_Upper: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:10:04 [INFO]   [PASS] DRG_Teeth_Upper: material assigned: MAT_Teeth_Ivory
+12:10:04 [INFO]   [PASS] DRG_Teeth_Upper: UV map present: UVMap
+12:10:04 [INFO]   [PASS] DRG_Teeth_Lower: geometry present: 3508 verts / 7204 edges / 3760 faces
+12:10:04 [INFO]   [PASS] DRG_Teeth_Lower: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:10:04 [INFO]   [PASS] DRG_Teeth_Lower: loose geometry: 0 wire edges, 0 loose verts
+12:10:04 [INFO]   [PASS] DRG_Teeth_Lower: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.187e-06)
+12:10:04 [INFO]   [PASS] DRG_Teeth_Lower: consistent normals: 0 edges between faces with opposing winding
+12:10:04 [INFO]   [PASS] DRG_Teeth_Lower: normals point outward: signed volume 0.0013 m³
+12:10:04 [INFO]   [PASS] DRG_Teeth_Lower: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:10:04 [INFO]   [PASS] DRG_Teeth_Lower: material assigned: MAT_Teeth_Ivory
+12:10:04 [INFO]   [PASS] DRG_Teeth_Lower: UV map present: UVMap
+12:10:04 [INFO]   [PASS] DRG_Whiskers: geometry present: 2952 verts / 5940 edges / 3000 faces
+12:10:04 [INFO]   [PASS] DRG_Whiskers: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:10:04 [INFO]   [PASS] DRG_Whiskers: loose geometry: 0 wire edges, 0 loose verts
+12:10:04 [INFO]   [PASS] DRG_Whiskers: degenerate faces: 0 faces with area < 1e-10 m² (min area 8.752e-06)
+12:10:04 [INFO]   [PASS] DRG_Whiskers: consistent normals: 0 edges between faces with opposing winding
+12:10:04 [INFO]   [PASS] DRG_Whiskers: normals point outward: signed volume 0.0032 m³
+12:10:04 [INFO]   [PASS] DRG_Whiskers: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:10:04 [INFO]   [PASS] DRG_Whiskers: material assigned: MAT_Whisker
+12:10:04 [INFO]   [PASS] DRG_Whiskers: UV map present: UVMap
+12:10:04 [INFO]   [PASS] Tooth count: 37 upper / 32 lower individual teeth
+12:10:04 [INFO]   [PASS] Upper teeth clear of lower jaw/tongue: 0 intersecting face pairs with 3 objects
+12:10:04 [INFO]   [PASS] Lower teeth clear of skull/tongue: 0 intersecting face pairs with 2 objects
+12:10:04 [INFO]   [PASS] Whiskers clear of head parts (root excluded): 0 intersecting face pairs with 8 objects
+12:10:04 [INFO] Saved project/FSD_M05_facial_details_v001.blend
+12:10:52 [INFO]   rendered M05_full_three_quarter_front_left.png
+12:10:56 [INFO]   rendered M05_full_left.png
+12:10:58 [INFO]   rendered M05_full_top.png
+12:11:32 [INFO] M05 finished: COMPLETE (89.1s)
+12:13:34 [INFO] ========================================================================
+12:13:34 [INFO] M06 – Individual scale generation  (quality=standard)
+12:13:34 [INFO] ========================================================================
+12:13:34 [INFO] Opening project/FSD_M05_facial_details_v001.blend
+12:13:45 [INFO]   [PASS] DRG_Scales_Neck: geometry present: 12172 verts / 22912 edges / 11456 faces
+12:13:45 [INFO]   [PASS] DRG_Scales_Neck: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:13:45 [INFO]   [PASS] DRG_Scales_Neck: loose geometry: 0 wire edges, 0 loose verts
+12:13:45 [INFO]   [PASS] DRG_Scales_Neck: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.603e-04)
+12:13:45 [INFO]   [PASS] DRG_Scales_Neck: consistent normals: 0 edges between faces with opposing winding
+12:13:45 [INFO]   [PASS] DRG_Scales_Neck: normals point outward: signed volume 0.0242 m³
+12:13:45 [ERROR]   [FAIL] DRG_Scales_Neck: self-intersections: 2762 intersecting non-adjacent face pairs (BVH overlap test)
+12:13:45 [INFO]   [PASS] DRG_Scales_Neck: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:13:45 [INFO]   [PASS] DRG_Scales_Neck: UV map present: UVMap
+12:13:45 [INFO]   [PASS] DRG_Scales_Back: geometry present: 25194 verts / 47424 edges / 23712 faces
+12:13:45 [INFO]   [PASS] DRG_Scales_Back: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:13:45 [INFO]   [PASS] DRG_Scales_Back: loose geometry: 0 wire edges, 0 loose verts
+12:13:45 [INFO]   [PASS] DRG_Scales_Back: degenerate faces: 0 faces with area < 1e-10 m² (min area 5.901e-05)
+12:13:45 [INFO]   [PASS] DRG_Scales_Back: consistent normals: 0 edges between faces with opposing winding
+12:13:45 [INFO]   [PASS] DRG_Scales_Back: normals point outward: signed volume 0.0308 m³
+12:13:45 [ERROR]   [FAIL] DRG_Scales_Back: self-intersections: 9338 intersecting non-adjacent face pairs (BVH overlap test)
+12:13:45 [INFO]   [PASS] DRG_Scales_Back: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:13:45 [INFO]   [PASS] DRG_Scales_Back: UV map present: UVMap
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_L: geometry present: 25194 verts / 47424 edges / 23712 faces
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_L: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_L: loose geometry: 0 wire edges, 0 loose verts
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_L: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.365e-05)
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_L: consistent normals: 0 edges between faces with opposing winding
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_L: normals point outward: signed volume 0.0307 m³
+12:13:45 [ERROR]   [FAIL] DRG_Scales_Flank_L: self-intersections: 6 intersecting non-adjacent face pairs (BVH overlap test)
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_L: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_L: UV map present: UVMap
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_R: geometry present: 25194 verts / 47424 edges / 23712 faces
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_R: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_R: loose geometry: 0 wire edges, 0 loose verts
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_R: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.364e-05)
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_R: consistent normals: 0 edges between faces with opposing winding
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_R: normals point outward: signed volume 0.0307 m³
+12:13:45 [ERROR]   [FAIL] DRG_Scales_Flank_R: self-intersections: 4 intersecting non-adjacent face pairs (BVH overlap test)
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_R: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:13:45 [INFO]   [PASS] DRG_Scales_Flank_R: UV map present: UVMap
+12:13:45 [INFO]   [PASS] DRG_Scales_Tail: geometry present: 44132 verts / 83072 edges / 41536 faces
+12:13:45 [INFO]   [PASS] DRG_Scales_Tail: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:13:45 [INFO]   [PASS] DRG_Scales_Tail: loose geometry: 0 wire edges, 0 loose verts
+12:13:45 [INFO]   [PASS] DRG_Scales_Tail: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.910e-05)
+12:13:45 [INFO]   [PASS] DRG_Scales_Tail: consistent normals: 0 edges between faces with opposing winding
+12:13:45 [INFO]   [PASS] DRG_Scales_Tail: normals point outward: signed volume 0.0068 m³
+12:13:45 [ERROR]   [FAIL] DRG_Scales_Tail: self-intersections: 6663 intersecting non-adjacent face pairs (BVH overlap test)
+12:13:45 [INFO]   [PASS] DRG_Scales_Tail: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:13:45 [INFO]   [PASS] DRG_Scales_Tail: UV map present: UVMap
+12:13:45 [INFO]   [PASS] DRG_Scales_Head: geometry present: 26792 verts / 50432 edges / 25216 faces
+12:13:45 [INFO]   [PASS] DRG_Scales_Head: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:13:45 [INFO]   [PASS] DRG_Scales_Head: loose geometry: 0 wire edges, 0 loose verts
+12:13:45 [INFO]   [PASS] DRG_Scales_Head: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.000e-05)
+12:13:45 [INFO]   [PASS] DRG_Scales_Head: consistent normals: 0 edges between faces with opposing winding
+12:13:45 [INFO]   [PASS] DRG_Scales_Head: normals point outward: signed volume 0.0056 m³
+12:13:45 [ERROR]   [FAIL] DRG_Scales_Head: self-intersections: 5123 intersecting non-adjacent face pairs (BVH overlap test)
+12:13:45 [INFO]   [PASS] DRG_Scales_Head: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:13:45 [INFO]   [PASS] DRG_Scales_Head: UV map present: UVMap
+12:13:46 [ERROR]   [FAIL] DRG_Scales_Neck clear of neighbouring regions: 212 intersecting face pairs ({'DRG_Scales_Back': 174, 'DRG_Scales_Flank_L': 18, 'DRG_Scales_Flank_R': 20})
+12:13:46 [ERROR]   [FAIL] DRG_Scales_Back clear of neighbouring regions: 1893 intersecting face pairs ({'DRG_Scales_Neck': 174, 'DRG_Scales_Flank_L': 862, 'DRG_Scales_Flank_R': 857})
+12:13:46 [ERROR]   [FAIL] DRG_Scales_Flank_L clear of neighbouring regions: 880 intersecting face pairs ({'DRG_Scales_Neck': 18, 'DRG_Scales_Back': 862})
+12:13:46 [ERROR]   [FAIL] DRG_Scales_Flank_R clear of neighbouring regions: 877 intersecting face pairs ({'DRG_Scales_Neck': 20, 'DRG_Scales_Back': 857})
+12:13:46 [INFO]   [PASS] DRG_Scales_Tail clear of neighbouring regions: 0 intersecting face pairs with 4 objects
+12:13:46 [INFO]   [PASS] Scale coverage (incl. overlap): scale top area 15.53 m² over 12.14 m² of non-ventral skin (1.28x)
+12:13:46 [INFO]   [PASS] Colour variation (4 scale materials used): MetallicBlue 61024, Turquoise 37152, Gold 21696, DarkNavy 29472
+12:13:46 [INFO] NOTE: Scales are embedded ~0.035 x length at their front edge (attached to the skin), so contact with DRG_Body / DRG_Head_Skull is intentional and not counted as an intersection.
+12:13:46 [INFO] Saved project/FSD_M06_scales_v001.blend
+12:14:38 [INFO]   rendered M06_full_three_quarter_front_left.png
+12:14:42 [INFO]   rendered M06_full_left.png
+12:14:46 [INFO]   rendered M06_full_top.png
+12:15:15 [INFO] M06 finished: FAILED_VALIDATION (101.3s)
+12:16:02 [INFO] ========================================================================
+12:16:02 [INFO] M06 – Individual scale generation  (quality=standard)
+12:16:02 [INFO] ========================================================================
+12:16:02 [INFO] Opening project/FSD_M05_facial_details_v001.blend
+12:16:14 [INFO]   [PASS] DRG_Scales_Neck: geometry present: 14382 verts / 27072 edges / 13536 faces
+12:16:14 [INFO]   [PASS] DRG_Scales_Neck: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:16:14 [INFO]   [PASS] DRG_Scales_Neck: loose geometry: 0 wire edges, 0 loose verts
+12:16:14 [INFO]   [PASS] DRG_Scales_Neck: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.581e-04)
+12:16:14 [INFO]   [PASS] DRG_Scales_Neck: consistent normals: 0 edges between faces with opposing winding
+12:16:14 [INFO]   [PASS] DRG_Scales_Neck: normals point outward: signed volume 0.0139 m³
+12:16:14 [INFO]   [PASS] DRG_Scales_Neck: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:16:14 [INFO]   [PASS] DRG_Scales_Neck: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:16:14 [INFO]   [PASS] DRG_Scales_Neck: UV map present: UVMap
+12:16:15 [INFO]   [PASS] DRG_Scales_Back: geometry present: 21284 verts / 40064 edges / 20032 faces
+12:16:15 [INFO]   [PASS] DRG_Scales_Back: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:16:15 [INFO]   [PASS] DRG_Scales_Back: loose geometry: 0 wire edges, 0 loose verts
+12:16:15 [INFO]   [PASS] DRG_Scales_Back: degenerate faces: 0 faces with area < 1e-10 m² (min area 5.846e-05)
+12:16:15 [INFO]   [PASS] DRG_Scales_Back: consistent normals: 0 edges between faces with opposing winding
+12:16:15 [INFO]   [PASS] DRG_Scales_Back: normals point outward: signed volume 0.0128 m³
+12:16:15 [INFO]   [PASS] DRG_Scales_Back: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:16:15 [INFO]   [PASS] DRG_Scales_Back: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:16:15 [INFO]   [PASS] DRG_Scales_Back: UV map present: UVMap
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_L: geometry present: 32912 verts / 61952 edges / 30976 faces
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_L: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_L: loose geometry: 0 wire edges, 0 loose verts
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_L: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.247e-05)
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_L: consistent normals: 0 edges between faces with opposing winding
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_L: normals point outward: signed volume 0.0197 m³
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_L: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_L: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_L: UV map present: UVMap
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_R: geometry present: 32912 verts / 61952 edges / 30976 faces
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_R: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_R: loose geometry: 0 wire edges, 0 loose verts
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_R: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.246e-05)
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_R: consistent normals: 0 edges between faces with opposing winding
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_R: normals point outward: signed volume 0.0197 m³
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_R: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_R: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:16:15 [INFO]   [PASS] DRG_Scales_Flank_R: UV map present: UVMap
+12:16:15 [INFO]   [PASS] DRG_Scales_Tail: geometry present: 48144 verts / 90624 edges / 45312 faces
+12:16:15 [INFO]   [PASS] DRG_Scales_Tail: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:16:15 [INFO]   [PASS] DRG_Scales_Tail: loose geometry: 0 wire edges, 0 loose verts
+12:16:15 [INFO]   [PASS] DRG_Scales_Tail: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.072e-05)
+12:16:15 [INFO]   [PASS] DRG_Scales_Tail: consistent normals: 0 edges between faces with opposing winding
+12:16:15 [INFO]   [PASS] DRG_Scales_Tail: normals point outward: signed volume 0.0036 m³
+12:16:15 [INFO]   [PASS] DRG_Scales_Tail: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:16:15 [INFO]   [PASS] DRG_Scales_Tail: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:16:15 [INFO]   [PASS] DRG_Scales_Tail: UV map present: UVMap
+12:16:15 [INFO]   [PASS] DRG_Scales_Head: geometry present: 28696 verts / 54016 edges / 27008 faces
+12:16:15 [INFO]   [PASS] DRG_Scales_Head: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:16:15 [INFO]   [PASS] DRG_Scales_Head: loose geometry: 0 wire edges, 0 loose verts
+12:16:15 [INFO]   [PASS] DRG_Scales_Head: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.138e-05)
+12:16:15 [INFO]   [PASS] DRG_Scales_Head: consistent normals: 0 edges between faces with opposing winding
+12:16:15 [INFO]   [PASS] DRG_Scales_Head: normals point outward: signed volume 0.0029 m³
+12:16:15 [ERROR]   [FAIL] DRG_Scales_Head: self-intersections: 160 intersecting non-adjacent face pairs (BVH overlap test)
+12:16:15 [INFO]   [PASS] DRG_Scales_Head: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:16:15 [INFO]   [PASS] DRG_Scales_Head: UV map present: UVMap
+12:16:15 [INFO]   [PASS] DRG_Scales_Neck clear of neighbouring regions: 0 intersecting face pairs with 4 objects
+12:16:15 [INFO]   [PASS] DRG_Scales_Back clear of neighbouring regions: 0 intersecting face pairs with 4 objects
+12:16:16 [INFO]   [PASS] DRG_Scales_Flank_L clear of neighbouring regions: 0 intersecting face pairs with 4 objects
+12:16:16 [INFO]   [PASS] DRG_Scales_Flank_R clear of neighbouring regions: 0 intersecting face pairs with 4 objects
+12:16:16 [INFO]   [PASS] DRG_Scales_Tail clear of neighbouring regions: 0 intersecting face pairs with 4 objects
+12:16:16 [INFO]   [PASS] Scale coverage (incl. overlap): scale top area 17.07 m² over 12.14 m² of non-ventral skin (1.41x)
+12:16:16 [INFO]   [PASS] Colour variation (4 scale materials used): MetallicBlue 74272, Turquoise 43744, Gold 18752, DarkNavy 31072
+12:16:16 [INFO] NOTE: Scales are embedded ~0.035 x length at their front edge (attached to the skin), so contact with DRG_Body / DRG_Head_Skull is intentional and not counted as an intersection.
+12:16:16 [INFO] Saved project/FSD_M06_scales_v002.blend
+12:17:07 [INFO]   rendered M06_full_three_quarter_front_left.png
+12:17:11 [INFO]   rendered M06_full_left.png
+12:17:14 [INFO]   rendered M06_full_top.png
+12:17:43 [INFO] M06 finished: FAILED_VALIDATION (100.2s)
+12:17:59 [INFO] ========================================================================
+12:17:59 [INFO] M06 – Individual scale generation  (quality=standard)
+12:17:59 [INFO] ========================================================================
+12:17:59 [INFO] Opening project/FSD_M05_facial_details_v001.blend
+12:18:11 [INFO]   [PASS] DRG_Scales_Neck: geometry present: 14382 verts / 27072 edges / 13536 faces
+12:18:11 [INFO]   [PASS] DRG_Scales_Neck: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:18:11 [INFO]   [PASS] DRG_Scales_Neck: loose geometry: 0 wire edges, 0 loose verts
+12:18:11 [INFO]   [PASS] DRG_Scales_Neck: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.581e-04)
+12:18:11 [INFO]   [PASS] DRG_Scales_Neck: consistent normals: 0 edges between faces with opposing winding
+12:18:11 [INFO]   [PASS] DRG_Scales_Neck: normals point outward: signed volume 0.0139 m³
+12:18:11 [INFO]   [PASS] DRG_Scales_Neck: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:18:11 [INFO]   [PASS] DRG_Scales_Neck: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:18:11 [INFO]   [PASS] DRG_Scales_Neck: UV map present: UVMap
+12:18:12 [INFO]   [PASS] DRG_Scales_Back: geometry present: 21284 verts / 40064 edges / 20032 faces
+12:18:12 [INFO]   [PASS] DRG_Scales_Back: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:18:12 [INFO]   [PASS] DRG_Scales_Back: loose geometry: 0 wire edges, 0 loose verts
+12:18:12 [INFO]   [PASS] DRG_Scales_Back: degenerate faces: 0 faces with area < 1e-10 m² (min area 5.846e-05)
+12:18:12 [INFO]   [PASS] DRG_Scales_Back: consistent normals: 0 edges between faces with opposing winding
+12:18:12 [INFO]   [PASS] DRG_Scales_Back: normals point outward: signed volume 0.0128 m³
+12:18:12 [INFO]   [PASS] DRG_Scales_Back: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:18:12 [INFO]   [PASS] DRG_Scales_Back: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:18:12 [INFO]   [PASS] DRG_Scales_Back: UV map present: UVMap
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_L: geometry present: 32912 verts / 61952 edges / 30976 faces
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_L: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_L: loose geometry: 0 wire edges, 0 loose verts
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_L: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.247e-05)
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_L: consistent normals: 0 edges between faces with opposing winding
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_L: normals point outward: signed volume 0.0197 m³
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_L: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_L: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_L: UV map present: UVMap
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_R: geometry present: 32912 verts / 61952 edges / 30976 faces
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_R: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_R: loose geometry: 0 wire edges, 0 loose verts
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_R: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.246e-05)
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_R: consistent normals: 0 edges between faces with opposing winding
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_R: normals point outward: signed volume 0.0197 m³
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_R: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_R: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_R: UV map present: UVMap
+12:18:12 [INFO]   [PASS] DRG_Scales_Tail: geometry present: 48144 verts / 90624 edges / 45312 faces
+12:18:12 [INFO]   [PASS] DRG_Scales_Tail: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:18:12 [INFO]   [PASS] DRG_Scales_Tail: loose geometry: 0 wire edges, 0 loose verts
+12:18:12 [INFO]   [PASS] DRG_Scales_Tail: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.072e-05)
+12:18:12 [INFO]   [PASS] DRG_Scales_Tail: consistent normals: 0 edges between faces with opposing winding
+12:18:12 [INFO]   [PASS] DRG_Scales_Tail: normals point outward: signed volume 0.0036 m³
+12:18:12 [INFO]   [PASS] DRG_Scales_Tail: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:18:12 [INFO]   [PASS] DRG_Scales_Tail: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:18:12 [INFO]   [PASS] DRG_Scales_Tail: UV map present: UVMap
+12:18:12 [INFO]   [PASS] DRG_Scales_Head: geometry present: 28152 verts / 52992 edges / 26496 faces
+12:18:12 [INFO]   [PASS] DRG_Scales_Head: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:18:12 [INFO]   [PASS] DRG_Scales_Head: loose geometry: 0 wire edges, 0 loose verts
+12:18:12 [INFO]   [PASS] DRG_Scales_Head: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.138e-05)
+12:18:12 [INFO]   [PASS] DRG_Scales_Head: consistent normals: 0 edges between faces with opposing winding
+12:18:12 [INFO]   [PASS] DRG_Scales_Head: normals point outward: signed volume 0.0028 m³
+12:18:12 [INFO]   [PASS] DRG_Scales_Head: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:18:12 [INFO]   [PASS] DRG_Scales_Head: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:18:12 [INFO]   [PASS] DRG_Scales_Head: UV map present: UVMap
+12:18:12 [INFO]   [PASS] DRG_Scales_Neck clear of neighbouring regions: 0 intersecting face pairs with 4 objects
+12:18:12 [INFO]   [PASS] DRG_Scales_Back clear of neighbouring regions: 0 intersecting face pairs with 4 objects
+12:18:12 [INFO]   [PASS] DRG_Scales_Flank_L clear of neighbouring regions: 0 intersecting face pairs with 4 objects
+12:18:13 [INFO]   [PASS] DRG_Scales_Flank_R clear of neighbouring regions: 0 intersecting face pairs with 4 objects
+12:18:13 [INFO]   [PASS] DRG_Scales_Tail clear of neighbouring regions: 0 intersecting face pairs with 4 objects
+12:18:13 [INFO]   [PASS] Scale coverage (incl. overlap): scale top area 17.07 m² over 12.14 m² of non-ventral skin (1.41x)
+12:18:13 [INFO]   [PASS] Colour variation (4 scale materials used): MetallicBlue 74272, Turquoise 43680, Gold 18304, DarkNavy 31072
+12:18:13 [INFO] NOTE: Scales are embedded ~0.035 x length at their front edge (attached to the skin), so contact with DRG_Body / DRG_Head_Skull is intentional and not counted as an intersection.
+12:18:13 [INFO] Saved project/FSD_M06_scales_v003.blend
+12:19:02 [INFO]   rendered M06_full_three_quarter_front_left.png
+12:19:05 [INFO]   rendered M06_full_left.png
+12:19:09 [INFO]   rendered M06_full_top.png
+12:19:37 [INFO] M06 finished: COMPLETE (97.9s)

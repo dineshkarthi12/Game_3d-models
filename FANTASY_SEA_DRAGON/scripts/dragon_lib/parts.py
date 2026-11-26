@@ -275,13 +275,39 @@ def parts_intersect(a, b, tree_cache=None) -> bool:
 
 
 def keep_non_intersecting(candidates, existing=()):
-    """Greedy filter: keep candidates (in priority order) that touch no kept part."""
+    """Greedy filter: keep candidates (in priority order) that touch no kept part.
+    Uses a bounding-box prefilter so large sets (hundreds of scales) stay fast."""
     kept, rejected = list(existing), 0
+    boxes = [_bbox(k) for k in kept]
     out = []
     for c in candidates:
-        if any(parts_intersect(c, k) for k in kept):
+        cmin, cmax = _bbox(c)
+        hit = False
+        for k, (kmin, kmax) in zip(kept, boxes):
+            if np.any(cmax < kmin) or np.any(kmax < cmin):
+                continue
+            if parts_intersect(c, k):
+                hit = True
+                break
+        if hit:
             rejected += 1
             continue
         kept.append(c)
+        boxes.append((cmin, cmax))
         out.append(c)
     return out, rejected
+
+
+def catmull_rom_path(points, n=64):
+    """Centripetal-ish uniform Catmull-Rom through 3-D control points."""
+    P = np.asarray(points, float)
+    P = np.vstack([2 * P[0] - P[1], P, 2 * P[-1] - P[-2]])
+    segs = len(P) - 3
+    out = []
+    for i in range(segs):
+        p0, p1, p2, p3 = P[i:i + 4]
+        m = max(2, n // segs)
+        t = np.linspace(0, 1, m, endpoint=(i == segs - 1))[:, None]
+        out.append(0.5 * ((2 * p1) + (-p0 + p2) * t + (2 * p0 - 5 * p1 + 4 * p2 - p3) * t ** 2
+                          + (-p0 + 3 * p1 - 3 * p2 + p3) * t ** 3))
+    return np.concatenate(out, 0)

@@ -41,6 +41,20 @@
       "blend": "project/FSD_M04_head_v005.blend",
       "finished": "2026-11-26T12:08:38",
       "quality": "standard"
+    },
+    "M05": {
+      "title": "Teeth and whiskers",
+      "status": "COMPLETE",
+      "blend": "project/FSD_M05_facial_details_v001.blend",
+      "finished": "2026-11-26T12:11:32",
+      "quality": "standard"
+    },
+    "M06": {
+      "title": "Individual scale generation",
+      "status": "COMPLETE",
+      "blend": "project/FSD_M06_scales_v003.blend",
+      "finished": "2026-11-26T12:19:37",
+      "quality": "standard"
     }
   }
 }
