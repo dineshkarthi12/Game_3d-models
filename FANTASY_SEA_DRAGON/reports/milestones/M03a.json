@@ -1,0 +1,184 @@
+{
+  "id": "M03a",
+  "title": "Serpentine body \u2013 continuous trunk",
+  "scripts": [
+    "02_body_generator.py"
+  ],
+  "quality": "standard",
+  "started": "2026-11-26T11:37:11",
+  "finished": "2026-11-26T11:37:18",
+  "duration_s": 7.18,
+  "status": "COMPLETE",
+  "blend": "project/FSD_M03a_trunk_v001.blend",
+  "outputs": {
+    "blend": [
+      "project/FSD_M03a_trunk_v001.blend"
+    ],
+    "render": [
+      "renders/M03/M03a_trunk_left.png",
+      "renders/M03/M03a_trunk_three_quarter_front_left.png"
+    ]
+  },
+  "metrics": {
+    "trunk arc length m": 10.542,
+    "max half depth m": 0.583,
+    "max half width m": 0.3,
+    "max depth at s": 0.163,
+    "neck half depth m": 0.44,
+    "tail half depth m": 0.025,
+    "centre height range m": [
+      1.141,
+      1.551
+    ],
+    "rings x radial": "280 x 32 (+8 cap rings)",
+    "base faces": 9248
+  },
+  "checks": [
+    {
+      "check": "DRG_Body: geometry present",
+      "status": "PASS",
+      "detail": "9218 verts / 18464 edges / 9248 faces",
+      "value": 9248,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Body: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 4.518e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 2.9674 m\u00b3",
+      "value": 2.9673881205160098,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (evaluated): geometry present",
+      "status": "PASS",
+      "detail": "36930 verts / 73856 edges / 36928 faces",
+      "value": 36928,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Body (evaluated): manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (evaluated): loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (evaluated): degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 1.468e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (evaluated): consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (evaluated): normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 2.9433 m\u00b3",
+      "value": 2.943311899373991,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (evaluated): self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body: radius continuity",
+      "status": "PASS",
+      "detail": "max ring-to-ring mean-radius change 2.06% at ring 242 (limit 3.0%)",
+      "value": 0.020619131113789428,
+      "threshold": 0.03
+    },
+    {
+      "check": "DRG_Body: spine smoothness",
+      "status": "PASS",
+      "detail": "max tangent change 1.716\u00b0 between rings at ring 2 (limit 2.0\u00b0)",
+      "value": 1.7155268896867804,
+      "threshold": 2.0
+    },
+    {
+      "check": "DRG_Body: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Body: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Clay_Neutral",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "Trunk extent matches parameters",
+      "status": "PASS",
+      "detail": "spans s 0.1\u20130.975 (10.50 m along Y)",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Trunk above ground plane",
+      "status": "PASS",
+      "detail": "lowest point z = 0.694 m",
+      "value": null,
+      "threshold": null
+    }
+  ],
+  "notes": [],
+  "assumptions": [
+    "Neck section (s < 0.17) is hidden behind neck fins on the sheet: blended (C1 Hermite) to a head-junction anchor of 0.44 m half-depth x 0.24 m half-width (tall, narrow skull base).",
+    "Tail core inside the fan fin (s > 0.74) is not measurable: tapered to 0.025 m at s = 0.975."
+  ],
+  "error": null
+}

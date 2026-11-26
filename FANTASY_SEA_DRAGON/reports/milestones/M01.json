@@ -1,0 +1,81 @@
+{
+  "id": "M01",
+  "title": "Project initialization",
+  "scripts": [
+    "00_environment_setup.py",
+    "01_project_setup.py"
+  ],
+  "quality": "standard",
+  "started": "2026-11-26T11:36:59",
+  "finished": "2026-11-26T11:37:03",
+  "duration_s": 3.91,
+  "status": "COMPLETE",
+  "blend": "project/FSD_M01_init_v001.blend",
+  "outputs": {
+    "blend": [
+      "project/FSD_M01_init_v001.blend"
+    ],
+    "render": [
+      "renders/M01/M01_gauges_left.png",
+      "renders/M01/M01_gauges_three_quarter_front_left.png"
+    ],
+    "preview": [
+      "renders/M01/M01_preview_sheet.png"
+    ]
+  },
+  "metrics": {},
+  "checks": [
+    {
+      "check": "Collections created",
+      "status": "PASS",
+      "detail": "17/17 (+ 17a_CAMERAS, 17b_PREVIEW_LIGHTS)",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Metric units",
+      "status": "PASS",
+      "detail": "METRIC, scale 1.0, METERS",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Camera rig",
+      "status": "PASS",
+      "detail": "10 cameras: left, right, front, back, top, bottom, three_quarter_front_left, three_quarter_front_right, three_quarter_back_left, three_quarter_back_right",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Preview lights",
+      "status": "PASS",
+      "detail": "4 area lights",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Neutral clay material",
+      "status": "PASS",
+      "detail": "MAT_Clay_Neutral",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Scene scale (length gauge)",
+      "status": "PASS",
+      "detail": "gauge spans 12.030 m for a 12.0 m creature",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Preview renders written",
+      "status": "PASS",
+      "detail": "M01_gauges_left.png, M01_gauges_three_quarter_front_left.png",
+      "value": null,
+      "threshold": null
+    }
+  ],
+  "notes": [],
+  "assumptions": [],
+  "error": null
+}

@@ -1,0 +1,149 @@
+{
+  "id": "M01a",
+  "title": "Environment detection & directories",
+  "scripts": [
+    "00_environment_setup.py"
+  ],
+  "quality": "standard",
+  "started": "2026-11-26T11:36:57",
+  "finished": "2026-11-26T11:36:58",
+  "duration_s": 0.63,
+  "status": "COMPLETE_WITH_WARNINGS",
+  "blend": null,
+  "outputs": {
+    "report": [
+      "reports/environment.json"
+    ]
+  },
+  "metrics": {
+    "blender": "4.5.4 LTS",
+    "python": "3.11.18",
+    "cpu_count": 4
+  },
+  "checks": [
+    {
+      "check": "Directory references/",
+      "status": "PASS",
+      "detail": "/home/user/Game_3d-models/FANTASY_SEA_DRAGON/references",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Directory scripts/",
+      "status": "PASS",
+      "detail": "/home/user/Game_3d-models/FANTASY_SEA_DRAGON/scripts",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Directory assets/",
+      "status": "PASS",
+      "detail": "/home/user/Game_3d-models/FANTASY_SEA_DRAGON/assets",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Directory textures/",
+      "status": "PASS",
+      "detail": "/home/user/Game_3d-models/FANTASY_SEA_DRAGON/textures",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Directory renders/",
+      "status": "PASS",
+      "detail": "/home/user/Game_3d-models/FANTASY_SEA_DRAGON/renders",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Directory exports/",
+      "status": "PASS",
+      "detail": "/home/user/Game_3d-models/FANTASY_SEA_DRAGON/exports",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Directory reports/",
+      "status": "PASS",
+      "detail": "/home/user/Game_3d-models/FANTASY_SEA_DRAGON/reports",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Directory project/",
+      "status": "PASS",
+      "detail": "/home/user/Game_3d-models/FANTASY_SEA_DRAGON/project",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Blender version detected",
+      "status": "PASS",
+      "detail": "4.5.4 LTS ((bpy Python module))",
+      "value": "4.5.4 LTS",
+      "threshold": "4.2+"
+    },
+    {
+      "check": "Python environment detected",
+      "status": "PASS",
+      "detail": "Python 3.11.18 \u2013 /home/user/.venv-blender/bin/python",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "numpy available",
+      "status": "PASS",
+      "detail": "1.26.4",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Pillow available",
+      "status": "PASS",
+      "detail": "13.0.0",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Cycles available",
+      "status": "PASS",
+      "detail": "OpenImageDenoise: True",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Exporter available: fbx",
+      "status": "PASS",
+      "detail": "True",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Exporter available: gltf_glb",
+      "status": "PASS",
+      "detail": "True",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Exporter available: obj",
+      "status": "PASS",
+      "detail": "True",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "GPU rasteriser (Workbench probe)",
+      "status": "WARNING",
+      "detail": "unavailable (Couldn't open libEGL.so.1: libEGL.so.1: cannot open shared object file: No such file or directory); all renders use Cycles on CPU",
+      "value": null,
+      "threshold": null
+    }
+  ],
+  "notes": [
+    "No OpenGL/EGL context: Workbench and EEVEE cannot render here, so every preview and final render uses Cycles (CPU + OpenImageDenoise)."
+  ],
+  "assumptions": [],
+  "error": null
+}

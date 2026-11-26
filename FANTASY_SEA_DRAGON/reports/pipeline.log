@@ -1,0 +1,178 @@
+11:36:57 [INFO] ========================================================================
+11:36:57 [INFO] M01a – Environment detection & directories  (quality=standard)
+11:36:57 [INFO] ========================================================================
+11:36:57 [INFO]   [PASS] Directory references/: /home/user/Game_3d-models/FANTASY_SEA_DRAGON/references
+11:36:57 [INFO]   [PASS] Directory scripts/: /home/user/Game_3d-models/FANTASY_SEA_DRAGON/scripts
+11:36:57 [INFO]   [PASS] Directory assets/: /home/user/Game_3d-models/FANTASY_SEA_DRAGON/assets
+11:36:57 [INFO]   [PASS] Directory textures/: /home/user/Game_3d-models/FANTASY_SEA_DRAGON/textures
+11:36:57 [INFO]   [PASS] Directory renders/: /home/user/Game_3d-models/FANTASY_SEA_DRAGON/renders
+11:36:57 [INFO]   [PASS] Directory exports/: /home/user/Game_3d-models/FANTASY_SEA_DRAGON/exports
+11:36:57 [INFO]   [PASS] Directory reports/: /home/user/Game_3d-models/FANTASY_SEA_DRAGON/reports
+11:36:57 [INFO]   [PASS] Directory project/: /home/user/Game_3d-models/FANTASY_SEA_DRAGON/project
+11:36:57 [INFO]   [PASS] Blender version detected: 4.5.4 LTS ((bpy Python module))
+11:36:58 [INFO]   [PASS] Python environment detected: Python 3.11.18 – /home/user/.venv-blender/bin/python
+11:36:58 [INFO]   [PASS] numpy available: 1.26.4
+11:36:58 [INFO]   [PASS] Pillow available: 13.0.0
+11:36:58 [INFO]   [PASS] Cycles available: OpenImageDenoise: True
+11:36:58 [INFO]   [PASS] Exporter available: fbx: True
+11:36:58 [INFO]   [PASS] Exporter available: gltf_glb: True
+11:36:58 [INFO]   [PASS] Exporter available: obj: True
+11:36:58 [WARNING]   [WARNING] GPU rasteriser (Workbench probe): unavailable (Couldn't open libEGL.so.1: libEGL.so.1: cannot open shared object file: No such file or directory); all renders use Cycles on CPU
+11:36:58 [INFO] NOTE: No OpenGL/EGL context: Workbench and EEVEE cannot render here, so every preview and final render uses Cycles (CPU + OpenImageDenoise).
+11:36:58 [INFO] M01a finished: COMPLETE_WITH_WARNINGS (0.6s)
+11:36:59 [INFO] ========================================================================
+11:36:59 [INFO] M01 – Project initialization  (quality=standard)
+11:36:59 [INFO] ========================================================================
+11:36:59 [INFO]   [PASS] Collections created: 17/17 (+ 17a_CAMERAS, 17b_PREVIEW_LIGHTS)
+11:36:59 [INFO]   [PASS] Metric units: METRIC, scale 1.0, METERS
+11:36:59 [INFO]   [PASS] Camera rig: 10 cameras: left, right, front, back, top, bottom, three_quarter_front_left, three_quarter_front_right, three_quarter_back_left, three_quarter_back_right
+11:36:59 [INFO]   [PASS] Preview lights: 4 area lights
+11:36:59 [INFO]   [PASS] Neutral clay material: MAT_Clay_Neutral
+11:36:59 [INFO]   [PASS] Scene scale (length gauge): gauge spans 12.030 m for a 12.0 m creature
+11:36:59 [INFO] Saved project/FSD_M01_init_v001.blend
+11:37:01 [INFO]   rendered M01_gauges_left.png
+11:37:02 [INFO]   rendered M01_gauges_three_quarter_front_left.png
+11:37:03 [INFO]   [PASS] Preview renders written: M01_gauges_left.png, M01_gauges_three_quarter_front_left.png
+11:37:03 [INFO] M01 finished: COMPLETE (3.9s)
+11:37:03 [INFO] ========================================================================
+11:37:03 [INFO] M02 – Reference system  (quality=standard)
+11:37:03 [INFO] ========================================================================
+11:37:03 [INFO] Opening project/FSD_M01_init_v001.blend
+11:37:04 [INFO]   [PASS] Reference regions cropped: 23 panels -> references/regions/
+11:37:04 [INFO] ASSUMPTION: The sheet is a design reference, not a calibrated scan: every orthographic view is calibrated independently (snout tip / tail-fin tip landmarks) and normalised to the total length L.
+11:37:04 [INFO] ASSUMPTION: Side view length 1029 px vs top/bottom 1009–1011 px (1.8 % discrepancy) – resolved by per-view normalisation.
+11:37:04 [INFO] ASSUMPTION: Ground (Z = 0) = lowest limb-fin tip on the side view; the sheet shows a swimming pose with hanging webbed feet.
+11:37:04 [INFO] ASSUMPTION: Front/back views are scaled by matching the head's vertical extent to the side view (approximate, ±10 %).
+11:37:04 [INFO] ASSUMPTION: 3/4 views and head/detail panels are perspective or close-up images: kept as review crops, not projected.
+11:37:04 [INFO]   [PASS] Side-view trunk profile measured: 239 stations (s (0.165, 0.76), limb zones interpolated)
+11:37:04 [INFO]   [PASS] Bottom-view width profile measured: 235 stations (s (0.215, 0.8))
+11:37:04 [INFO] NOTE: Top-view width (~22 px) under-reads because the dark flank scales merge with the background; the bright ventral view (~45 px) is used for lateral width.
+11:37:05 [INFO]   [PASS] Calibration self-test (side_left): known 12 m test box lands within 0.40 px of the sheet landmarks
+11:37:05 [INFO]   [PASS] Calibration self-test (side_right): known 12 m test box lands within 0.67 px of the sheet landmarks
+11:37:05 [INFO]   [PASS] Calibration self-test (top): known 12 m test box lands within 0.23 px of the sheet landmarks
+11:37:05 [INFO]   [PASS] Calibration self-test (bottom): known 12 m test box lands within 0.27 px of the sheet landmarks
+11:37:05 [INFO]   [PASS] Reference plane orientation/scale (side_left): render-vs-crop normalised cross-correlation 0.9829
+11:37:06 [INFO]   [PASS] Reference plane orientation/scale (side_right): render-vs-crop normalised cross-correlation 0.9835
+11:37:06 [INFO]   [PASS] Reference plane orientation/scale (front): render-vs-crop normalised cross-correlation 0.9836
+11:37:06 [INFO]   [PASS] Reference plane orientation/scale (back): render-vs-crop normalised cross-correlation 0.9840
+11:37:06 [INFO]   [PASS] Reference plane orientation/scale (top): render-vs-crop normalised cross-correlation 0.9867
+11:37:06 [INFO]   [PASS] Reference plane orientation/scale (bottom): render-vs-crop normalised cross-correlation 0.9906
+11:37:10 [INFO]   rendered M02_reference_cage_three_quarter_front_left.png
+11:37:11 [INFO] Saved project/FSD_M02_references_v001.blend
+11:37:11 [INFO] M02 finished: COMPLETE (7.3s)
+11:37:11 [INFO] ========================================================================
+11:37:11 [INFO] M03a – Serpentine body – continuous trunk  (quality=standard)
+11:37:11 [INFO] ========================================================================
+11:37:11 [INFO] Opening project/FSD_M02_references_v001.blend
+11:37:11 [INFO]   [PASS] DRG_Body: geometry present: 9218 verts / 18464 edges / 9248 faces
+11:37:11 [INFO]   [PASS] DRG_Body: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:37:11 [INFO]   [PASS] DRG_Body: loose geometry: 0 wire edges, 0 loose verts
+11:37:11 [INFO]   [PASS] DRG_Body: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.518e-06)
+11:37:11 [INFO]   [PASS] DRG_Body: consistent normals: 0 edges between faces with opposing winding
+11:37:11 [INFO]   [PASS] DRG_Body: normals point outward: signed volume 2.9674 m³
+11:37:11 [INFO]   [PASS] DRG_Body: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:37:11 [INFO]   [PASS] DRG_Body (evaluated): geometry present: 36930 verts / 73856 edges / 36928 faces
+11:37:11 [INFO]   [PASS] DRG_Body (evaluated): manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:37:11 [INFO]   [PASS] DRG_Body (evaluated): loose geometry: 0 wire edges, 0 loose verts
+11:37:11 [INFO]   [PASS] DRG_Body (evaluated): degenerate faces: 0 faces with area < 1e-10 m² (min area 1.468e-06)
+11:37:11 [INFO]   [PASS] DRG_Body (evaluated): consistent normals: 0 edges between faces with opposing winding
+11:37:11 [INFO]   [PASS] DRG_Body (evaluated): normals point outward: signed volume 2.9433 m³
+11:37:11 [INFO]   [PASS] DRG_Body (evaluated): self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:37:11 [INFO]   [PASS] DRG_Body: radius continuity: max ring-to-ring mean-radius change 2.06% at ring 242 (limit 3.0%)
+11:37:11 [INFO]   [PASS] DRG_Body: spine smoothness: max tangent change 1.716° between rings at ring 2 (limit 2.0°)
+11:37:11 [INFO]   [PASS] DRG_Body: UV map present: UVMap
+11:37:11 [INFO]   [PASS] DRG_Body: material assigned: MAT_Clay_Neutral
+11:37:11 [INFO]   [PASS] Trunk extent matches parameters: spans s 0.1–0.975 (10.50 m along Y)
+11:37:11 [INFO]   [PASS] Trunk above ground plane: lowest point z = 0.694 m
+11:37:11 [INFO] ASSUMPTION: Neck section (s < 0.17) is hidden behind neck fins on the sheet: blended (C1 Hermite) to a head-junction anchor of 0.44 m half-depth x 0.24 m half-width (tall, narrow skull base).
+11:37:11 [INFO] ASSUMPTION: Tail core inside the fan fin (s > 0.74) is not measurable: tapered to 0.025 m at s = 0.975.
+11:37:11 [INFO] Saved project/FSD_M03a_trunk_v001.blend
+11:37:15 [INFO]   rendered M03a_trunk_left.png
+11:37:18 [INFO]   rendered M03a_trunk_three_quarter_front_left.png
+11:37:18 [INFO] M03a finished: COMPLETE (7.2s)
+11:37:19 [INFO] ========================================================================
+11:37:19 [INFO] M03 – Serpentine body + neck transition (blockout checkpoint)  (quality=standard)
+11:37:19 [INFO] ========================================================================
+11:37:19 [INFO] Opening project/FSD_M03a_trunk_v001.blend
+11:37:19 [INFO]   [PASS] DRG_Body: geometry present: 9218 verts / 18464 edges / 9248 faces
+11:37:19 [INFO]   [PASS] DRG_Body: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:37:19 [INFO]   [PASS] DRG_Body: loose geometry: 0 wire edges, 0 loose verts
+11:37:19 [INFO]   [PASS] DRG_Body: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.518e-06)
+11:37:19 [INFO]   [PASS] DRG_Body: consistent normals: 0 edges between faces with opposing winding
+11:37:19 [INFO]   [PASS] DRG_Body: normals point outward: signed volume 3.0029 m³
+11:37:19 [INFO]   [PASS] DRG_Body: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:37:19 [INFO]   [PASS] DRG_Body (evaluated): geometry present: 36930 verts / 73856 edges / 36928 faces
+11:37:19 [INFO]   [PASS] DRG_Body (evaluated): manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:37:19 [INFO]   [PASS] DRG_Body (evaluated): loose geometry: 0 wire edges, 0 loose verts
+11:37:19 [INFO]   [PASS] DRG_Body (evaluated): degenerate faces: 0 faces with area < 1e-10 m² (min area 1.468e-06)
+11:37:19 [INFO]   [PASS] DRG_Body (evaluated): consistent normals: 0 edges between faces with opposing winding
+11:37:19 [INFO]   [PASS] DRG_Body (evaluated): normals point outward: signed volume 2.9783 m³
+11:37:19 [INFO]   [PASS] DRG_Body (evaluated): self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:37:19 [INFO]   [PASS] DRG_Body (after neck shaping): radius continuity: max ring-to-ring mean-radius change 2.06% at ring 242 (limit 3.0%)
+11:37:19 [INFO]   [PASS] DRG_Body (after neck shaping): spine smoothness: max tangent change 1.699° between rings at ring 2 (limit 2.0°)
+11:37:19 [INFO]   [PASS] DRG_Body: UV map present: UVMap
+11:37:19 [INFO]   [PASS] DRG_Body: material assigned: MAT_Clay_Neutral
+11:37:19 [INFO]   [PASS] Region vertex groups: VG_Neck: 1249 verts, VG_Torso: 4928 verts, VG_Tail: 4193 verts
+11:37:19 [INFO]   [PASS] Attachment sockets: SOCKET_Head, SOCKET_TailFin, SOCKET_Shoulder_L, SOCKET_Shoulder_R, SOCKET_Hip_L, SOCKET_Hip_R
+11:37:19 [INFO]   [PASS] Head socket inside neck volume: neck half-depth at socket 0.470 m
+11:37:20 [INFO]   [PASS] Reference match – dorsal line MAE (side view): 0.032 m (PASS <= 0.05, WARNING <= 0.1)
+11:37:20 [INFO]   [PASS] Reference match – belly line MAE (side view): 0.016 m (PASS <= 0.05, WARNING <= 0.1)
+11:37:20 [INFO]   [PASS] Reference match – lateral width MAE (bottom view): 0.008 m (PASS <= 0.05, WARNING <= 0.1)
+11:37:20 [INFO]   [PASS] Reference match – side band IoU: 0.945 over 340 measurable columns (s 0.17–0.74, limb zones excluded)
+11:37:20 [INFO] NOTE: Comparison covers the measurable trunk only (s 0.17–0.74, limb zones excluded); head, fins, spikes and limbs are later milestones, so no whole-creature accuracy claim is made.
+11:37:20 [INFO] Saved project/FSD_M03_body_blockout_v001.blend
+11:37:28 [INFO]   rendered M03_body_left.png
+11:37:36 [INFO]   rendered M03_body_right.png
+11:37:43 [INFO]   rendered M03_body_front.png
+11:37:50 [INFO]   rendered M03_body_back.png
+11:37:56 [INFO]   rendered M03_body_top.png
+11:38:02 [INFO]   rendered M03_body_bottom.png
+11:38:11 [INFO]   rendered M03_body_three_quarter_front_left.png
+11:38:20 [INFO]   rendered M03_body_three_quarter_front_right.png
+11:38:27 [INFO]   rendered M03_body_three_quarter_back_left.png
+11:38:34 [INFO]   rendered M03_body_three_quarter_back_right.png
+11:38:53 [INFO]   [PASS] Preview renders written: 10 views + comparison sheet
+11:38:53 [INFO] M03 finished: COMPLETE (94.4s)
+11:39:12 [INFO] ========================================================================
+11:39:12 [INFO] M03 – Serpentine body + neck transition (blockout checkpoint)  (quality=standard)
+11:39:12 [INFO] ========================================================================
+11:39:12 [INFO] Opening project/FSD_M03a_trunk_v001.blend
+11:39:12 [INFO]   [PASS] DRG_Body: geometry present: 9218 verts / 18464 edges / 9248 faces
+11:39:12 [INFO]   [PASS] DRG_Body: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:39:12 [INFO]   [PASS] DRG_Body: loose geometry: 0 wire edges, 0 loose verts
+11:39:12 [INFO]   [PASS] DRG_Body: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.518e-06)
+11:39:12 [INFO]   [PASS] DRG_Body: consistent normals: 0 edges between faces with opposing winding
+11:39:12 [INFO]   [PASS] DRG_Body: normals point outward: signed volume 3.0025 m³
+11:39:12 [INFO]   [PASS] DRG_Body: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:39:12 [INFO]   [PASS] DRG_Body (evaluated): geometry present: 36930 verts / 73856 edges / 36928 faces
+11:39:12 [INFO]   [PASS] DRG_Body (evaluated): manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:39:12 [INFO]   [PASS] DRG_Body (evaluated): loose geometry: 0 wire edges, 0 loose verts
+11:39:12 [INFO]   [PASS] DRG_Body (evaluated): degenerate faces: 0 faces with area < 1e-10 m² (min area 1.468e-06)
+11:39:12 [INFO]   [PASS] DRG_Body (evaluated): consistent normals: 0 edges between faces with opposing winding
+11:39:12 [INFO]   [PASS] DRG_Body (evaluated): normals point outward: signed volume 2.9779 m³
+11:39:12 [INFO]   [PASS] DRG_Body (evaluated): self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:39:12 [INFO]   [PASS] DRG_Body (after neck shaping): radius continuity: max ring-to-ring mean-radius change 2.06% at ring 242 (limit 3.0%)
+11:39:12 [INFO]   [PASS] DRG_Body (after neck shaping): spine smoothness: max tangent change 1.667° between rings at ring 2 (limit 2.0°)
+11:39:12 [INFO]   [PASS] DRG_Body: UV map present: UVMap
+11:39:12 [INFO]   [PASS] DRG_Body: material assigned: MAT_Clay_Neutral
+11:39:12 [INFO]   [PASS] Region vertex groups: VG_Neck: 1249 verts, VG_Torso: 4928 verts, VG_Tail: 4193 verts
+11:39:12 [INFO]   [PASS] Attachment sockets: SOCKET_Head, SOCKET_TailFin, SOCKET_Shoulder_L, SOCKET_Shoulder_R, SOCKET_Hip_L, SOCKET_Hip_R
+11:39:12 [INFO]   [PASS] Head socket inside neck volume: neck half-depth at socket 0.470 m
+11:39:13 [INFO]   [PASS] Reference match – dorsal line MAE (side view): 0.032 m (PASS <= 0.05, WARNING <= 0.1)
+11:39:13 [INFO]   [PASS] Reference match – belly line MAE (side view): 0.015 m (PASS <= 0.05, WARNING <= 0.1)
+11:39:13 [INFO]   [PASS] Reference match – lateral width MAE (bottom view): 0.008 m (PASS <= 0.05, WARNING <= 0.1)
+11:39:13 [INFO]   [PASS] Reference match – side band IoU: 0.946 over 340 measurable columns (s 0.17–0.74, limb zones excluded)
+11:39:13 [INFO] NOTE: Comparison covers the measurable trunk only (s 0.17–0.74, limb zones excluded); head, fins, spikes and limbs are later milestones, so no whole-creature accuracy claim is made.
+11:39:14 [INFO] Saved project/FSD_M03_body_blockout_v002.blend
+11:39:22 [INFO]   rendered M03_body_left.png
+11:39:31 [INFO]   rendered M03_body_right.png
+11:39:38 [INFO]   rendered M03_body_front.png
+11:39:45 [INFO]   rendered M03_body_back.png
+11:39:51 [INFO]   rendered M03_body_top.png
+11:39:58 [INFO]   rendered M03_body_bottom.png
+11:40:07 [INFO]   rendered M03_body_three_quarter_front_left.png
+11:40:16 [INFO]   rendered M03_body_three_quarter_front_right.png
+11:40:24 [INFO]   rendered M03_body_three_quarter_back_left.png
+11:40:32 [INFO]   rendered M03_body_three_quarter_back_right.png
+11:40:51 [INFO]   [PASS] Preview renders written: 10 views + comparison sheet
+11:40:51 [INFO] M03 finished: COMPLETE (99.4s)

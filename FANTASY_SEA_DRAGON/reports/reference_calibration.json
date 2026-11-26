@@ -1,0 +1,68 @@
+{
+  "side_left": {
+    "object": "REF_side_left",
+    "metres_per_px": 0.011662,
+    "approximate": false,
+    "camera": "left",
+    "location": [
+      -7.44,
+      -0.07,
+      1.277
+    ]
+  },
+  "side_right": {
+    "object": "REF_side_right",
+    "metres_per_px": 0.011707,
+    "approximate": false,
+    "camera": "right",
+    "location": [
+      7.44,
+      -0.0937,
+      1.1532
+    ]
+  },
+  "front": {
+    "object": "REF_front",
+    "metres_per_px": 0.010014,
+    "approximate": true,
+    "camera": "front",
+    "location": [
+      -0.03,
+      7.44,
+      1.2378
+    ]
+  },
+  "back": {
+    "object": "REF_back",
+    "metres_per_px": 0.010014,
+    "approximate": true,
+    "camera": "back",
+    "location": [
+      -0.035,
+      -7.44,
+      1.2278
+    ]
+  },
+  "top": {
+    "object": "REF_top",
+    "metres_per_px": 0.011893,
+    "approximate": false,
+    "camera": "top",
+    "location": [
+      -0.0357,
+      0.0119,
+      -7.44
+    ]
+  },
+  "bottom": {
+    "object": "REF_bottom",
+    "metres_per_px": 0.011869,
+    "approximate": false,
+    "camera": "bottom",
+    "location": [
+      0.0237,
+      0.0,
+      7.44
+    ]
+  }
+}

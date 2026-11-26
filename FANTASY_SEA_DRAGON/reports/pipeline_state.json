@@ -1,0 +1,39 @@
+{
+  "milestones": {
+    "M01a": {
+      "title": "Environment detection & directories",
+      "status": "COMPLETE_WITH_WARNINGS",
+      "blend": null,
+      "finished": "2026-11-26T11:36:58",
+      "quality": "standard"
+    },
+    "M01": {
+      "title": "Project initialization",
+      "status": "COMPLETE",
+      "blend": "project/FSD_M01_init_v001.blend",
+      "finished": "2026-11-26T11:37:03",
+      "quality": "standard"
+    },
+    "M02": {
+      "title": "Reference system",
+      "status": "COMPLETE",
+      "blend": "project/FSD_M02_references_v001.blend",
+      "finished": "2026-11-26T11:37:11",
+      "quality": "standard"
+    },
+    "M03a": {
+      "title": "Serpentine body \u2013 continuous trunk",
+      "status": "COMPLETE",
+      "blend": "project/FSD_M03a_trunk_v001.blend",
+      "finished": "2026-11-26T11:37:18",
+      "quality": "standard"
+    },
+    "M03": {
+      "title": "Serpentine body + neck transition (blockout checkpoint)",
+      "status": "COMPLETE",
+      "blend": "project/FSD_M03_body_blockout_v002.blend",
+      "finished": "2026-11-26T11:40:51",
+      "quality": "standard"
+    }
+  }
+}

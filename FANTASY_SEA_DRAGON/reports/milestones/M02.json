@@ -1,0 +1,172 @@
+{
+  "id": "M02",
+  "title": "Reference system",
+  "scripts": [
+    "01_project_setup.py"
+  ],
+  "quality": "standard",
+  "started": "2026-11-26T11:37:03",
+  "finished": "2026-11-26T11:37:11",
+  "duration_s": 7.28,
+  "status": "COMPLETE",
+  "blend": "project/FSD_M02_references_v001.blend",
+  "outputs": {
+    "reference_region": [
+      "references/regions/ref_side_left.png",
+      "references/regions/ref_side_right.png",
+      "references/regions/ref_top.png",
+      "references/regions/ref_bottom.png",
+      "references/regions/ref_front.png",
+      "references/regions/ref_back.png",
+      "references/regions/ref_three_quarter_front_left.png",
+      "references/regions/ref_three_quarter_front_right.png",
+      "references/regions/ref_three_quarter_back_left.png",
+      "references/regions/ref_three_quarter_back_right.png",
+      "references/regions/ref_head_front.png",
+      "references/regions/ref_head_left_profile.png",
+      "references/regions/ref_head_right_profile.png",
+      "references/regions/ref_head_top.png",
+      "references/regions/ref_head_bottom.png",
+      "references/regions/ref_detail_scales.png",
+      "references/regions/ref_detail_spine_fin.png",
+      "references/regions/ref_detail_tail_fin.png",
+      "references/regions/ref_detail_claw_foot.png",
+      "references/regions/ref_detail_belly_plate.png",
+      "references/regions/ref_detail_teeth.png",
+      "references/regions/ref_detail_eye.png",
+      "references/regions/ref_proportions.png"
+    ],
+    "analysis": [
+      "references/analysis/reference_profiles.json",
+      "references/analysis/side_profile_overlay.png",
+      "references/analysis/bottom_width_overlay.png",
+      "references/analysis/profile_chart.png"
+    ],
+    "report": [
+      "reports/reference_calibration.json"
+    ],
+    "render": [
+      "renders/M02/plane_test_side_left.png",
+      "renders/M02/plane_test_side_right.png",
+      "renders/M02/plane_test_front.png",
+      "renders/M02/plane_test_back.png",
+      "renders/M02/plane_test_top.png",
+      "renders/M02/plane_test_bottom.png"
+    ],
+    "preview": [
+      "renders/M02/M02_preview_sheet.png"
+    ],
+    "blend": [
+      "project/FSD_M02_references_v001.blend"
+    ]
+  },
+  "metrics": {
+    "max trunk depth (m)": 1.176,
+    "max trunk width (m)": 0.584,
+    "mean depth/width ratio": 1.85
+  },
+  "checks": [
+    {
+      "check": "Reference regions cropped",
+      "status": "PASS",
+      "detail": "23 panels -> references/regions/",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Side-view trunk profile measured",
+      "status": "PASS",
+      "detail": "239 stations (s (0.165, 0.76), limb zones interpolated)",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Bottom-view width profile measured",
+      "status": "PASS",
+      "detail": "235 stations (s (0.215, 0.8))",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Calibration self-test (side_left)",
+      "status": "PASS",
+      "detail": "known 12 m test box lands within 0.40 px of the sheet landmarks",
+      "value": 0.39999999999997726,
+      "threshold": 1.5
+    },
+    {
+      "check": "Calibration self-test (side_right)",
+      "status": "PASS",
+      "detail": "known 12 m test box lands within 0.67 px of the sheet landmarks",
+      "value": 0.6666666666666856,
+      "threshold": 1.5
+    },
+    {
+      "check": "Calibration self-test (top)",
+      "status": "PASS",
+      "detail": "known 12 m test box lands within 0.23 px of the sheet landmarks",
+      "value": 0.22500000000002274,
+      "threshold": 1.5
+    },
+    {
+      "check": "Calibration self-test (bottom)",
+      "status": "PASS",
+      "detail": "known 12 m test box lands within 0.27 px of the sheet landmarks",
+      "value": 0.27499999999997726,
+      "threshold": 1.5
+    },
+    {
+      "check": "Reference plane orientation/scale (side_left)",
+      "status": "PASS",
+      "detail": "render-vs-crop normalised cross-correlation 0.9829",
+      "value": 0.9829072952270508,
+      "threshold": 0.95
+    },
+    {
+      "check": "Reference plane orientation/scale (side_right)",
+      "status": "PASS",
+      "detail": "render-vs-crop normalised cross-correlation 0.9835",
+      "value": 0.9835249781608582,
+      "threshold": 0.95
+    },
+    {
+      "check": "Reference plane orientation/scale (front)",
+      "status": "PASS",
+      "detail": "render-vs-crop normalised cross-correlation 0.9836",
+      "value": 0.9835741519927979,
+      "threshold": 0.95
+    },
+    {
+      "check": "Reference plane orientation/scale (back)",
+      "status": "PASS",
+      "detail": "render-vs-crop normalised cross-correlation 0.9840",
+      "value": 0.9839975833892822,
+      "threshold": 0.95
+    },
+    {
+      "check": "Reference plane orientation/scale (top)",
+      "status": "PASS",
+      "detail": "render-vs-crop normalised cross-correlation 0.9867",
+      "value": 0.986746072769165,
+      "threshold": 0.95
+    },
+    {
+      "check": "Reference plane orientation/scale (bottom)",
+      "status": "PASS",
+      "detail": "render-vs-crop normalised cross-correlation 0.9906",
+      "value": 0.9906320571899414,
+      "threshold": 0.95
+    }
+  ],
+  "notes": [
+    "Top-view width (~22 px) under-reads because the dark flank scales merge with the background; the bright ventral view (~45 px) is used for lateral width."
+  ],
+  "assumptions": [
+    "The sheet is a design reference, not a calibrated scan: every orthographic view is calibrated independently (snout tip / tail-fin tip landmarks) and normalised to the total length L.",
+    "Side view length 1029 px vs top/bottom 1009\u20131011 px (1.8 % discrepancy) \u2013 resolved by per-view normalisation.",
+    "Ground (Z = 0) = lowest limb-fin tip on the side view; the sheet shows a swimming pose with hanging webbed feet.",
+    "Front/back views are scaled by matching the head's vertical extent to the side view (approximate, \u00b110 %).",
+    "3/4 views and head/detail panels are perspective or close-up images: kept as review crops, not projected."
+  ],
+  "error": null
+}

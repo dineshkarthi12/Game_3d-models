@@ -1,0 +1,253 @@
+{
+  "id": "M03",
+  "title": "Serpentine body + neck transition (blockout checkpoint)",
+  "scripts": [
+    "02_body_generator.py",
+    "03_neck_generator.py"
+  ],
+  "quality": "standard",
+  "started": "2026-11-26T11:39:12",
+  "finished": "2026-11-26T11:40:51",
+  "duration_s": 99.38,
+  "status": "COMPLETE",
+  "blend": "project/FSD_M03_body_blockout_v002.blend",
+  "outputs": {
+    "comparison": [
+      "renders/M03/compare_M03_side_left.png",
+      "renders/M03/compare_M03_bottom.png"
+    ],
+    "blend": [
+      "project/FSD_M03_body_blockout_v002.blend"
+    ],
+    "render": [
+      "renders/M03/M03_body_left.png",
+      "renders/M03/M03_body_right.png",
+      "renders/M03/M03_body_front.png",
+      "renders/M03/M03_body_back.png",
+      "renders/M03/M03_body_top.png",
+      "renders/M03/M03_body_bottom.png",
+      "renders/M03/M03_body_three_quarter_front_left.png",
+      "renders/M03/M03_body_three_quarter_front_right.png",
+      "renders/M03/M03_body_three_quarter_back_left.png",
+      "renders/M03/M03_body_three_quarter_back_right.png"
+    ],
+    "preview": [
+      "renders/M03/M03_preview_sheet.png",
+      "renders/M03/M03_reference_comparison_sheet.png"
+    ]
+  },
+  "metrics": {
+    "neck shaping": "1633 verts moved, max displacement 0.054 m",
+    "vertex groups": {
+      "VG_Neck": 1249,
+      "VG_Torso": 4928,
+      "VG_Tail": 4193
+    },
+    "sockets": "SOCKET_Head, SOCKET_TailFin, SOCKET_Shoulder_L, SOCKET_Shoulder_R, SOCKET_Hip_L, SOCKET_Hip_R",
+    "reference comparison": {
+      "side": {
+        "columns": 340,
+        "dorsal_mae_m": 0.0315,
+        "dorsal_max_m": 0.1628,
+        "belly_mae_m": 0.0148,
+        "belly_max_m": 0.0306,
+        "band_iou": 0.9456
+      },
+      "bottom": {
+        "columns": 308,
+        "width_mae_m": 0.0082,
+        "width_max_m": 0.0247,
+        "width_mean_rel_error": -0.0059
+      }
+    }
+  },
+  "checks": [
+    {
+      "check": "DRG_Body: geometry present",
+      "status": "PASS",
+      "detail": "9218 verts / 18464 edges / 9248 faces",
+      "value": 9248,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Body: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 4.518e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 3.0025 m\u00b3",
+      "value": 3.0024860014671138,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (evaluated): geometry present",
+      "status": "PASS",
+      "detail": "36930 verts / 73856 edges / 36928 faces",
+      "value": 36928,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Body (evaluated): manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (evaluated): loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (evaluated): degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 1.468e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (evaluated): consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (evaluated): normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 2.9779 m\u00b3",
+      "value": 2.977943086136768,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (evaluated): self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Body (after neck shaping): radius continuity",
+      "status": "PASS",
+      "detail": "max ring-to-ring mean-radius change 2.06% at ring 242 (limit 3.0%)",
+      "value": 0.020618693846810227,
+      "threshold": 0.03
+    },
+    {
+      "check": "DRG_Body (after neck shaping): spine smoothness",
+      "status": "PASS",
+      "detail": "max tangent change 1.667\u00b0 between rings at ring 2 (limit 2.0\u00b0)",
+      "value": 1.6668504281564116,
+      "threshold": 2.0
+    },
+    {
+      "check": "DRG_Body: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Body: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Clay_Neutral",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "Region vertex groups",
+      "status": "PASS",
+      "detail": "VG_Neck: 1249 verts, VG_Torso: 4928 verts, VG_Tail: 4193 verts",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Attachment sockets",
+      "status": "PASS",
+      "detail": "SOCKET_Head, SOCKET_TailFin, SOCKET_Shoulder_L, SOCKET_Shoulder_R, SOCKET_Hip_L, SOCKET_Hip_R",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Head socket inside neck volume",
+      "status": "PASS",
+      "detail": "neck half-depth at socket 0.470 m",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Reference match \u2013 dorsal line MAE (side view)",
+      "status": "PASS",
+      "detail": "0.032 m (PASS <= 0.05, WARNING <= 0.1)",
+      "value": 0.0315,
+      "threshold": 0.05
+    },
+    {
+      "check": "Reference match \u2013 belly line MAE (side view)",
+      "status": "PASS",
+      "detail": "0.015 m (PASS <= 0.05, WARNING <= 0.1)",
+      "value": 0.0148,
+      "threshold": 0.05
+    },
+    {
+      "check": "Reference match \u2013 lateral width MAE (bottom view)",
+      "status": "PASS",
+      "detail": "0.008 m (PASS <= 0.05, WARNING <= 0.1)",
+      "value": 0.0082,
+      "threshold": 0.05
+    },
+    {
+      "check": "Reference match \u2013 side band IoU",
+      "status": "PASS",
+      "detail": "0.946 over 340 measurable columns (s 0.17\u20130.74, limb zones excluded)",
+      "value": 0.9456,
+      "threshold": 0.9
+    },
+    {
+      "check": "Preview renders written",
+      "status": "PASS",
+      "detail": "10 views + comparison sheet",
+      "value": null,
+      "threshold": null
+    }
+  ],
+  "notes": [
+    "Comparison covers the measurable trunk only (s 0.17\u20130.74, limb zones excluded); head, fins, spikes and limbs are later milestones, so no whole-creature accuracy claim is made."
+  ],
+  "assumptions": [],
+  "error": null
+}
