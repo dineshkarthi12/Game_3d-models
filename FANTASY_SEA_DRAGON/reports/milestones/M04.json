@@ -1,0 +1,692 @@
+{
+  "id": "M04",
+  "title": "Head generation",
+  "scripts": [
+    "04_head_generator.py"
+  ],
+  "quality": "standard",
+  "started": "2026-11-26T12:07:34",
+  "finished": "2026-11-26T12:08:38",
+  "duration_s": 64.61,
+  "status": "COMPLETE",
+  "blend": "project/FSD_M04_head_v005.blend",
+  "outputs": {
+    "blend": [
+      "project/FSD_M04_head_v005.blend"
+    ],
+    "render": [
+      "renders/M04/M04_full_three_quarter_front_left.png",
+      "renders/M04/M04_full_left.png",
+      "renders/M04/M04_full_top.png",
+      "renders/M04/M04_focus_0.png",
+      "renders/M04/M04_focus_1.png",
+      "renders/M04/M04_aligned_side_left.png"
+    ],
+    "preview": [
+      "renders/M04/M04_review_sheet.png"
+    ]
+  },
+  "metrics": {
+    "head objects": 10,
+    "head faces (base)": 17552,
+    "spikes": "19 placed, 18 skipped (base overlap)"
+  },
+  "checks": [
+    {
+      "check": "DRG_Head_Skull: geometry present",
+      "status": "PASS",
+      "detail": "4898 verts / 9840 edges / 4944 faces",
+      "value": 4944,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Head_Skull: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Skull: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Skull: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 4.248e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Skull: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Skull: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.4207 m\u00b3",
+      "value": 0.42065102886317046,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Skull: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Skull: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Skin_DarkNavy, MAT_Mouth_Interior",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_Skull: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_Jaw_Lower: geometry present",
+      "status": "PASS",
+      "detail": "2810 verts / 5652 edges / 2844 faces",
+      "value": 2844,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Head_Jaw_Lower: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Jaw_Lower: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Jaw_Lower: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 3.087e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Jaw_Lower: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Jaw_Lower: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0986 m\u00b3",
+      "value": 0.09861183613404251,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Jaw_Lower: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Jaw_Lower: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Skin_DarkNavy, MAT_Mouth_Interior",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_Jaw_Lower: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_MouthInterior: geometry present",
+      "status": "PASS",
+      "detail": "482 verts / 984 edges / 504 faces",
+      "value": 504,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Head_MouthInterior: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_MouthInterior: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_MouthInterior: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 2.284e-04)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_MouthInterior: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_MouthInterior: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0185 m\u00b3",
+      "value": 0.018520544184231685,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_MouthInterior: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_MouthInterior: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Mouth_Interior",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_MouthInterior: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_Tongue: geometry present",
+      "status": "PASS",
+      "detail": "402 verts / 820 edges / 420 faces",
+      "value": 420,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Head_Tongue: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Tongue: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Tongue: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 1.728e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Tongue: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Tongue: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0026 m\u00b3",
+      "value": 0.0026023861588603415,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Tongue: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Tongue: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Tongue",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_Tongue: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Eye_L: geometry present",
+      "status": "PASS",
+      "detail": "1250 verts / 2544 edges / 1296 faces",
+      "value": 1296,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Eye_L: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Eye_L: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Eye_L: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 4.857e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Eye_L: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Eye_L: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0016 m\u00b3",
+      "value": 0.001553749558307865,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Eye_L: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Eye_L: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Eye_Glossy, MAT_Eye_Pupil",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Eye_L: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Eye_R: geometry present",
+      "status": "PASS",
+      "detail": "1250 verts / 2544 edges / 1296 faces",
+      "value": 1296,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Eye_R: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Eye_R: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Eye_R: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 4.857e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Eye_R: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Eye_R: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0016 m\u00b3",
+      "value": 0.0015537495583078699,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Eye_R: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Eye_R: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Eye_Glossy, MAT_Eye_Pupil",
+      "value": 2,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Eye_R: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_Horns: geometry present",
+      "status": "PASS",
+      "detail": "536 verts / 1092 edges / 560 faces",
+      "value": 560,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Head_Horns: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Horns: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Horns: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 5.366e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Horns: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Horns: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0114 m\u00b3",
+      "value": 0.011400067264063007,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Horns: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Horns: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Horn_Gold",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_Horns: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_Spikes: geometry present",
+      "status": "PASS",
+      "detail": "2888 verts / 5890 edges / 3040 faces",
+      "value": 3040,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Head_Spikes: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Spikes: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Spikes: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 9.815e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Spikes: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Spikes: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0279 m\u00b3",
+      "value": 0.027912935317871135,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Spikes: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_Spikes: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Spike_Orange",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_Spikes: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_CheekArmour: geometry present",
+      "status": "PASS",
+      "detail": "832 verts / 1600 edges / 800 faces",
+      "value": 800,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Head_CheekArmour: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_CheekArmour: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_CheekArmour: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 1.139e-04)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_CheekArmour: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_CheekArmour: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0033 m\u00b3",
+      "value": 0.0032604437221355814,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_CheekArmour: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_CheekArmour: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_Gold",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_CheekArmour: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_FacialFins: geometry present",
+      "status": "PASS",
+      "detail": "1856 verts / 3696 edges / 1848 faces",
+      "value": 1848,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Head_FacialFins: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_FacialFins: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_FacialFins: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 2.378e-04)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_FacialFins: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_FacialFins: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0140 m\u00b3",
+      "value": 0.013993476558067751,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_FacialFins: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Head_FacialFins: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Fin_Amber",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Head_FacialFins: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "Neck front cap hidden inside head",
+      "status": "PASS",
+      "detail": "99.6% of trunk vertices with s < 0.132 lie inside skull/jaw/throat",
+      "value": 0.9961089494163424,
+      "threshold": 0.95
+    },
+    {
+      "check": "Mouth open (separate jaws)",
+      "status": "PASS",
+      "detail": "gape 40\u00b0 (upper 10.0\u00b0, lower 30.0\u00b0)",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Snout at reference nose landmark",
+      "status": "PASS",
+      "detail": "head front at s = -0.0074 (sheet snout tip = 0)",
+      "value": -0.0073766311009725305,
+      "threshold": 0.01
+    }
+  ],
+  "notes": [],
+  "assumptions": [
+    "Head proportions come from the side profile and head-detail panels; the skull width (~0.47 m) is taken from the top view without cheek fins."
+  ],
+  "error": null
+}

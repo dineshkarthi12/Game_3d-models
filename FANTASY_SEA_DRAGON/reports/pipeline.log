@@ -176,3 +176,665 @@
 11:40:32 [INFO]   rendered M03_body_three_quarter_back_right.png
 11:40:51 [INFO]   [PASS] Preview renders written: 10 views + comparison sheet
 11:40:51 [INFO] M03 finished: COMPLETE (99.4s)
+11:55:27 [INFO] ========================================================================
+11:55:27 [INFO] M04 – Head generation  (quality=standard)
+11:55:27 [INFO] ========================================================================
+11:55:27 [INFO] Opening project/FSD_M03_body_blockout_v002.blend
+11:55:27 [INFO]   [PASS] DRG_Head_Skull: geometry present: 4898 verts / 9840 edges / 4944 faces
+11:55:27 [INFO]   [PASS] DRG_Head_Skull: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:55:27 [INFO]   [PASS] DRG_Head_Skull: loose geometry: 0 wire edges, 0 loose verts
+11:55:27 [INFO]   [PASS] DRG_Head_Skull: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.266e-05)
+11:55:27 [INFO]   [PASS] DRG_Head_Skull: consistent normals: 0 edges between faces with opposing winding
+11:55:27 [INFO]   [PASS] DRG_Head_Skull: normals point outward: signed volume 0.3277 m³
+11:55:27 [INFO]   [PASS] DRG_Head_Skull: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:55:27 [INFO]   [PASS] DRG_Head_Skull: material assigned: MAT_Skin_DarkNavy, MAT_Mouth_Interior
+11:55:27 [INFO]   [PASS] DRG_Head_Skull: UV map present: UVMap
+11:55:27 [INFO]   [PASS] DRG_Head_Jaw_Lower: geometry present: 2810 verts / 5652 edges / 2844 faces
+11:55:27 [INFO]   [PASS] DRG_Head_Jaw_Lower: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:55:27 [INFO]   [PASS] DRG_Head_Jaw_Lower: loose geometry: 0 wire edges, 0 loose verts
+11:55:27 [INFO]   [PASS] DRG_Head_Jaw_Lower: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.735e-05)
+11:55:27 [INFO]   [PASS] DRG_Head_Jaw_Lower: consistent normals: 0 edges between faces with opposing winding
+11:55:27 [INFO]   [PASS] DRG_Head_Jaw_Lower: normals point outward: signed volume 0.0675 m³
+11:55:27 [INFO]   [PASS] DRG_Head_Jaw_Lower: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:55:27 [INFO]   [PASS] DRG_Head_Jaw_Lower: material assigned: MAT_Skin_DarkNavy, MAT_Mouth_Interior
+11:55:27 [INFO]   [PASS] DRG_Head_Jaw_Lower: UV map present: UVMap
+11:55:27 [INFO]   [PASS] DRG_Head_MouthInterior: geometry present: 482 verts / 984 edges / 504 faces
+11:55:27 [INFO]   [PASS] DRG_Head_MouthInterior: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:55:27 [INFO]   [PASS] DRG_Head_MouthInterior: loose geometry: 0 wire edges, 0 loose verts
+11:55:27 [INFO]   [PASS] DRG_Head_MouthInterior: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.063e-04)
+11:55:27 [INFO]   [PASS] DRG_Head_MouthInterior: consistent normals: 0 edges between faces with opposing winding
+11:55:27 [INFO]   [PASS] DRG_Head_MouthInterior: normals point outward: signed volume 0.0147 m³
+11:55:27 [INFO]   [PASS] DRG_Head_MouthInterior: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:55:27 [INFO]   [PASS] DRG_Head_MouthInterior: material assigned: MAT_Mouth_Interior
+11:55:27 [INFO]   [PASS] DRG_Head_MouthInterior: UV map present: UVMap
+11:55:27 [INFO]   [PASS] DRG_Head_Tongue: geometry present: 402 verts / 820 edges / 420 faces
+11:55:27 [INFO]   [PASS] DRG_Head_Tongue: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:55:27 [INFO]   [PASS] DRG_Head_Tongue: loose geometry: 0 wire edges, 0 loose verts
+11:55:27 [INFO]   [PASS] DRG_Head_Tongue: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.728e-05)
+11:55:27 [INFO]   [PASS] DRG_Head_Tongue: consistent normals: 0 edges between faces with opposing winding
+11:55:27 [INFO]   [PASS] DRG_Head_Tongue: normals point outward: signed volume 0.0026 m³
+11:55:27 [INFO]   [PASS] DRG_Head_Tongue: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:55:27 [INFO]   [PASS] DRG_Head_Tongue: material assigned: MAT_Tongue
+11:55:27 [INFO]   [PASS] DRG_Head_Tongue: UV map present: UVMap
+11:55:27 [INFO]   [PASS] DRG_Eye_L: geometry present: 484 verts / 1000 edges / 520 faces
+11:55:27 [INFO]   [PASS] DRG_Eye_L: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:55:27 [INFO]   [PASS] DRG_Eye_L: loose geometry: 0 wire edges, 0 loose verts
+11:55:27 [INFO]   [PASS] DRG_Eye_L: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.249e-05)
+11:55:27 [INFO]   [PASS] DRG_Eye_L: consistent normals: 0 edges between faces with opposing winding
+11:55:27 [INFO]   [PASS] DRG_Eye_L: normals point outward: signed volume 0.0015 m³
+11:55:27 [ERROR]   [FAIL] DRG_Eye_L: self-intersections: 64 intersecting non-adjacent face pairs (BVH overlap test)
+11:55:27 [INFO]   [PASS] DRG_Eye_L: material assigned: MAT_Eye_Glossy, MAT_Eye_Pupil
+11:55:27 [INFO]   [PASS] DRG_Eye_L: UV map present: UVMap
+11:55:27 [INFO]   [PASS] DRG_Eye_R: geometry present: 484 verts / 1000 edges / 520 faces
+11:55:27 [INFO]   [PASS] DRG_Eye_R: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:55:27 [INFO]   [PASS] DRG_Eye_R: loose geometry: 0 wire edges, 0 loose verts
+11:55:27 [INFO]   [PASS] DRG_Eye_R: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.249e-05)
+11:55:27 [INFO]   [PASS] DRG_Eye_R: consistent normals: 0 edges between faces with opposing winding
+11:55:27 [INFO]   [PASS] DRG_Eye_R: normals point outward: signed volume 0.0015 m³
+11:55:27 [ERROR]   [FAIL] DRG_Eye_R: self-intersections: 64 intersecting non-adjacent face pairs (BVH overlap test)
+11:55:27 [INFO]   [PASS] DRG_Eye_R: material assigned: MAT_Eye_Glossy, MAT_Eye_Pupil
+11:55:27 [INFO]   [PASS] DRG_Eye_R: UV map present: UVMap
+11:55:27 [INFO]   [PASS] DRG_Head_Horns: geometry present: 536 verts / 1092 edges / 560 faces
+11:55:27 [INFO]   [PASS] DRG_Head_Horns: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:55:27 [INFO]   [PASS] DRG_Head_Horns: loose geometry: 0 wire edges, 0 loose verts
+11:55:27 [INFO]   [PASS] DRG_Head_Horns: degenerate faces: 0 faces with area < 1e-10 m² (min area 5.367e-05)
+11:55:27 [INFO]   [PASS] DRG_Head_Horns: consistent normals: 0 edges between faces with opposing winding
+11:55:27 [INFO]   [PASS] DRG_Head_Horns: normals point outward: signed volume 0.0114 m³
+11:55:27 [INFO]   [PASS] DRG_Head_Horns: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:55:27 [INFO]   [PASS] DRG_Head_Horns: material assigned: MAT_Horn_Gold
+11:55:27 [INFO]   [PASS] DRG_Head_Horns: UV map present: UVMap
+11:55:27 [INFO]   [PASS] DRG_Head_Spikes: geometry present: 2888 verts / 5890 edges / 3040 faces
+11:55:27 [INFO]   [PASS] DRG_Head_Spikes: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:55:27 [INFO]   [PASS] DRG_Head_Spikes: loose geometry: 0 wire edges, 0 loose verts
+11:55:27 [INFO]   [PASS] DRG_Head_Spikes: degenerate faces: 0 faces with area < 1e-10 m² (min area 9.816e-06)
+11:55:27 [INFO]   [PASS] DRG_Head_Spikes: consistent normals: 0 edges between faces with opposing winding
+11:55:27 [INFO]   [PASS] DRG_Head_Spikes: normals point outward: signed volume 0.0187 m³
+11:55:27 [ERROR]   [FAIL] DRG_Head_Spikes: self-intersections: 52 intersecting non-adjacent face pairs (BVH overlap test)
+11:55:27 [INFO]   [PASS] DRG_Head_Spikes: material assigned: MAT_Spike_Orange
+11:55:27 [INFO]   [PASS] DRG_Head_Spikes: UV map present: UVMap
+11:55:27 [INFO]   [PASS] DRG_Head_CheekArmour: geometry present: 312 verts / 600 edges / 300 faces
+11:55:27 [INFO]   [PASS] DRG_Head_CheekArmour: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:55:27 [INFO]   [PASS] DRG_Head_CheekArmour: loose geometry: 0 wire edges, 0 loose verts
+11:55:27 [INFO]   [PASS] DRG_Head_CheekArmour: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.566e-04)
+11:55:27 [INFO]   [PASS] DRG_Head_CheekArmour: consistent normals: 0 edges between faces with opposing winding
+11:55:27 [INFO]   [PASS] DRG_Head_CheekArmour: normals point outward: signed volume 0.0000 m³
+11:55:27 [ERROR]   [FAIL] DRG_Head_CheekArmour: self-intersections: 96 intersecting non-adjacent face pairs (BVH overlap test)
+11:55:27 [INFO]   [PASS] DRG_Head_CheekArmour: material assigned: MAT_Scale_Gold
+11:55:27 [INFO]   [PASS] DRG_Head_CheekArmour: UV map present: UVMap
+11:55:27 [INFO]   [PASS] DRG_Head_FacialFins: geometry present: 1304 verts / 2592 edges / 1296 faces
+11:55:27 [INFO]   [PASS] DRG_Head_FacialFins: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:55:27 [INFO]   [PASS] DRG_Head_FacialFins: loose geometry: 0 wire edges, 0 loose verts
+11:55:27 [INFO]   [PASS] DRG_Head_FacialFins: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.242e-04)
+11:55:27 [INFO]   [PASS] DRG_Head_FacialFins: consistent normals: 0 edges between faces with opposing winding
+11:55:27 [INFO]   [PASS] DRG_Head_FacialFins: normals point outward: signed volume 0.0083 m³
+11:55:27 [ERROR]   [FAIL] DRG_Head_FacialFins: self-intersections: 346 intersecting non-adjacent face pairs (BVH overlap test)
+11:55:27 [INFO]   [PASS] DRG_Head_FacialFins: material assigned: MAT_Fin_Amber
+11:55:27 [INFO]   [PASS] DRG_Head_FacialFins: UV map present: UVMap
+11:55:28 [ERROR]   [FAIL] Neck front cap hidden inside head: 52.9% of trunk vertices with s < 0.112 lie inside skull/jaw/throat
+11:55:28 [INFO]   [PASS] Mouth open (separate jaws): gape 40° (upper 10.0°, lower 30.0°)
+11:55:28 [INFO]   [PASS] Snout at reference nose landmark: head front at s = -0.0062 (sheet snout tip = 0)
+11:55:28 [INFO] ASSUMPTION: Head proportions come from the side profile and head-detail panels; the skull width (~0.47 m) is taken from the top view without cheek fins.
+11:55:28 [INFO] Saved project/FSD_M04_head_v001.blend
+11:55:56 [INFO]   rendered M04_full_three_quarter_front_left.png
+11:56:00 [INFO]   rendered M04_full_left.png
+11:56:03 [INFO]   rendered M04_full_top.png
+11:56:35 [INFO] M04 finished: FAILED_VALIDATION (67.8s)
+11:58:22 [INFO] ========================================================================
+11:58:22 [INFO] M03a – Serpentine body – continuous trunk  (quality=standard)
+11:58:22 [INFO] ========================================================================
+11:58:22 [INFO] Opening project/FSD_M02_references_v001.blend
+11:58:22 [INFO]   [PASS] DRG_Body: geometry present: 9218 verts / 18464 edges / 9248 faces
+11:58:22 [INFO]   [PASS] DRG_Body: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:58:22 [INFO]   [PASS] DRG_Body: loose geometry: 0 wire edges, 0 loose verts
+11:58:22 [INFO]   [PASS] DRG_Body: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.518e-06)
+11:58:22 [INFO]   [PASS] DRG_Body: consistent normals: 0 edges between faces with opposing winding
+11:58:22 [INFO]   [PASS] DRG_Body: normals point outward: signed volume 2.8264 m³
+11:58:22 [INFO]   [PASS] DRG_Body: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:58:22 [INFO]   [PASS] DRG_Body (evaluated): geometry present: 36930 verts / 73856 edges / 36928 faces
+11:58:22 [INFO]   [PASS] DRG_Body (evaluated): manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:58:22 [INFO]   [PASS] DRG_Body (evaluated): loose geometry: 0 wire edges, 0 loose verts
+11:58:22 [INFO]   [PASS] DRG_Body (evaluated): degenerate faces: 0 faces with area < 1e-10 m² (min area 1.468e-06)
+11:58:22 [INFO]   [PASS] DRG_Body (evaluated): consistent normals: 0 edges between faces with opposing winding
+11:58:22 [INFO]   [PASS] DRG_Body (evaluated): normals point outward: signed volume 2.8036 m³
+11:58:22 [INFO]   [PASS] DRG_Body (evaluated): self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:58:22 [INFO]   [PASS] DRG_Body: radius continuity: max ring-to-ring mean-radius change 2.09% at ring 7 (limit 3.0%)
+11:58:22 [WARNING]   [WARNING] DRG_Body: spine smoothness: max tangent change 2.440° between rings at ring 23 (limit 2.0°)
+11:58:22 [INFO]   [PASS] DRG_Body: UV map present: UVMap
+11:58:22 [INFO]   [PASS] DRG_Body: material assigned: MAT_Clay_Neutral
+11:58:22 [INFO]   [PASS] Trunk extent matches parameters: spans s 0.12–0.975 (10.26 m along Y)
+11:58:22 [INFO]   [PASS] Trunk above ground plane: lowest point z = 0.694 m
+11:58:22 [INFO] ASSUMPTION: Neck section (s < 0.17) is hidden behind neck fins on the sheet: blended (C1 Hermite) to a head-junction anchor of 0.42 m half-depth x 0.21 m half-width (tall, narrow skull base).
+11:58:22 [INFO] ASSUMPTION: Tail core inside the fan fin (s > 0.74) is not measurable: tapered to 0.025 m at s = 0.975.
+11:58:22 [INFO] Saved project/FSD_M03a_trunk_v002.blend
+11:58:25 [INFO]   rendered M03a_trunk_left.png
+11:58:29 [INFO]   rendered M03a_trunk_three_quarter_front_left.png
+11:58:29 [INFO] M03a finished: COMPLETE_WITH_WARNINGS (7.3s)
+11:58:29 [INFO] ========================================================================
+11:58:29 [INFO] M03 – Serpentine body + neck transition (blockout checkpoint)  (quality=standard)
+11:58:29 [INFO] ========================================================================
+11:58:29 [INFO] Opening project/FSD_M03a_trunk_v002.blend
+11:58:29 [INFO]   [PASS] DRG_Body: geometry present: 9218 verts / 18464 edges / 9248 faces
+11:58:29 [INFO]   [PASS] DRG_Body: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:58:29 [INFO]   [PASS] DRG_Body: loose geometry: 0 wire edges, 0 loose verts
+11:58:29 [INFO]   [PASS] DRG_Body: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.518e-06)
+11:58:29 [INFO]   [PASS] DRG_Body: consistent normals: 0 edges between faces with opposing winding
+11:58:29 [INFO]   [PASS] DRG_Body: normals point outward: signed volume 2.8506 m³
+11:58:29 [INFO]   [PASS] DRG_Body: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:58:30 [INFO]   [PASS] DRG_Body (evaluated): geometry present: 36930 verts / 73856 edges / 36928 faces
+11:58:30 [INFO]   [PASS] DRG_Body (evaluated): manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+11:58:30 [INFO]   [PASS] DRG_Body (evaluated): loose geometry: 0 wire edges, 0 loose verts
+11:58:30 [INFO]   [PASS] DRG_Body (evaluated): degenerate faces: 0 faces with area < 1e-10 m² (min area 1.468e-06)
+11:58:30 [INFO]   [PASS] DRG_Body (evaluated): consistent normals: 0 edges between faces with opposing winding
+11:58:30 [INFO]   [PASS] DRG_Body (evaluated): normals point outward: signed volume 2.8275 m³
+11:58:30 [INFO]   [PASS] DRG_Body (evaluated): self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+11:58:30 [INFO]   [PASS] DRG_Body (after neck shaping): radius continuity: max ring-to-ring mean-radius change 2.12% at ring 6 (limit 3.0%)
+11:58:30 [WARNING]   [WARNING] DRG_Body (after neck shaping): spine smoothness: max tangent change 2.364° between rings at ring 23 (limit 2.0°)
+11:58:30 [INFO]   [PASS] DRG_Body: UV map present: UVMap
+11:58:30 [INFO]   [PASS] DRG_Body: material assigned: MAT_Clay_Neutral
+11:58:30 [INFO]   [PASS] Region vertex groups: VG_Neck: 1121 verts, VG_Torso: 5024 verts, VG_Tail: 4225 verts
+11:58:30 [INFO]   [PASS] Attachment sockets: SOCKET_Head, SOCKET_TailFin, SOCKET_Shoulder_L, SOCKET_Shoulder_R, SOCKET_Hip_L, SOCKET_Hip_R
+11:58:30 [INFO]   [PASS] Head socket inside neck volume: neck half-depth at socket 0.432 m
+11:58:31 [INFO]   [PASS] Reference match – dorsal line MAE (side view): 0.032 m (PASS <= 0.05, WARNING <= 0.1)
+11:58:31 [INFO]   [PASS] Reference match – belly line MAE (side view): 0.015 m (PASS <= 0.05, WARNING <= 0.1)
+11:58:31 [INFO]   [PASS] Reference match – lateral width MAE (bottom view): 0.008 m (PASS <= 0.05, WARNING <= 0.1)
+11:58:31 [INFO]   [PASS] Reference match – side band IoU: 0.945 over 340 measurable columns (s 0.17–0.74, limb zones excluded)
+11:58:31 [INFO] NOTE: Comparison covers the measurable trunk only (s 0.17–0.74, limb zones excluded); head, fins, spikes and limbs are later milestones, so no whole-creature accuracy claim is made.
+11:58:31 [INFO] Saved project/FSD_M03_body_blockout_v003.blend
+11:58:39 [INFO]   rendered M03_body_left.png
+11:58:47 [INFO]   rendered M03_body_right.png
+11:58:54 [INFO]   rendered M03_body_front.png
+11:59:02 [INFO]   rendered M03_body_back.png
+11:59:07 [INFO]   rendered M03_body_top.png
+11:59:13 [INFO]   rendered M03_body_bottom.png
+11:59:22 [INFO]   rendered M03_body_three_quarter_front_left.png
+11:59:30 [INFO]   rendered M03_body_three_quarter_front_right.png
+11:59:37 [INFO]   rendered M03_body_three_quarter_back_left.png
+11:59:45 [INFO]   rendered M03_body_three_quarter_back_right.png
+12:00:04 [INFO]   [PASS] Preview renders written: 10 views + comparison sheet
+12:00:04 [INFO] M03 finished: COMPLETE_WITH_WARNINGS (94.4s)
+12:00:04 [INFO] ========================================================================
+12:00:04 [INFO] M04 – Head generation  (quality=standard)
+12:00:04 [INFO] ========================================================================
+12:00:04 [INFO] Opening project/FSD_M03_body_blockout_v003.blend
+12:00:05 [INFO]   [PASS] DRG_Head_Skull: geometry present: 4898 verts / 9840 edges / 4944 faces
+12:00:05 [INFO]   [PASS] DRG_Head_Skull: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:00:05 [INFO]   [PASS] DRG_Head_Skull: loose geometry: 0 wire edges, 0 loose verts
+12:00:05 [INFO]   [PASS] DRG_Head_Skull: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.006e-05)
+12:00:05 [INFO]   [PASS] DRG_Head_Skull: consistent normals: 0 edges between faces with opposing winding
+12:00:05 [INFO]   [PASS] DRG_Head_Skull: normals point outward: signed volume 0.4107 m³
+12:00:05 [INFO]   [PASS] DRG_Head_Skull: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:00:05 [INFO]   [PASS] DRG_Head_Skull: material assigned: MAT_Skin_DarkNavy, MAT_Mouth_Interior
+12:00:05 [INFO]   [PASS] DRG_Head_Skull: UV map present: UVMap
+12:00:05 [INFO]   [PASS] DRG_Head_Jaw_Lower: geometry present: 2810 verts / 5652 edges / 2844 faces
+12:00:05 [INFO]   [PASS] DRG_Head_Jaw_Lower: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:00:05 [INFO]   [PASS] DRG_Head_Jaw_Lower: loose geometry: 0 wire edges, 0 loose verts
+12:00:05 [INFO]   [PASS] DRG_Head_Jaw_Lower: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.403e-05)
+12:00:05 [INFO]   [PASS] DRG_Head_Jaw_Lower: consistent normals: 0 edges between faces with opposing winding
+12:00:05 [INFO]   [PASS] DRG_Head_Jaw_Lower: normals point outward: signed volume 0.0960 m³
+12:00:05 [INFO]   [PASS] DRG_Head_Jaw_Lower: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:00:05 [INFO]   [PASS] DRG_Head_Jaw_Lower: material assigned: MAT_Skin_DarkNavy, MAT_Mouth_Interior
+12:00:05 [INFO]   [PASS] DRG_Head_Jaw_Lower: UV map present: UVMap
+12:00:05 [INFO]   [PASS] DRG_Head_MouthInterior: geometry present: 482 verts / 984 edges / 504 faces
+12:00:05 [INFO]   [PASS] DRG_Head_MouthInterior: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:00:05 [INFO]   [PASS] DRG_Head_MouthInterior: loose geometry: 0 wire edges, 0 loose verts
+12:00:05 [INFO]   [PASS] DRG_Head_MouthInterior: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.284e-04)
+12:00:05 [INFO]   [PASS] DRG_Head_MouthInterior: consistent normals: 0 edges between faces with opposing winding
+12:00:05 [INFO]   [PASS] DRG_Head_MouthInterior: normals point outward: signed volume 0.0186 m³
+12:00:05 [INFO]   [PASS] DRG_Head_MouthInterior: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:00:05 [INFO]   [PASS] DRG_Head_MouthInterior: material assigned: MAT_Mouth_Interior
+12:00:05 [INFO]   [PASS] DRG_Head_MouthInterior: UV map present: UVMap
+12:00:05 [INFO]   [PASS] DRG_Head_Tongue: geometry present: 402 verts / 820 edges / 420 faces
+12:00:05 [INFO]   [PASS] DRG_Head_Tongue: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:00:05 [INFO]   [PASS] DRG_Head_Tongue: loose geometry: 0 wire edges, 0 loose verts
+12:00:05 [INFO]   [PASS] DRG_Head_Tongue: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.728e-05)
+12:00:05 [INFO]   [PASS] DRG_Head_Tongue: consistent normals: 0 edges between faces with opposing winding
+12:00:05 [INFO]   [PASS] DRG_Head_Tongue: normals point outward: signed volume 0.0026 m³
+12:00:05 [INFO]   [PASS] DRG_Head_Tongue: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:00:05 [INFO]   [PASS] DRG_Head_Tongue: material assigned: MAT_Tongue
+12:00:05 [INFO]   [PASS] DRG_Head_Tongue: UV map present: UVMap
+12:00:05 [INFO]   [PASS] DRG_Eye_L: geometry present: 1250 verts / 2544 edges / 1296 faces
+12:00:05 [INFO]   [PASS] DRG_Eye_L: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:00:05 [INFO]   [PASS] DRG_Eye_L: loose geometry: 0 wire edges, 0 loose verts
+12:00:05 [INFO]   [PASS] DRG_Eye_L: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.857e-06)
+12:00:05 [INFO]   [PASS] DRG_Eye_L: consistent normals: 0 edges between faces with opposing winding
+12:00:05 [INFO]   [PASS] DRG_Eye_L: normals point outward: signed volume 0.0016 m³
+12:00:05 [INFO]   [PASS] DRG_Eye_L: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:00:05 [INFO]   [PASS] DRG_Eye_L: material assigned: MAT_Eye_Glossy, MAT_Eye_Pupil
+12:00:05 [INFO]   [PASS] DRG_Eye_L: UV map present: UVMap
+12:00:05 [INFO]   [PASS] DRG_Eye_R: geometry present: 1250 verts / 2544 edges / 1296 faces
+12:00:05 [INFO]   [PASS] DRG_Eye_R: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:00:05 [INFO]   [PASS] DRG_Eye_R: loose geometry: 0 wire edges, 0 loose verts
+12:00:05 [INFO]   [PASS] DRG_Eye_R: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.857e-06)
+12:00:05 [INFO]   [PASS] DRG_Eye_R: consistent normals: 0 edges between faces with opposing winding
+12:00:05 [INFO]   [PASS] DRG_Eye_R: normals point outward: signed volume 0.0016 m³
+12:00:05 [INFO]   [PASS] DRG_Eye_R: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:00:05 [INFO]   [PASS] DRG_Eye_R: material assigned: MAT_Eye_Glossy, MAT_Eye_Pupil
+12:00:05 [INFO]   [PASS] DRG_Eye_R: UV map present: UVMap
+12:00:05 [INFO]   [PASS] DRG_Head_Horns: geometry present: 536 verts / 1092 edges / 560 faces
+12:00:05 [INFO]   [PASS] DRG_Head_Horns: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:00:05 [INFO]   [PASS] DRG_Head_Horns: loose geometry: 0 wire edges, 0 loose verts
+12:00:05 [INFO]   [PASS] DRG_Head_Horns: degenerate faces: 0 faces with area < 1e-10 m² (min area 5.366e-05)
+12:00:05 [INFO]   [PASS] DRG_Head_Horns: consistent normals: 0 edges between faces with opposing winding
+12:00:05 [INFO]   [PASS] DRG_Head_Horns: normals point outward: signed volume 0.0114 m³
+12:00:05 [INFO]   [PASS] DRG_Head_Horns: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:00:05 [INFO]   [PASS] DRG_Head_Horns: material assigned: MAT_Horn_Gold
+12:00:05 [INFO]   [PASS] DRG_Head_Horns: UV map present: UVMap
+12:00:05 [INFO]   [PASS] DRG_Head_Spikes: geometry present: 3192 verts / 6510 edges / 3360 faces
+12:00:05 [INFO]   [PASS] DRG_Head_Spikes: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:00:05 [INFO]   [PASS] DRG_Head_Spikes: loose geometry: 0 wire edges, 0 loose verts
+12:00:05 [INFO]   [PASS] DRG_Head_Spikes: degenerate faces: 0 faces with area < 1e-10 m² (min area 9.816e-06)
+12:00:05 [INFO]   [PASS] DRG_Head_Spikes: consistent normals: 0 edges between faces with opposing winding
+12:00:05 [INFO]   [PASS] DRG_Head_Spikes: normals point outward: signed volume 0.0259 m³
+12:00:05 [ERROR]   [FAIL] DRG_Head_Spikes: self-intersections: 20 intersecting non-adjacent face pairs (BVH overlap test)
+12:00:05 [INFO]   [PASS] DRG_Head_Spikes: material assigned: MAT_Spike_Orange
+12:00:05 [INFO]   [PASS] DRG_Head_Spikes: UV map present: UVMap
+12:00:05 [INFO]   [PASS] DRG_Head_CheekArmour: geometry present: 832 verts / 1600 edges / 800 faces
+12:00:05 [INFO]   [PASS] DRG_Head_CheekArmour: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:00:05 [INFO]   [PASS] DRG_Head_CheekArmour: loose geometry: 0 wire edges, 0 loose verts
+12:00:05 [INFO]   [PASS] DRG_Head_CheekArmour: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.139e-04)
+12:00:05 [INFO]   [PASS] DRG_Head_CheekArmour: consistent normals: 0 edges between faces with opposing winding
+12:00:05 [INFO]   [PASS] DRG_Head_CheekArmour: normals point outward: signed volume 0.0033 m³
+12:00:05 [INFO]   [PASS] DRG_Head_CheekArmour: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:00:05 [INFO]   [PASS] DRG_Head_CheekArmour: material assigned: MAT_Scale_Gold
+12:00:05 [INFO]   [PASS] DRG_Head_CheekArmour: UV map present: UVMap
+12:00:05 [INFO]   [PASS] DRG_Head_FacialFins: geometry present: 1304 verts / 2592 edges / 1296 faces
+12:00:05 [INFO]   [PASS] DRG_Head_FacialFins: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:00:05 [INFO]   [PASS] DRG_Head_FacialFins: loose geometry: 0 wire edges, 0 loose verts
+12:00:05 [INFO]   [PASS] DRG_Head_FacialFins: degenerate faces: 0 faces with area < 1e-10 m² (min area 9.897e-05)
+12:00:05 [INFO]   [PASS] DRG_Head_FacialFins: consistent normals: 0 edges between faces with opposing winding
+12:00:05 [INFO]   [PASS] DRG_Head_FacialFins: normals point outward: signed volume 0.0093 m³
+12:00:05 [ERROR]   [FAIL] DRG_Head_FacialFins: self-intersections: 278 intersecting non-adjacent face pairs (BVH overlap test)
+12:00:05 [INFO]   [PASS] DRG_Head_FacialFins: material assigned: MAT_Fin_Amber
+12:00:05 [INFO]   [PASS] DRG_Head_FacialFins: UV map present: UVMap
+12:00:05 [INFO]   [PASS] Neck front cap hidden inside head: 98.4% of trunk vertices with s < 0.132 lie inside skull/jaw/throat
+12:00:05 [INFO]   [PASS] Mouth open (separate jaws): gape 40° (upper 10.0°, lower 30.0°)
+12:00:05 [INFO]   [PASS] Snout at reference nose landmark: head front at s = -0.0069 (sheet snout tip = 0)
+12:00:05 [INFO] ASSUMPTION: Head proportions come from the side profile and head-detail panels; the skull width (~0.47 m) is taken from the top view without cheek fins.
+12:00:05 [INFO] Saved project/FSD_M04_head_v002.blend
+12:00:32 [INFO]   rendered M04_full_three_quarter_front_left.png
+12:00:35 [INFO]   rendered M04_full_left.png
+12:00:38 [INFO]   rendered M04_full_top.png
+12:01:10 [INFO] M04 finished: FAILED_VALIDATION (66.0s)
+12:01:22 [INFO] Opening project/FSD_M03_body_blockout_v003.blend
+12:02:55 [INFO] ========================================================================
+12:02:55 [INFO] M03a – Serpentine body – continuous trunk  (quality=standard)
+12:02:55 [INFO] ========================================================================
+12:02:55 [INFO] Opening project/FSD_M02_references_v001.blend
+12:02:55 [INFO]   [PASS] DRG_Body: geometry present: 9218 verts / 18464 edges / 9248 faces
+12:02:55 [INFO]   [PASS] DRG_Body: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:02:55 [INFO]   [PASS] DRG_Body: loose geometry: 0 wire edges, 0 loose verts
+12:02:55 [INFO]   [PASS] DRG_Body: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.518e-06)
+12:02:55 [INFO]   [PASS] DRG_Body: consistent normals: 0 edges between faces with opposing winding
+12:02:55 [INFO]   [PASS] DRG_Body: normals point outward: signed volume 2.8235 m³
+12:02:55 [INFO]   [PASS] DRG_Body: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:02:56 [INFO]   [PASS] DRG_Body (evaluated): geometry present: 36930 verts / 73856 edges / 36928 faces
+12:02:56 [INFO]   [PASS] DRG_Body (evaluated): manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:02:56 [INFO]   [PASS] DRG_Body (evaluated): loose geometry: 0 wire edges, 0 loose verts
+12:02:56 [INFO]   [PASS] DRG_Body (evaluated): degenerate faces: 0 faces with area < 1e-10 m² (min area 1.468e-06)
+12:02:56 [INFO]   [PASS] DRG_Body (evaluated): consistent normals: 0 edges between faces with opposing winding
+12:02:56 [INFO]   [PASS] DRG_Body (evaluated): normals point outward: signed volume 2.8008 m³
+12:02:56 [INFO]   [PASS] DRG_Body (evaluated): self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:02:56 [INFO]   [PASS] DRG_Body: radius continuity: max ring-to-ring mean-radius change 2.11% at ring 7 (limit 3.0%)
+12:02:56 [INFO]   [PASS] DRG_Body: spine smoothness: max tangent change 1.931° between rings at ring 31 (limit 2.0°)
+12:02:56 [INFO]   [PASS] DRG_Body: UV map present: UVMap
+12:02:56 [INFO]   [PASS] DRG_Body: material assigned: MAT_Clay_Neutral
+12:02:56 [INFO]   [PASS] Trunk extent matches parameters: spans s 0.12–0.975 (10.26 m along Y)
+12:02:56 [INFO]   [PASS] Trunk above ground plane: lowest point z = 0.694 m
+12:02:56 [INFO] ASSUMPTION: Neck section (s < 0.17) is hidden behind neck fins on the sheet: blended (C1 Hermite) to a head-junction anchor of 0.42 m half-depth x 0.21 m half-width (tall, narrow skull base).
+12:02:56 [INFO] ASSUMPTION: Tail core inside the fan fin (s > 0.74) is not measurable: tapered to 0.025 m at s = 0.975.
+12:02:56 [INFO] Saved project/FSD_M03a_trunk_v003.blend
+12:02:59 [INFO]   rendered M03a_trunk_left.png
+12:03:03 [INFO]   rendered M03a_trunk_three_quarter_front_left.png
+12:03:03 [INFO] M03a finished: COMPLETE (7.3s)
+12:03:03 [INFO] ========================================================================
+12:03:03 [INFO] M03 – Serpentine body + neck transition (blockout checkpoint)  (quality=standard)
+12:03:03 [INFO] ========================================================================
+12:03:03 [INFO] Opening project/FSD_M03a_trunk_v003.blend
+12:03:03 [INFO]   [PASS] DRG_Body: geometry present: 9218 verts / 18464 edges / 9248 faces
+12:03:03 [INFO]   [PASS] DRG_Body: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:03:03 [INFO]   [PASS] DRG_Body: loose geometry: 0 wire edges, 0 loose verts
+12:03:03 [INFO]   [PASS] DRG_Body: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.518e-06)
+12:03:03 [INFO]   [PASS] DRG_Body: consistent normals: 0 edges between faces with opposing winding
+12:03:03 [INFO]   [PASS] DRG_Body: normals point outward: signed volume 2.8469 m³
+12:03:03 [INFO]   [PASS] DRG_Body: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:03:03 [INFO]   [PASS] DRG_Body (evaluated): geometry present: 36930 verts / 73856 edges / 36928 faces
+12:03:03 [INFO]   [PASS] DRG_Body (evaluated): manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:03:03 [INFO]   [PASS] DRG_Body (evaluated): loose geometry: 0 wire edges, 0 loose verts
+12:03:03 [INFO]   [PASS] DRG_Body (evaluated): degenerate faces: 0 faces with area < 1e-10 m² (min area 1.468e-06)
+12:03:03 [INFO]   [PASS] DRG_Body (evaluated): consistent normals: 0 edges between faces with opposing winding
+12:03:03 [INFO]   [PASS] DRG_Body (evaluated): normals point outward: signed volume 2.8239 m³
+12:03:03 [INFO]   [PASS] DRG_Body (evaluated): self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:03:03 [INFO]   [PASS] DRG_Body (after neck shaping): radius continuity: max ring-to-ring mean-radius change 2.14% at ring 6 (limit 3.0%)
+12:03:03 [INFO]   [PASS] DRG_Body (after neck shaping): spine smoothness: max tangent change 1.850° between rings at ring 31 (limit 2.0°)
+12:03:03 [INFO]   [PASS] DRG_Body: UV map present: UVMap
+12:03:03 [INFO]   [PASS] DRG_Body: material assigned: MAT_Clay_Neutral
+12:03:03 [INFO]   [PASS] Region vertex groups: VG_Neck: 1121 verts, VG_Torso: 5024 verts, VG_Tail: 4225 verts
+12:03:03 [INFO]   [PASS] Attachment sockets: SOCKET_Head, SOCKET_TailFin, SOCKET_Shoulder_L, SOCKET_Shoulder_R, SOCKET_Hip_L, SOCKET_Hip_R
+12:03:03 [INFO]   [PASS] Head socket inside neck volume: neck half-depth at socket 0.432 m
+12:03:05 [INFO]   [PASS] Reference match – dorsal line MAE (side view): 0.042 m (PASS <= 0.05, WARNING <= 0.1)
+12:03:05 [INFO]   [PASS] Reference match – belly line MAE (side view): 0.024 m (PASS <= 0.05, WARNING <= 0.1)
+12:03:05 [INFO]   [PASS] Reference match – lateral width MAE (bottom view): 0.008 m (PASS <= 0.05, WARNING <= 0.1)
+12:03:05 [INFO]   [PASS] Reference match – side band IoU: 0.923 over 340 measurable columns (s 0.17–0.74, limb zones excluded)
+12:03:05 [INFO] NOTE: Comparison covers the measurable trunk only (s 0.17–0.74, limb zones excluded); head, fins, spikes and limbs are later milestones, so no whole-creature accuracy claim is made.
+12:03:05 [INFO] Saved project/FSD_M03_body_blockout_v004.blend
+12:03:13 [INFO]   rendered M03_body_left.png
+12:03:21 [INFO]   rendered M03_body_right.png
+12:03:27 [INFO]   rendered M03_body_front.png
+12:03:34 [INFO]   rendered M03_body_back.png
+12:03:40 [INFO]   rendered M03_body_top.png
+12:03:46 [INFO]   rendered M03_body_bottom.png
+12:03:54 [INFO]   rendered M03_body_three_quarter_front_left.png
+12:04:02 [INFO]   rendered M03_body_three_quarter_front_right.png
+12:04:10 [INFO]   rendered M03_body_three_quarter_back_left.png
+12:04:17 [INFO]   rendered M03_body_three_quarter_back_right.png
+12:04:36 [INFO]   [PASS] Preview renders written: 10 views + comparison sheet
+12:04:36 [INFO] M03 finished: COMPLETE (93.0s)
+12:04:37 [INFO] ========================================================================
+12:04:37 [INFO] M04 – Head generation  (quality=standard)
+12:04:37 [INFO] ========================================================================
+12:04:37 [INFO] Opening project/FSD_M03_body_blockout_v004.blend
+12:04:37 [INFO]   [PASS] DRG_Head_Skull: geometry present: 4898 verts / 9840 edges / 4944 faces
+12:04:37 [INFO]   [PASS] DRG_Head_Skull: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:04:37 [INFO]   [PASS] DRG_Head_Skull: loose geometry: 0 wire edges, 0 loose verts
+12:04:37 [INFO]   [PASS] DRG_Head_Skull: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.006e-05)
+12:04:37 [INFO]   [PASS] DRG_Head_Skull: consistent normals: 0 edges between faces with opposing winding
+12:04:37 [INFO]   [PASS] DRG_Head_Skull: normals point outward: signed volume 0.4107 m³
+12:04:37 [INFO]   [PASS] DRG_Head_Skull: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:04:37 [INFO]   [PASS] DRG_Head_Skull: material assigned: MAT_Skin_DarkNavy, MAT_Mouth_Interior
+12:04:37 [INFO]   [PASS] DRG_Head_Skull: UV map present: UVMap
+12:04:37 [INFO]   [PASS] DRG_Head_Jaw_Lower: geometry present: 2810 verts / 5652 edges / 2844 faces
+12:04:37 [INFO]   [PASS] DRG_Head_Jaw_Lower: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:04:37 [INFO]   [PASS] DRG_Head_Jaw_Lower: loose geometry: 0 wire edges, 0 loose verts
+12:04:37 [INFO]   [PASS] DRG_Head_Jaw_Lower: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.403e-05)
+12:04:37 [INFO]   [PASS] DRG_Head_Jaw_Lower: consistent normals: 0 edges between faces with opposing winding
+12:04:37 [INFO]   [PASS] DRG_Head_Jaw_Lower: normals point outward: signed volume 0.0960 m³
+12:04:37 [INFO]   [PASS] DRG_Head_Jaw_Lower: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:04:37 [INFO]   [PASS] DRG_Head_Jaw_Lower: material assigned: MAT_Skin_DarkNavy, MAT_Mouth_Interior
+12:04:37 [INFO]   [PASS] DRG_Head_Jaw_Lower: UV map present: UVMap
+12:04:37 [INFO]   [PASS] DRG_Head_MouthInterior: geometry present: 482 verts / 984 edges / 504 faces
+12:04:37 [INFO]   [PASS] DRG_Head_MouthInterior: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:04:37 [INFO]   [PASS] DRG_Head_MouthInterior: loose geometry: 0 wire edges, 0 loose verts
+12:04:37 [INFO]   [PASS] DRG_Head_MouthInterior: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.284e-04)
+12:04:37 [INFO]   [PASS] DRG_Head_MouthInterior: consistent normals: 0 edges between faces with opposing winding
+12:04:37 [INFO]   [PASS] DRG_Head_MouthInterior: normals point outward: signed volume 0.0186 m³
+12:04:37 [INFO]   [PASS] DRG_Head_MouthInterior: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:04:37 [INFO]   [PASS] DRG_Head_MouthInterior: material assigned: MAT_Mouth_Interior
+12:04:37 [INFO]   [PASS] DRG_Head_MouthInterior: UV map present: UVMap
+12:04:37 [INFO]   [PASS] DRG_Head_Tongue: geometry present: 402 verts / 820 edges / 420 faces
+12:04:37 [INFO]   [PASS] DRG_Head_Tongue: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:04:37 [INFO]   [PASS] DRG_Head_Tongue: loose geometry: 0 wire edges, 0 loose verts
+12:04:37 [INFO]   [PASS] DRG_Head_Tongue: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.728e-05)
+12:04:37 [INFO]   [PASS] DRG_Head_Tongue: consistent normals: 0 edges between faces with opposing winding
+12:04:37 [INFO]   [PASS] DRG_Head_Tongue: normals point outward: signed volume 0.0026 m³
+12:04:37 [INFO]   [PASS] DRG_Head_Tongue: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:04:37 [INFO]   [PASS] DRG_Head_Tongue: material assigned: MAT_Tongue
+12:04:37 [INFO]   [PASS] DRG_Head_Tongue: UV map present: UVMap
+12:04:37 [INFO]   [PASS] DRG_Eye_L: geometry present: 1250 verts / 2544 edges / 1296 faces
+12:04:37 [INFO]   [PASS] DRG_Eye_L: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:04:37 [INFO]   [PASS] DRG_Eye_L: loose geometry: 0 wire edges, 0 loose verts
+12:04:37 [INFO]   [PASS] DRG_Eye_L: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.857e-06)
+12:04:37 [INFO]   [PASS] DRG_Eye_L: consistent normals: 0 edges between faces with opposing winding
+12:04:37 [INFO]   [PASS] DRG_Eye_L: normals point outward: signed volume 0.0016 m³
+12:04:37 [INFO]   [PASS] DRG_Eye_L: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:04:37 [INFO]   [PASS] DRG_Eye_L: material assigned: MAT_Eye_Glossy, MAT_Eye_Pupil
+12:04:37 [INFO]   [PASS] DRG_Eye_L: UV map present: UVMap
+12:04:37 [INFO]   [PASS] DRG_Eye_R: geometry present: 1250 verts / 2544 edges / 1296 faces
+12:04:37 [INFO]   [PASS] DRG_Eye_R: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:04:37 [INFO]   [PASS] DRG_Eye_R: loose geometry: 0 wire edges, 0 loose verts
+12:04:37 [INFO]   [PASS] DRG_Eye_R: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.857e-06)
+12:04:37 [INFO]   [PASS] DRG_Eye_R: consistent normals: 0 edges between faces with opposing winding
+12:04:37 [INFO]   [PASS] DRG_Eye_R: normals point outward: signed volume 0.0016 m³
+12:04:37 [INFO]   [PASS] DRG_Eye_R: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:04:37 [INFO]   [PASS] DRG_Eye_R: material assigned: MAT_Eye_Glossy, MAT_Eye_Pupil
+12:04:37 [INFO]   [PASS] DRG_Eye_R: UV map present: UVMap
+12:04:37 [INFO]   [PASS] DRG_Head_Horns: geometry present: 536 verts / 1092 edges / 560 faces
+12:04:37 [INFO]   [PASS] DRG_Head_Horns: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:04:37 [INFO]   [PASS] DRG_Head_Horns: loose geometry: 0 wire edges, 0 loose verts
+12:04:37 [INFO]   [PASS] DRG_Head_Horns: degenerate faces: 0 faces with area < 1e-10 m² (min area 5.366e-05)
+12:04:37 [INFO]   [PASS] DRG_Head_Horns: consistent normals: 0 edges between faces with opposing winding
+12:04:37 [INFO]   [PASS] DRG_Head_Horns: normals point outward: signed volume 0.0114 m³
+12:04:37 [INFO]   [PASS] DRG_Head_Horns: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:04:37 [INFO]   [PASS] DRG_Head_Horns: material assigned: MAT_Horn_Gold
+12:04:37 [INFO]   [PASS] DRG_Head_Horns: UV map present: UVMap
+12:04:37 [INFO]   [PASS] DRG_Head_Spikes: geometry present: 3040 verts / 6200 edges / 3200 faces
+12:04:37 [INFO]   [PASS] DRG_Head_Spikes: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:04:37 [INFO]   [PASS] DRG_Head_Spikes: loose geometry: 0 wire edges, 0 loose verts
+12:04:37 [INFO]   [PASS] DRG_Head_Spikes: degenerate faces: 0 faces with area < 1e-10 m² (min area 9.816e-06)
+12:04:37 [INFO]   [PASS] DRG_Head_Spikes: consistent normals: 0 edges between faces with opposing winding
+12:04:37 [INFO]   [PASS] DRG_Head_Spikes: normals point outward: signed volume 0.0250 m³
+12:04:37 [INFO]   [PASS] DRG_Head_Spikes: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:04:37 [INFO]   [PASS] DRG_Head_Spikes: material assigned: MAT_Spike_Orange
+12:04:37 [INFO]   [PASS] DRG_Head_Spikes: UV map present: UVMap
+12:04:37 [INFO]   [PASS] DRG_Head_CheekArmour: geometry present: 832 verts / 1600 edges / 800 faces
+12:04:37 [INFO]   [PASS] DRG_Head_CheekArmour: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:04:37 [INFO]   [PASS] DRG_Head_CheekArmour: loose geometry: 0 wire edges, 0 loose verts
+12:04:37 [INFO]   [PASS] DRG_Head_CheekArmour: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.139e-04)
+12:04:37 [INFO]   [PASS] DRG_Head_CheekArmour: consistent normals: 0 edges between faces with opposing winding
+12:04:37 [INFO]   [PASS] DRG_Head_CheekArmour: normals point outward: signed volume 0.0033 m³
+12:04:37 [INFO]   [PASS] DRG_Head_CheekArmour: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:04:37 [INFO]   [PASS] DRG_Head_CheekArmour: material assigned: MAT_Scale_Gold
+12:04:37 [INFO]   [PASS] DRG_Head_CheekArmour: UV map present: UVMap
+12:04:37 [INFO]   [PASS] DRG_Head_FacialFins: geometry present: 1304 verts / 2592 edges / 1296 faces
+12:04:37 [INFO]   [PASS] DRG_Head_FacialFins: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:04:37 [INFO]   [PASS] DRG_Head_FacialFins: loose geometry: 0 wire edges, 0 loose verts
+12:04:37 [INFO]   [PASS] DRG_Head_FacialFins: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.616e-04)
+12:04:37 [INFO]   [PASS] DRG_Head_FacialFins: consistent normals: 0 edges between faces with opposing winding
+12:04:37 [INFO]   [PASS] DRG_Head_FacialFins: normals point outward: signed volume 0.0091 m³
+12:04:37 [INFO]   [PASS] DRG_Head_FacialFins: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:04:37 [INFO]   [PASS] DRG_Head_FacialFins: material assigned: MAT_Fin_Amber
+12:04:37 [INFO]   [PASS] DRG_Head_FacialFins: UV map present: UVMap
+12:04:37 [INFO]   [PASS] Neck front cap hidden inside head: 99.6% of trunk vertices with s < 0.132 lie inside skull/jaw/throat
+12:04:37 [INFO]   [PASS] Mouth open (separate jaws): gape 40° (upper 10.0°, lower 30.0°)
+12:04:37 [INFO]   [PASS] Snout at reference nose landmark: head front at s = -0.0069 (sheet snout tip = 0)
+12:04:37 [INFO] ASSUMPTION: Head proportions come from the side profile and head-detail panels; the skull width (~0.47 m) is taken from the top view without cheek fins.
+12:04:37 [INFO] Saved project/FSD_M04_head_v003.blend
+12:05:05 [INFO]   rendered M04_full_three_quarter_front_left.png
+12:05:08 [INFO]   rendered M04_full_left.png
+12:05:11 [INFO]   rendered M04_full_top.png
+12:05:43 [INFO] M04 finished: COMPLETE (66.7s)
+12:06:13 [INFO] ========================================================================
+12:06:13 [INFO] M04 – Head generation  (quality=standard)
+12:06:13 [INFO] ========================================================================
+12:06:13 [INFO] Opening project/FSD_M03_body_blockout_v004.blend
+12:06:13 [INFO]   [PASS] DRG_Head_Skull: geometry present: 4898 verts / 9840 edges / 4944 faces
+12:06:13 [INFO]   [PASS] DRG_Head_Skull: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:06:13 [INFO]   [PASS] DRG_Head_Skull: loose geometry: 0 wire edges, 0 loose verts
+12:06:13 [INFO]   [PASS] DRG_Head_Skull: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.006e-05)
+12:06:13 [INFO]   [PASS] DRG_Head_Skull: consistent normals: 0 edges between faces with opposing winding
+12:06:13 [INFO]   [PASS] DRG_Head_Skull: normals point outward: signed volume 0.4107 m³
+12:06:13 [INFO]   [PASS] DRG_Head_Skull: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:06:13 [INFO]   [PASS] DRG_Head_Skull: material assigned: MAT_Skin_DarkNavy, MAT_Mouth_Interior
+12:06:13 [INFO]   [PASS] DRG_Head_Skull: UV map present: UVMap
+12:06:13 [INFO]   [PASS] DRG_Head_Jaw_Lower: geometry present: 2810 verts / 5652 edges / 2844 faces
+12:06:13 [INFO]   [PASS] DRG_Head_Jaw_Lower: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:06:13 [INFO]   [PASS] DRG_Head_Jaw_Lower: loose geometry: 0 wire edges, 0 loose verts
+12:06:13 [INFO]   [PASS] DRG_Head_Jaw_Lower: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.403e-05)
+12:06:13 [INFO]   [PASS] DRG_Head_Jaw_Lower: consistent normals: 0 edges between faces with opposing winding
+12:06:13 [INFO]   [PASS] DRG_Head_Jaw_Lower: normals point outward: signed volume 0.0960 m³
+12:06:13 [INFO]   [PASS] DRG_Head_Jaw_Lower: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:06:13 [INFO]   [PASS] DRG_Head_Jaw_Lower: material assigned: MAT_Skin_DarkNavy, MAT_Mouth_Interior
+12:06:13 [INFO]   [PASS] DRG_Head_Jaw_Lower: UV map present: UVMap
+12:06:13 [INFO]   [PASS] DRG_Head_MouthInterior: geometry present: 482 verts / 984 edges / 504 faces
+12:06:13 [INFO]   [PASS] DRG_Head_MouthInterior: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:06:13 [INFO]   [PASS] DRG_Head_MouthInterior: loose geometry: 0 wire edges, 0 loose verts
+12:06:13 [INFO]   [PASS] DRG_Head_MouthInterior: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.284e-04)
+12:06:13 [INFO]   [PASS] DRG_Head_MouthInterior: consistent normals: 0 edges between faces with opposing winding
+12:06:13 [INFO]   [PASS] DRG_Head_MouthInterior: normals point outward: signed volume 0.0186 m³
+12:06:13 [INFO]   [PASS] DRG_Head_MouthInterior: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:06:13 [INFO]   [PASS] DRG_Head_MouthInterior: material assigned: MAT_Mouth_Interior
+12:06:13 [INFO]   [PASS] DRG_Head_MouthInterior: UV map present: UVMap
+12:06:13 [INFO]   [PASS] DRG_Head_Tongue: geometry present: 402 verts / 820 edges / 420 faces
+12:06:13 [INFO]   [PASS] DRG_Head_Tongue: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:06:13 [INFO]   [PASS] DRG_Head_Tongue: loose geometry: 0 wire edges, 0 loose verts
+12:06:13 [INFO]   [PASS] DRG_Head_Tongue: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.728e-05)
+12:06:13 [INFO]   [PASS] DRG_Head_Tongue: consistent normals: 0 edges between faces with opposing winding
+12:06:13 [INFO]   [PASS] DRG_Head_Tongue: normals point outward: signed volume 0.0026 m³
+12:06:13 [INFO]   [PASS] DRG_Head_Tongue: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:06:13 [INFO]   [PASS] DRG_Head_Tongue: material assigned: MAT_Tongue
+12:06:13 [INFO]   [PASS] DRG_Head_Tongue: UV map present: UVMap
+12:06:13 [INFO]   [PASS] DRG_Eye_L: geometry present: 1250 verts / 2544 edges / 1296 faces
+12:06:13 [INFO]   [PASS] DRG_Eye_L: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:06:13 [INFO]   [PASS] DRG_Eye_L: loose geometry: 0 wire edges, 0 loose verts
+12:06:13 [INFO]   [PASS] DRG_Eye_L: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.857e-06)
+12:06:13 [INFO]   [PASS] DRG_Eye_L: consistent normals: 0 edges between faces with opposing winding
+12:06:13 [INFO]   [PASS] DRG_Eye_L: normals point outward: signed volume 0.0016 m³
+12:06:13 [INFO]   [PASS] DRG_Eye_L: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:06:13 [INFO]   [PASS] DRG_Eye_L: material assigned: MAT_Eye_Glossy, MAT_Eye_Pupil
+12:06:13 [INFO]   [PASS] DRG_Eye_L: UV map present: UVMap
+12:06:13 [INFO]   [PASS] DRG_Eye_R: geometry present: 1250 verts / 2544 edges / 1296 faces
+12:06:13 [INFO]   [PASS] DRG_Eye_R: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:06:13 [INFO]   [PASS] DRG_Eye_R: loose geometry: 0 wire edges, 0 loose verts
+12:06:13 [INFO]   [PASS] DRG_Eye_R: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.857e-06)
+12:06:13 [INFO]   [PASS] DRG_Eye_R: consistent normals: 0 edges between faces with opposing winding
+12:06:13 [INFO]   [PASS] DRG_Eye_R: normals point outward: signed volume 0.0016 m³
+12:06:13 [INFO]   [PASS] DRG_Eye_R: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:06:13 [INFO]   [PASS] DRG_Eye_R: material assigned: MAT_Eye_Glossy, MAT_Eye_Pupil
+12:06:13 [INFO]   [PASS] DRG_Eye_R: UV map present: UVMap
+12:06:13 [INFO]   [PASS] DRG_Head_Horns: geometry present: 536 verts / 1092 edges / 560 faces
+12:06:13 [INFO]   [PASS] DRG_Head_Horns: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:06:13 [INFO]   [PASS] DRG_Head_Horns: loose geometry: 0 wire edges, 0 loose verts
+12:06:13 [INFO]   [PASS] DRG_Head_Horns: degenerate faces: 0 faces with area < 1e-10 m² (min area 5.366e-05)
+12:06:13 [INFO]   [PASS] DRG_Head_Horns: consistent normals: 0 edges between faces with opposing winding
+12:06:13 [INFO]   [PASS] DRG_Head_Horns: normals point outward: signed volume 0.0114 m³
+12:06:13 [INFO]   [PASS] DRG_Head_Horns: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:06:13 [INFO]   [PASS] DRG_Head_Horns: material assigned: MAT_Horn_Gold
+12:06:13 [INFO]   [PASS] DRG_Head_Horns: UV map present: UVMap
+12:06:13 [INFO]   [PASS] DRG_Head_Spikes: geometry present: 2888 verts / 5890 edges / 3040 faces
+12:06:13 [INFO]   [PASS] DRG_Head_Spikes: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:06:13 [INFO]   [PASS] DRG_Head_Spikes: loose geometry: 0 wire edges, 0 loose verts
+12:06:13 [INFO]   [PASS] DRG_Head_Spikes: degenerate faces: 0 faces with area < 1e-10 m² (min area 9.816e-06)
+12:06:13 [INFO]   [PASS] DRG_Head_Spikes: consistent normals: 0 edges between faces with opposing winding
+12:06:13 [INFO]   [PASS] DRG_Head_Spikes: normals point outward: signed volume 0.0279 m³
+12:06:13 [INFO]   [PASS] DRG_Head_Spikes: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:06:13 [INFO]   [PASS] DRG_Head_Spikes: material assigned: MAT_Spike_Orange
+12:06:13 [INFO]   [PASS] DRG_Head_Spikes: UV map present: UVMap
+12:06:13 [INFO]   [PASS] DRG_Head_CheekArmour: geometry present: 832 verts / 1600 edges / 800 faces
+12:06:13 [INFO]   [PASS] DRG_Head_CheekArmour: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:06:13 [INFO]   [PASS] DRG_Head_CheekArmour: loose geometry: 0 wire edges, 0 loose verts
+12:06:13 [INFO]   [PASS] DRG_Head_CheekArmour: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.139e-04)
+12:06:13 [INFO]   [PASS] DRG_Head_CheekArmour: consistent normals: 0 edges between faces with opposing winding
+12:06:13 [INFO]   [PASS] DRG_Head_CheekArmour: normals point outward: signed volume 0.0033 m³
+12:06:13 [INFO]   [PASS] DRG_Head_CheekArmour: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:06:13 [INFO]   [PASS] DRG_Head_CheekArmour: material assigned: MAT_Scale_Gold
+12:06:13 [INFO]   [PASS] DRG_Head_CheekArmour: UV map present: UVMap
+12:06:13 [INFO]   [PASS] DRG_Head_FacialFins: geometry present: 1856 verts / 3696 edges / 1848 faces
+12:06:13 [INFO]   [PASS] DRG_Head_FacialFins: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:06:13 [INFO]   [PASS] DRG_Head_FacialFins: loose geometry: 0 wire edges, 0 loose verts
+12:06:13 [INFO]   [PASS] DRG_Head_FacialFins: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.378e-04)
+12:06:13 [INFO]   [PASS] DRG_Head_FacialFins: consistent normals: 0 edges between faces with opposing winding
+12:06:13 [INFO]   [PASS] DRG_Head_FacialFins: normals point outward: signed volume 0.0140 m³
+12:06:13 [INFO]   [PASS] DRG_Head_FacialFins: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:06:13 [INFO]   [PASS] DRG_Head_FacialFins: material assigned: MAT_Fin_Amber
+12:06:13 [INFO]   [PASS] DRG_Head_FacialFins: UV map present: UVMap
+12:06:13 [INFO]   [PASS] Neck front cap hidden inside head: 99.6% of trunk vertices with s < 0.132 lie inside skull/jaw/throat
+12:06:13 [INFO]   [PASS] Mouth open (separate jaws): gape 40° (upper 10.0°, lower 30.0°)
+12:06:13 [INFO]   [PASS] Snout at reference nose landmark: head front at s = -0.0069 (sheet snout tip = 0)
+12:06:13 [INFO] ASSUMPTION: Head proportions come from the side profile and head-detail panels; the skull width (~0.47 m) is taken from the top view without cheek fins.
+12:06:13 [INFO] Saved project/FSD_M04_head_v004.blend
+12:06:39 [INFO]   rendered M04_full_three_quarter_front_left.png
+12:06:42 [INFO]   rendered M04_full_left.png
+12:06:45 [INFO]   rendered M04_full_top.png
+12:07:17 [INFO] M04 finished: COMPLETE (63.9s)
+12:07:34 [INFO] ========================================================================
+12:07:34 [INFO] M04 – Head generation  (quality=standard)
+12:07:34 [INFO] ========================================================================
+12:07:34 [INFO] Opening project/FSD_M03_body_blockout_v004.blend
+12:07:34 [INFO]   [PASS] DRG_Head_Skull: geometry present: 4898 verts / 9840 edges / 4944 faces
+12:07:34 [INFO]   [PASS] DRG_Head_Skull: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:07:34 [INFO]   [PASS] DRG_Head_Skull: loose geometry: 0 wire edges, 0 loose verts
+12:07:34 [INFO]   [PASS] DRG_Head_Skull: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.248e-05)
+12:07:34 [INFO]   [PASS] DRG_Head_Skull: consistent normals: 0 edges between faces with opposing winding
+12:07:34 [INFO]   [PASS] DRG_Head_Skull: normals point outward: signed volume 0.4207 m³
+12:07:34 [INFO]   [PASS] DRG_Head_Skull: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:07:34 [INFO]   [PASS] DRG_Head_Skull: material assigned: MAT_Skin_DarkNavy, MAT_Mouth_Interior
+12:07:34 [INFO]   [PASS] DRG_Head_Skull: UV map present: UVMap
+12:07:34 [INFO]   [PASS] DRG_Head_Jaw_Lower: geometry present: 2810 verts / 5652 edges / 2844 faces
+12:07:34 [INFO]   [PASS] DRG_Head_Jaw_Lower: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:07:34 [INFO]   [PASS] DRG_Head_Jaw_Lower: loose geometry: 0 wire edges, 0 loose verts
+12:07:34 [INFO]   [PASS] DRG_Head_Jaw_Lower: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.087e-05)
+12:07:34 [INFO]   [PASS] DRG_Head_Jaw_Lower: consistent normals: 0 edges between faces with opposing winding
+12:07:34 [INFO]   [PASS] DRG_Head_Jaw_Lower: normals point outward: signed volume 0.0986 m³
+12:07:34 [INFO]   [PASS] DRG_Head_Jaw_Lower: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:07:34 [INFO]   [PASS] DRG_Head_Jaw_Lower: material assigned: MAT_Skin_DarkNavy, MAT_Mouth_Interior
+12:07:34 [INFO]   [PASS] DRG_Head_Jaw_Lower: UV map present: UVMap
+12:07:34 [INFO]   [PASS] DRG_Head_MouthInterior: geometry present: 482 verts / 984 edges / 504 faces
+12:07:34 [INFO]   [PASS] DRG_Head_MouthInterior: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:07:34 [INFO]   [PASS] DRG_Head_MouthInterior: loose geometry: 0 wire edges, 0 loose verts
+12:07:34 [INFO]   [PASS] DRG_Head_MouthInterior: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.284e-04)
+12:07:34 [INFO]   [PASS] DRG_Head_MouthInterior: consistent normals: 0 edges between faces with opposing winding
+12:07:34 [INFO]   [PASS] DRG_Head_MouthInterior: normals point outward: signed volume 0.0185 m³
+12:07:34 [INFO]   [PASS] DRG_Head_MouthInterior: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:07:34 [INFO]   [PASS] DRG_Head_MouthInterior: material assigned: MAT_Mouth_Interior
+12:07:34 [INFO]   [PASS] DRG_Head_MouthInterior: UV map present: UVMap
+12:07:34 [INFO]   [PASS] DRG_Head_Tongue: geometry present: 402 verts / 820 edges / 420 faces
+12:07:34 [INFO]   [PASS] DRG_Head_Tongue: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:07:34 [INFO]   [PASS] DRG_Head_Tongue: loose geometry: 0 wire edges, 0 loose verts
+12:07:34 [INFO]   [PASS] DRG_Head_Tongue: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.728e-05)
+12:07:34 [INFO]   [PASS] DRG_Head_Tongue: consistent normals: 0 edges between faces with opposing winding
+12:07:34 [INFO]   [PASS] DRG_Head_Tongue: normals point outward: signed volume 0.0026 m³
+12:07:34 [INFO]   [PASS] DRG_Head_Tongue: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:07:34 [INFO]   [PASS] DRG_Head_Tongue: material assigned: MAT_Tongue
+12:07:34 [INFO]   [PASS] DRG_Head_Tongue: UV map present: UVMap
+12:07:34 [INFO]   [PASS] DRG_Eye_L: geometry present: 1250 verts / 2544 edges / 1296 faces
+12:07:34 [INFO]   [PASS] DRG_Eye_L: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:07:34 [INFO]   [PASS] DRG_Eye_L: loose geometry: 0 wire edges, 0 loose verts
+12:07:34 [INFO]   [PASS] DRG_Eye_L: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.857e-06)
+12:07:34 [INFO]   [PASS] DRG_Eye_L: consistent normals: 0 edges between faces with opposing winding
+12:07:34 [INFO]   [PASS] DRG_Eye_L: normals point outward: signed volume 0.0016 m³
+12:07:34 [INFO]   [PASS] DRG_Eye_L: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:07:34 [INFO]   [PASS] DRG_Eye_L: material assigned: MAT_Eye_Glossy, MAT_Eye_Pupil
+12:07:34 [INFO]   [PASS] DRG_Eye_L: UV map present: UVMap
+12:07:34 [INFO]   [PASS] DRG_Eye_R: geometry present: 1250 verts / 2544 edges / 1296 faces
+12:07:34 [INFO]   [PASS] DRG_Eye_R: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:07:34 [INFO]   [PASS] DRG_Eye_R: loose geometry: 0 wire edges, 0 loose verts
+12:07:34 [INFO]   [PASS] DRG_Eye_R: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.857e-06)
+12:07:34 [INFO]   [PASS] DRG_Eye_R: consistent normals: 0 edges between faces with opposing winding
+12:07:34 [INFO]   [PASS] DRG_Eye_R: normals point outward: signed volume 0.0016 m³
+12:07:34 [INFO]   [PASS] DRG_Eye_R: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:07:34 [INFO]   [PASS] DRG_Eye_R: material assigned: MAT_Eye_Glossy, MAT_Eye_Pupil
+12:07:34 [INFO]   [PASS] DRG_Eye_R: UV map present: UVMap
+12:07:34 [INFO]   [PASS] DRG_Head_Horns: geometry present: 536 verts / 1092 edges / 560 faces
+12:07:34 [INFO]   [PASS] DRG_Head_Horns: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:07:34 [INFO]   [PASS] DRG_Head_Horns: loose geometry: 0 wire edges, 0 loose verts
+12:07:34 [INFO]   [PASS] DRG_Head_Horns: degenerate faces: 0 faces with area < 1e-10 m² (min area 5.366e-05)
+12:07:34 [INFO]   [PASS] DRG_Head_Horns: consistent normals: 0 edges between faces with opposing winding
+12:07:34 [INFO]   [PASS] DRG_Head_Horns: normals point outward: signed volume 0.0114 m³
+12:07:34 [INFO]   [PASS] DRG_Head_Horns: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:07:34 [INFO]   [PASS] DRG_Head_Horns: material assigned: MAT_Horn_Gold
+12:07:34 [INFO]   [PASS] DRG_Head_Horns: UV map present: UVMap
+12:07:34 [INFO]   [PASS] DRG_Head_Spikes: geometry present: 2888 verts / 5890 edges / 3040 faces
+12:07:34 [INFO]   [PASS] DRG_Head_Spikes: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:07:34 [INFO]   [PASS] DRG_Head_Spikes: loose geometry: 0 wire edges, 0 loose verts
+12:07:34 [INFO]   [PASS] DRG_Head_Spikes: degenerate faces: 0 faces with area < 1e-10 m² (min area 9.815e-06)
+12:07:34 [INFO]   [PASS] DRG_Head_Spikes: consistent normals: 0 edges between faces with opposing winding
+12:07:34 [INFO]   [PASS] DRG_Head_Spikes: normals point outward: signed volume 0.0279 m³
+12:07:34 [INFO]   [PASS] DRG_Head_Spikes: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:07:34 [INFO]   [PASS] DRG_Head_Spikes: material assigned: MAT_Spike_Orange
+12:07:34 [INFO]   [PASS] DRG_Head_Spikes: UV map present: UVMap
+12:07:34 [INFO]   [PASS] DRG_Head_CheekArmour: geometry present: 832 verts / 1600 edges / 800 faces
+12:07:34 [INFO]   [PASS] DRG_Head_CheekArmour: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:07:34 [INFO]   [PASS] DRG_Head_CheekArmour: loose geometry: 0 wire edges, 0 loose verts
+12:07:34 [INFO]   [PASS] DRG_Head_CheekArmour: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.139e-04)
+12:07:34 [INFO]   [PASS] DRG_Head_CheekArmour: consistent normals: 0 edges between faces with opposing winding
+12:07:34 [INFO]   [PASS] DRG_Head_CheekArmour: normals point outward: signed volume 0.0033 m³
+12:07:34 [INFO]   [PASS] DRG_Head_CheekArmour: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:07:34 [INFO]   [PASS] DRG_Head_CheekArmour: material assigned: MAT_Scale_Gold
+12:07:34 [INFO]   [PASS] DRG_Head_CheekArmour: UV map present: UVMap
+12:07:34 [INFO]   [PASS] DRG_Head_FacialFins: geometry present: 1856 verts / 3696 edges / 1848 faces
+12:07:34 [INFO]   [PASS] DRG_Head_FacialFins: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:07:34 [INFO]   [PASS] DRG_Head_FacialFins: loose geometry: 0 wire edges, 0 loose verts
+12:07:34 [INFO]   [PASS] DRG_Head_FacialFins: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.378e-04)
+12:07:34 [INFO]   [PASS] DRG_Head_FacialFins: consistent normals: 0 edges between faces with opposing winding
+12:07:34 [INFO]   [PASS] DRG_Head_FacialFins: normals point outward: signed volume 0.0140 m³
+12:07:34 [INFO]   [PASS] DRG_Head_FacialFins: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:07:34 [INFO]   [PASS] DRG_Head_FacialFins: material assigned: MAT_Fin_Amber
+12:07:34 [INFO]   [PASS] DRG_Head_FacialFins: UV map present: UVMap
+12:07:34 [INFO]   [PASS] Neck front cap hidden inside head: 99.6% of trunk vertices with s < 0.132 lie inside skull/jaw/throat
+12:07:34 [INFO]   [PASS] Mouth open (separate jaws): gape 40° (upper 10.0°, lower 30.0°)
+12:07:34 [INFO]   [PASS] Snout at reference nose landmark: head front at s = -0.0074 (sheet snout tip = 0)
+12:07:34 [INFO] ASSUMPTION: Head proportions come from the side profile and head-detail panels; the skull width (~0.47 m) is taken from the top view without cheek fins.
+12:07:34 [INFO] Saved project/FSD_M04_head_v005.blend
+12:08:00 [INFO]   rendered M04_full_three_quarter_front_left.png
+12:08:04 [INFO]   rendered M04_full_left.png
+12:08:07 [INFO]   rendered M04_full_top.png
+12:08:38 [INFO] M04 finished: COMPLETE (64.6s)

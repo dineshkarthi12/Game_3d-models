@@ -41,13 +41,13 @@ def catmull_rom_1d(xk, yk, x):
             m[i] = (yk[-1] - yk[-2]) / (xk[-1] - xk[-2])
         else:
             m[i] = (yk[i + 1] - yk[i - 1]) / (xk[i + 1] - xk[i - 1])
-    out = np.empty_like(x)
-    for n, xv in enumerate(x):
-        i = int(np.clip(np.searchsorted(xk, xv) - 1, 0, len(xk) - 2))
-        h = xk[i + 1] - xk[i]
-        t = np.clip((xv - xk[i]) / h, 0, 1)
-        out[n] = hermite(t, yk[i], yk[i + 1], m[i] * h, m[i + 1] * h)
-    return out
+    shape = x.shape
+    xf = x.ravel()
+    i = np.clip(np.searchsorted(xk, xf) - 1, 0, len(xk) - 2)
+    h = xk[i + 1] - xk[i]
+    tt = np.clip((xf - xk[i]) / h, 0, 1)
+    out = hermite(tt, yk[i], yk[i + 1], m[i] * h, m[i + 1] * h)
+    return out.reshape(shape)
 
 
 def gaussian_smooth(x, sigma_samples):

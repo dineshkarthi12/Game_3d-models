@@ -81,3 +81,127 @@
 * reference comparison: {'side': {'columns': 340, 'dorsal_mae_m': 0.0315, 'dorsal_max_m': 0.1628, 'belly_mae_m': 0.0148, 'belly_max_m': 0.0306, 'band_iou': 0.9456}, 'bottom': {'columns': 308, 'width_mae_m': 0.0082, 'width_max_m': 0.0247, 'width_mean_rel_error': -0.0059}}  
 * **Notes:**
   * Comparison covers the measurable trunk only (s 0.17–0.74, limb zones excluded); head, fins, spikes and limbs are later milestones, so no whole-creature accuracy claim is made.
+
+## M04 – Head generation
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T11:56:35 (67.84 s, quality `standard`)  
+* **Scripts:** 04_head_generator.py  
+* **Project file:** `project/FSD_M04_head_v001.blend`  
+* **Checks:** 87 PASS / 0 WARNING / 6 FAIL  
+* head objects: 10  
+* head faces (base): 14948  
+* spikes: 19  
+* **Assumptions:**
+  * Head proportions come from the side profile and head-detail panels; the skull width (~0.47 m) is taken from the top view without cheek fins.
+
+## M03a – Serpentine body – continuous trunk
+* **Status:** COMPLETE_WITH_WARNINGS  
+* **Finished:** 2026-11-26T11:58:29 (7.32 s, quality `standard`)  
+* **Scripts:** 02_body_generator.py  
+* **Project file:** `project/FSD_M03a_trunk_v002.blend`  
+* **Checks:** 19 PASS / 1 WARNING / 0 FAIL  
+* trunk arc length m: 10.31  
+* max half depth m: 0.577  
+* max half width m: 0.3  
+* max depth at s: 0.167  
+* neck half depth m: 0.42  
+* tail half depth m: 0.025  
+* centre height range m: [1.141, 1.551]  
+* rings x radial: 280 x 32 (+8 cap rings)  
+* base faces: 9248  
+* **Assumptions:**
+  * Neck section (s < 0.17) is hidden behind neck fins on the sheet: blended (C1 Hermite) to a head-junction anchor of 0.42 m half-depth x 0.21 m half-width (tall, narrow skull base).
+  * Tail core inside the fan fin (s > 0.74) is not measurable: tapered to 0.025 m at s = 0.975.
+
+## M03 – Serpentine body + neck transition (blockout checkpoint)
+* **Status:** COMPLETE_WITH_WARNINGS  
+* **Finished:** 2026-11-26T12:00:04 (94.44 s, quality `standard`)  
+* **Scripts:** 02_body_generator.py, 03_neck_generator.py  
+* **Project file:** `project/FSD_M03_body_blockout_v003.blend`  
+* **Checks:** 25 PASS / 1 WARNING / 0 FAIL  
+* neck shaping: 1553 verts moved, max displacement 0.041 m  
+* vertex groups: {'VG_Neck': 1121, 'VG_Torso': 5024, 'VG_Tail': 4225}  
+* sockets: SOCKET_Head, SOCKET_TailFin, SOCKET_Shoulder_L, SOCKET_Shoulder_R, SOCKET_Hip_L, SOCKET_Hip_R  
+* reference comparison: {'side': {'columns': 340, 'dorsal_mae_m': 0.0317, 'dorsal_max_m': 0.1584, 'belly_mae_m': 0.0153, 'belly_max_m': 0.054, 'band_iou': 0.9449}, 'bottom': {'columns': 308, 'width_mae_m': 0.0082, 'width_max_m': 0.0247, 'width_mean_rel_error': -0.0059}}  
+* **Notes:**
+  * Comparison covers the measurable trunk only (s 0.17–0.74, limb zones excluded); head, fins, spikes and limbs are later milestones, so no whole-creature accuracy claim is made.
+
+## M04 – Head generation
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:01:10 (66.05 s, quality `standard`)  
+* **Scripts:** 04_head_generator.py  
+* **Project file:** `project/FSD_M04_head_v002.blend`  
+* **Checks:** 91 PASS / 0 WARNING / 2 FAIL  
+* head objects: 10  
+* head faces (base): 17320  
+* spikes: 21 placed, 10 skipped (base overlap)  
+* **Assumptions:**
+  * Head proportions come from the side profile and head-detail panels; the skull width (~0.47 m) is taken from the top view without cheek fins.
+
+## M03a – Serpentine body – continuous trunk
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:03:03 (7.32 s, quality `standard`)  
+* **Scripts:** 02_body_generator.py  
+* **Project file:** `project/FSD_M03a_trunk_v003.blend`  
+* **Checks:** 20 PASS / 0 WARNING / 0 FAIL  
+* trunk arc length m: 10.303  
+* max half depth m: 0.577  
+* max half width m: 0.3  
+* max depth at s: 0.167  
+* neck half depth m: 0.42  
+* tail half depth m: 0.025  
+* centre height range m: [1.141, 1.551]  
+* rings x radial: 280 x 32 (+8 cap rings)  
+* base faces: 9248  
+* **Assumptions:**
+  * Neck section (s < 0.17) is hidden behind neck fins on the sheet: blended (C1 Hermite) to a head-junction anchor of 0.42 m half-depth x 0.21 m half-width (tall, narrow skull base).
+  * Tail core inside the fan fin (s > 0.74) is not measurable: tapered to 0.025 m at s = 0.975.
+
+## M03 – Serpentine body + neck transition (blockout checkpoint)
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:04:36 (93.01 s, quality `standard`)  
+* **Scripts:** 02_body_generator.py, 03_neck_generator.py  
+* **Project file:** `project/FSD_M03_body_blockout_v004.blend`  
+* **Checks:** 26 PASS / 0 WARNING / 0 FAIL  
+* neck shaping: 1548 verts moved, max displacement 0.042 m  
+* vertex groups: {'VG_Neck': 1121, 'VG_Torso': 5024, 'VG_Tail': 4225}  
+* sockets: SOCKET_Head, SOCKET_TailFin, SOCKET_Shoulder_L, SOCKET_Shoulder_R, SOCKET_Hip_L, SOCKET_Hip_R  
+* reference comparison: {'side': {'columns': 340, 'dorsal_mae_m': 0.0421, 'dorsal_max_m': 0.2074, 'belly_mae_m': 0.0244, 'belly_max_m': 0.1123, 'band_iou': 0.923}, 'bottom': {'columns': 308, 'width_mae_m': 0.0082, 'width_max_m': 0.0247, 'width_mean_rel_error': -0.0059}}  
+* **Notes:**
+  * Comparison covers the measurable trunk only (s 0.17–0.74, limb zones excluded); head, fins, spikes and limbs are later milestones, so no whole-creature accuracy claim is made.
+
+## M04 – Head generation
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:05:43 (66.67 s, quality `standard`)  
+* **Scripts:** 04_head_generator.py  
+* **Project file:** `project/FSD_M04_head_v003.blend`  
+* **Checks:** 93 PASS / 0 WARNING / 0 FAIL  
+* head objects: 10  
+* head faces (base): 17160  
+* spikes: 20 placed, 11 skipped (base overlap)  
+* **Assumptions:**
+  * Head proportions come from the side profile and head-detail panels; the skull width (~0.47 m) is taken from the top view without cheek fins.
+
+## M04 – Head generation
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:07:17 (63.89 s, quality `standard`)  
+* **Scripts:** 04_head_generator.py  
+* **Project file:** `project/FSD_M04_head_v004.blend`  
+* **Checks:** 93 PASS / 0 WARNING / 0 FAIL  
+* head objects: 10  
+* head faces (base): 17552  
+* spikes: 19 placed, 18 skipped (base overlap)  
+* **Assumptions:**
+  * Head proportions come from the side profile and head-detail panels; the skull width (~0.47 m) is taken from the top view without cheek fins.
+
+## M04 – Head generation
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:08:38 (64.61 s, quality `standard`)  
+* **Scripts:** 04_head_generator.py  
+* **Project file:** `project/FSD_M04_head_v005.blend`  
+* **Checks:** 93 PASS / 0 WARNING / 0 FAIL  
+* head objects: 10  
+* head faces (base): 17552  
+* spikes: 19 placed, 18 skipped (base overlap)  
+* **Assumptions:**
+  * Head proportions come from the side profile and head-detail panels; the skull width (~0.47 m) is taken from the top view without cheek fins.

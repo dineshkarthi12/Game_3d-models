@@ -200,3 +200,50 @@ def add_subsurf(ob, viewport: int, render: int):
     m.quality = 3
     m.uv_smooth = "PRESERVE_CORNERS"
     return m
+
+
+def object_from_builder(name: str, mb, coll_name: str, material_names: list[str] | None = None,
+                        smooth=True, origin=None):
+    """Create (or replace) a mesh object from a parts.MeshBuilder."""
+    from . import materials as M
+    old = bpy.data.objects.get(name)
+    if old is not None:
+        bpy.data.objects.remove(old, do_unlink=True)
+    V, F, UV, MI, A = mb.arrays()
+    if origin is not None:
+        V = V - np.asarray(origin, float)
+    ob = mesh_object(name, V, F, coll_name, face_uvs=UV, smooth=smooth)
+    if origin is not None:
+        ob.location = tuple(float(x) for x in origin)
+    me = ob.data
+    if material_names:
+        M.assign(ob, material_names)
+        me.polygons.foreach_set("material_index", np.asarray(MI, dtype=np.int32))
+    for k, vals in A.items():
+        set_point_attr(me, k, vals)
+    me.update()
+    ob["fsd_islands"] = mb.islands
+    return ob
+
+
+def bvh_for(objs, evaluated=True):
+    """World-space BVH (and the bmesh-free polygon normals) of one or more objects."""
+    from mathutils.bvhtree import BVHTree
+    import bmesh
+    bm = bmesh.new()
+    dg = bpy.context.evaluated_depsgraph_get()
+    for ob in objs:
+        ev = ob.evaluated_get(dg) if evaluated else ob
+        me = ev.to_mesh()
+        tmp = bmesh.new()
+        tmp.from_mesh(me)
+        tmp.transform(ob.matrix_world)
+        m2 = bpy.data.meshes.new("_tmp_bvh")
+        tmp.to_mesh(m2)
+        tmp.free()
+        bm.from_mesh(m2)
+        bpy.data.meshes.remove(m2)
+        ev.to_mesh_clear()
+    tree = BVHTree.FromBMesh(bm)
+    bm.free()
+    return tree

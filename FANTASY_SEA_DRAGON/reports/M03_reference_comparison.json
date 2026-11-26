@@ -1,11 +1,11 @@
 {
   "side": {
     "columns": 340,
-    "dorsal_mae_m": 0.0315,
-    "dorsal_max_m": 0.1628,
-    "belly_mae_m": 0.0148,
-    "belly_max_m": 0.0306,
-    "band_iou": 0.9456
+    "dorsal_mae_m": 0.0421,
+    "dorsal_max_m": 0.2074,
+    "belly_mae_m": 0.0244,
+    "belly_max_m": 0.1123,
+    "band_iou": 0.923
   },
   "bottom": {
     "columns": 308,

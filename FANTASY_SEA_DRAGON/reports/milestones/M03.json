@@ -6,18 +6,18 @@
     "03_neck_generator.py"
   ],
   "quality": "standard",
-  "started": "2026-11-26T11:39:12",
-  "finished": "2026-11-26T11:40:51",
-  "duration_s": 99.38,
+  "started": "2026-11-26T12:03:03",
+  "finished": "2026-11-26T12:04:36",
+  "duration_s": 93.01,
   "status": "COMPLETE",
-  "blend": "project/FSD_M03_body_blockout_v002.blend",
+  "blend": "project/FSD_M03_body_blockout_v004.blend",
   "outputs": {
     "comparison": [
       "renders/M03/compare_M03_side_left.png",
       "renders/M03/compare_M03_bottom.png"
     ],
     "blend": [
-      "project/FSD_M03_body_blockout_v002.blend"
+      "project/FSD_M03_body_blockout_v004.blend"
     ],
     "render": [
       "renders/M03/M03_body_left.png",
@@ -37,21 +37,21 @@
     ]
   },
   "metrics": {
-    "neck shaping": "1633 verts moved, max displacement 0.054 m",
+    "neck shaping": "1548 verts moved, max displacement 0.042 m",
     "vertex groups": {
-      "VG_Neck": 1249,
-      "VG_Torso": 4928,
-      "VG_Tail": 4193
+      "VG_Neck": 1121,
+      "VG_Torso": 5024,
+      "VG_Tail": 4225
     },
     "sockets": "SOCKET_Head, SOCKET_TailFin, SOCKET_Shoulder_L, SOCKET_Shoulder_R, SOCKET_Hip_L, SOCKET_Hip_R",
     "reference comparison": {
       "side": {
         "columns": 340,
-        "dorsal_mae_m": 0.0315,
-        "dorsal_max_m": 0.1628,
-        "belly_mae_m": 0.0148,
-        "belly_max_m": 0.0306,
-        "band_iou": 0.9456
+        "dorsal_mae_m": 0.0421,
+        "dorsal_max_m": 0.2074,
+        "belly_mae_m": 0.0244,
+        "belly_max_m": 0.1123,
+        "band_iou": 0.923
       },
       "bottom": {
         "columns": 308,
@@ -100,8 +100,8 @@
     {
       "check": "DRG_Body: normals point outward",
       "status": "PASS",
-      "detail": "signed volume 3.0025 m\u00b3",
-      "value": 3.0024860014671138,
+      "detail": "signed volume 2.8469 m\u00b3",
+      "value": 2.8469241399765983,
       "threshold": 0
     },
     {
@@ -149,8 +149,8 @@
     {
       "check": "DRG_Body (evaluated): normals point outward",
       "status": "PASS",
-      "detail": "signed volume 2.9779 m\u00b3",
-      "value": 2.977943086136768,
+      "detail": "signed volume 2.8239 m\u00b3",
+      "value": 2.823911834200692,
       "threshold": 0
     },
     {
@@ -163,15 +163,15 @@
     {
       "check": "DRG_Body (after neck shaping): radius continuity",
       "status": "PASS",
-      "detail": "max ring-to-ring mean-radius change 2.06% at ring 242 (limit 3.0%)",
-      "value": 0.020618693846810227,
+      "detail": "max ring-to-ring mean-radius change 2.14% at ring 6 (limit 3.0%)",
+      "value": 0.0213858281225706,
       "threshold": 0.03
     },
     {
       "check": "DRG_Body (after neck shaping): spine smoothness",
       "status": "PASS",
-      "detail": "max tangent change 1.667\u00b0 between rings at ring 2 (limit 2.0\u00b0)",
-      "value": 1.6668504281564116,
+      "detail": "max tangent change 1.850\u00b0 between rings at ring 31 (limit 2.0\u00b0)",
+      "value": 1.8497248142970837,
       "threshold": 2.0
     },
     {
@@ -191,7 +191,7 @@
     {
       "check": "Region vertex groups",
       "status": "PASS",
-      "detail": "VG_Neck: 1249 verts, VG_Torso: 4928 verts, VG_Tail: 4193 verts",
+      "detail": "VG_Neck: 1121 verts, VG_Torso: 5024 verts, VG_Tail: 4225 verts",
       "value": null,
       "threshold": null
     },
@@ -205,22 +205,22 @@
     {
       "check": "Head socket inside neck volume",
       "status": "PASS",
-      "detail": "neck half-depth at socket 0.470 m",
+      "detail": "neck half-depth at socket 0.432 m",
       "value": null,
       "threshold": null
     },
     {
       "check": "Reference match \u2013 dorsal line MAE (side view)",
       "status": "PASS",
-      "detail": "0.032 m (PASS <= 0.05, WARNING <= 0.1)",
-      "value": 0.0315,
+      "detail": "0.042 m (PASS <= 0.05, WARNING <= 0.1)",
+      "value": 0.0421,
       "threshold": 0.05
     },
     {
       "check": "Reference match \u2013 belly line MAE (side view)",
       "status": "PASS",
-      "detail": "0.015 m (PASS <= 0.05, WARNING <= 0.1)",
-      "value": 0.0148,
+      "detail": "0.024 m (PASS <= 0.05, WARNING <= 0.1)",
+      "value": 0.0244,
       "threshold": 0.05
     },
     {
@@ -233,8 +233,8 @@
     {
       "check": "Reference match \u2013 side band IoU",
       "status": "PASS",
-      "detail": "0.946 over 340 measurable columns (s 0.17\u20130.74, limb zones excluded)",
-      "value": 0.9456,
+      "detail": "0.923 over 340 measurable columns (s 0.17\u20130.74, limb zones excluded)",
+      "value": 0.923,
       "threshold": 0.9
     },
     {

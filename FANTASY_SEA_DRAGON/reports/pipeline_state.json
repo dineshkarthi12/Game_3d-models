@@ -24,15 +24,22 @@
     "M03a": {
       "title": "Serpentine body \u2013 continuous trunk",
       "status": "COMPLETE",
-      "blend": "project/FSD_M03a_trunk_v001.blend",
-      "finished": "2026-11-26T11:37:18",
+      "blend": "project/FSD_M03a_trunk_v003.blend",
+      "finished": "2026-11-26T12:03:03",
       "quality": "standard"
     },
     "M03": {
       "title": "Serpentine body + neck transition (blockout checkpoint)",
       "status": "COMPLETE",
-      "blend": "project/FSD_M03_body_blockout_v002.blend",
-      "finished": "2026-11-26T11:40:51",
+      "blend": "project/FSD_M03_body_blockout_v004.blend",
+      "finished": "2026-11-26T12:04:36",
+      "quality": "standard"
+    },
+    "M04": {
+      "title": "Head generation",
+      "status": "COMPLETE",
+      "blend": "project/FSD_M04_head_v005.blend",
+      "finished": "2026-11-26T12:08:38",
       "quality": "standard"
     }
   }

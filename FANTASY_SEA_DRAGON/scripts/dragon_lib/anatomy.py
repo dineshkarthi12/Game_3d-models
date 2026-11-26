@@ -26,7 +26,7 @@ import numpy as np
 from . import config, geometry as G, reference
 
 S_MEAS0 = 0.17
-S_MEAS0_CENTRE = 0.21     # longer S-curve blend for the neck centre line
+S_MEAS0_CENTRE = 0.25     # longer S-curve blend for the neck centre line
 RING_LOG_WEIGHT_M = 2.5   # metres of arc "worth" one unit of log-radius change
 # Head-junction centre landmark on the side view (sheet px): centre of the
 # occipital/neck cross-section just behind the skull, estimated from the
