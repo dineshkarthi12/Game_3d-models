@@ -1867,3 +1867,360 @@
 12:48:02 [INFO]   rendered M09_full_left.png
 12:48:06 [INFO]   rendered M09_full_top.png
 12:48:47 [INFO] M09 finished: COMPLETE (92.7s)
+12:50:25 [INFO] ========================================================================
+12:50:25 [INFO] M09 – Fins (neck, dorsal, side, leg, tail fan)  (quality=standard)
+12:50:25 [INFO] ========================================================================
+12:50:25 [INFO] Opening project/FSD_M08_dorsal_spikes_v002.blend
+12:50:25 [INFO]   [PASS] DRG_Fin_Neck: geometry present: 796 verts / 1584 edges / 792 faces
+12:50:25 [INFO]   [PASS] DRG_Fin_Neck: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:50:25 [INFO]   [PASS] DRG_Fin_Neck: loose geometry: 0 wire edges, 0 loose verts
+12:50:25 [INFO]   [PASS] DRG_Fin_Neck: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.987e-04)
+12:50:25 [INFO]   [PASS] DRG_Fin_Neck: consistent normals: 0 edges between faces with opposing winding
+12:50:25 [INFO]   [PASS] DRG_Fin_Neck: normals point outward: signed volume 0.0049 m³
+12:50:25 [INFO]   [PASS] DRG_Fin_Neck: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:50:25 [INFO]   [PASS] DRG_Fin_Neck: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:50:25 [INFO]   [PASS] DRG_Fin_Neck: UV map present: UVMap
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: geometry present: 1172 verts / 2340 edges / 1170 faces
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: loose geometry: 0 wire edges, 0 loose verts
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.185e-04)
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: consistent normals: 0 edges between faces with opposing winding
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: normals point outward: signed volume 0.0167 m³
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: UV map present: UVMap
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: geometry present: 1172 verts / 2340 edges / 1170 faces
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: loose geometry: 0 wire edges, 0 loose verts
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.984e-05)
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: consistent normals: 0 edges between faces with opposing winding
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: normals point outward: signed volume 0.0106 m³
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: UV map present: UVMap
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Side: geometry present: 1876 verts / 3744 edges / 1872 faces
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Side: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Side: loose geometry: 0 wire edges, 0 loose verts
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Side: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.919e-04)
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Side: consistent normals: 0 edges between faces with opposing winding
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Side: normals point outward: signed volume 0.0199 m³
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Side: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Side: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Side: UV map present: UVMap
+12:50:26 [INFO]   [PASS] DRG_Fin_Legs: geometry present: 1328 verts / 2640 edges / 1320 faces
+12:50:26 [INFO]   [PASS] DRG_Fin_Legs: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:50:26 [INFO]   [PASS] DRG_Fin_Legs: loose geometry: 0 wire edges, 0 loose verts
+12:50:26 [INFO]   [PASS] DRG_Fin_Legs: degenerate faces: 0 faces with area < 1e-10 m² (min area 9.061e-05)
+12:50:26 [INFO]   [PASS] DRG_Fin_Legs: consistent normals: 0 edges between faces with opposing winding
+12:50:26 [INFO]   [PASS] DRG_Fin_Legs: normals point outward: signed volume 0.0026 m³
+12:50:26 [INFO]   [PASS] DRG_Fin_Legs: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:50:26 [INFO]   [PASS] DRG_Fin_Legs: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:50:26 [INFO]   [PASS] DRG_Fin_Legs: UV map present: UVMap
+12:50:26 [INFO]   [PASS] DRG_Fin_Neck clear of other fins: 0 intersecting face pairs with 5 objects
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal clear of other fins: 0 intersecting face pairs with 5 objects
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Ventral clear of other fins: 0 intersecting face pairs with 5 objects
+12:50:26 [INFO]   [PASS] DRG_Fin_TailFan_Side clear of other fins: 0 intersecting face pairs with 5 objects
+12:50:26 [INFO]   [PASS] DRG_Fin_Legs clear of other fins: 0 intersecting face pairs with 5 objects
+12:50:26 [INFO]   [PASS] Fin thickness (not paper-thin): membranes 16–20 mm at the root, ray ridges 22–32 mm, tapering to a sharp rim
+12:50:26 [INFO]   [PASS] Tail fan height vs reference: model 1.76 m vs reference 1.77 m
+12:50:26 [INFO]   [PASS] Tail fan width vs reference (top view): model 1.32 m vs reference 1.33 m
+12:50:26 [INFO] ASSUMPTION: The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+12:50:26 [INFO] ASSUMPTION: Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+12:50:26 [INFO] Saved project/FSD_M09_fins_v010.blend
+12:51:05 [INFO]   rendered M09_full_three_quarter_front_left.png
+12:51:09 [INFO]   rendered M09_full_left.png
+12:51:13 [INFO]   rendered M09_full_top.png
+12:51:54 [INFO] M09 finished: COMPLETE (89.1s)
+12:51:54 [INFO] ========================================================================
+12:51:54 [INFO] M10 – Four limbs (legs, feet, toes, limb scales)  (quality=standard)
+12:51:54 [INFO] ========================================================================
+12:51:54 [INFO] Opening project/FSD_M09_fins_v010.blend
+12:51:59 [INFO]   [PASS] DRG_Legs: geometry present: 3528 verts / 7128 edges / 3608 faces
+12:51:59 [INFO]   [PASS] DRG_Legs: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:51:59 [INFO]   [PASS] DRG_Legs: loose geometry: 0 wire edges, 0 loose verts
+12:51:59 [INFO]   [PASS] DRG_Legs: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.209e-05)
+12:51:59 [INFO]   [PASS] DRG_Legs: consistent normals: 0 edges between faces with opposing winding
+12:51:59 [INFO]   [PASS] DRG_Legs: normals point outward: signed volume 0.2609 m³
+12:51:59 [ERROR]   [FAIL] DRG_Legs: self-intersections: 112 intersecting non-adjacent face pairs (BVH overlap test)
+12:51:59 [INFO]   [PASS] DRG_Legs: material assigned: MAT_Skin_DarkNavy
+12:51:59 [INFO]   [PASS] DRG_Legs: UV map present: UVMap
+12:51:59 [INFO]   [PASS] DRG_Feet: geometry present: 728 verts / 1520 edges / 800 faces
+12:51:59 [INFO]   [PASS] DRG_Feet: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:51:59 [INFO]   [PASS] DRG_Feet: loose geometry: 0 wire edges, 0 loose verts
+12:51:59 [INFO]   [PASS] DRG_Feet: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.055e-05)
+12:51:59 [INFO]   [PASS] DRG_Feet: consistent normals: 0 edges between faces with opposing winding
+12:51:59 [INFO]   [PASS] DRG_Feet: normals point outward: signed volume 0.0120 m³
+12:51:59 [INFO]   [PASS] DRG_Feet: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:51:59 [INFO]   [PASS] DRG_Feet: material assigned: MAT_Skin_DarkNavy
+12:51:59 [INFO]   [PASS] DRG_Feet: UV map present: UVMap
+12:51:59 [INFO]   [PASS] DRG_Toes: geometry present: 3104 verts / 6336 edges / 3264 faces
+12:51:59 [INFO]   [PASS] DRG_Toes: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:51:59 [INFO]   [PASS] DRG_Toes: loose geometry: 0 wire edges, 0 loose verts
+12:51:59 [INFO]   [PASS] DRG_Toes: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.316e-05)
+12:51:59 [INFO]   [PASS] DRG_Toes: consistent normals: 0 edges between faces with opposing winding
+12:51:59 [INFO]   [PASS] DRG_Toes: normals point outward: signed volume 0.0078 m³
+12:51:59 [ERROR]   [FAIL] DRG_Toes: self-intersections: 865 intersecting non-adjacent face pairs (BVH overlap test)
+12:51:59 [INFO]   [PASS] DRG_Toes: material assigned: MAT_Skin_DarkNavy
+12:51:59 [INFO]   [PASS] DRG_Toes: UV map present: UVMap
+12:51:59 [INFO]   [PASS] DRG_Scales_Limbs: geometry present: 69938 verts / 131648 edges / 65824 faces
+12:51:59 [INFO]   [PASS] DRG_Scales_Limbs: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:51:59 [INFO]   [PASS] DRG_Scales_Limbs: loose geometry: 0 wire edges, 0 loose verts
+12:51:59 [INFO]   [PASS] DRG_Scales_Limbs: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.967e-07)
+12:51:59 [INFO]   [PASS] DRG_Scales_Limbs: consistent normals: 0 edges between faces with opposing winding
+12:51:59 [INFO]   [PASS] DRG_Scales_Limbs: normals point outward: signed volume 0.0036 m³
+12:51:59 [ERROR]   [FAIL] DRG_Scales_Limbs: self-intersections: 1112 intersecting non-adjacent face pairs (BVH overlap test)
+12:51:59 [INFO]   [PASS] DRG_Scales_Limbs: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+12:51:59 [INFO]   [PASS] DRG_Scales_Limbs: UV map present: UVMap
+12:52:00 [INFO]   [PASS] Limb connectivity (root in body, foot in wrist, toes in foot): 24/24 joints connected
+12:52:00 [INFO]   [PASS] Leg fins attached to limbs: fin roots embedded in the forearm / shin surface
+12:52:00 [ERROR]   [FAIL] Legs clear of fins (except roots) and belly plates: 320 intersecting face pairs ({'DRG_Belly_Plates': 320})
+12:52:00 [INFO]   [PASS] Feet above ground: lowest toe point z = 0.200 m
+12:52:00 [INFO] ASSUMPTION: Limb proportions follow the side view (short legs, feet ~0.4 m above ground, webbed fins below); elbow/knee angles are a neutral swimming pose.
+12:52:00 [INFO] Saved project/FSD_M10_limbs_v001.blend
+12:53:28 [INFO]   rendered M10_full_three_quarter_front_left.png
+12:53:33 [INFO]   rendered M10_full_left.png
+12:53:38 [INFO]   rendered M10_full_top.png
+12:54:29 [INFO] M10 finished: FAILED_VALIDATION (154.7s)
+12:55:21 [INFO] ========================================================================
+12:55:21 [INFO] M09 – Fins (neck, dorsal, side, leg, tail fan)  (quality=standard)
+12:55:21 [INFO] ========================================================================
+12:55:21 [INFO] Opening project/FSD_M08_dorsal_spikes_v002.blend
+12:55:22 [INFO]   [PASS] DRG_Fin_Neck: geometry present: 796 verts / 1584 edges / 792 faces
+12:55:22 [INFO]   [PASS] DRG_Fin_Neck: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:55:22 [INFO]   [PASS] DRG_Fin_Neck: loose geometry: 0 wire edges, 0 loose verts
+12:55:22 [INFO]   [PASS] DRG_Fin_Neck: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.987e-04)
+12:55:22 [INFO]   [PASS] DRG_Fin_Neck: consistent normals: 0 edges between faces with opposing winding
+12:55:22 [INFO]   [PASS] DRG_Fin_Neck: normals point outward: signed volume 0.0049 m³
+12:55:22 [INFO]   [PASS] DRG_Fin_Neck: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:55:22 [INFO]   [PASS] DRG_Fin_Neck: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:55:22 [INFO]   [PASS] DRG_Fin_Neck: UV map present: UVMap
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: geometry present: 1172 verts / 2340 edges / 1170 faces
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: loose geometry: 0 wire edges, 0 loose verts
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.185e-04)
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: consistent normals: 0 edges between faces with opposing winding
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: normals point outward: signed volume 0.0167 m³
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: UV map present: UVMap
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: geometry present: 1172 verts / 2340 edges / 1170 faces
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: loose geometry: 0 wire edges, 0 loose verts
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.984e-05)
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: consistent normals: 0 edges between faces with opposing winding
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: normals point outward: signed volume 0.0106 m³
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: UV map present: UVMap
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Side: geometry present: 1876 verts / 3744 edges / 1872 faces
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Side: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Side: loose geometry: 0 wire edges, 0 loose verts
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Side: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.919e-04)
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Side: consistent normals: 0 edges between faces with opposing winding
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Side: normals point outward: signed volume 0.0199 m³
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Side: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Side: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Side: UV map present: UVMap
+12:55:22 [INFO]   [PASS] DRG_Fin_Legs: geometry present: 1328 verts / 2640 edges / 1320 faces
+12:55:22 [INFO]   [PASS] DRG_Fin_Legs: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:55:22 [INFO]   [PASS] DRG_Fin_Legs: loose geometry: 0 wire edges, 0 loose verts
+12:55:22 [INFO]   [PASS] DRG_Fin_Legs: degenerate faces: 0 faces with area < 1e-10 m² (min area 8.080e-05)
+12:55:22 [INFO]   [PASS] DRG_Fin_Legs: consistent normals: 0 edges between faces with opposing winding
+12:55:22 [INFO]   [PASS] DRG_Fin_Legs: normals point outward: signed volume 0.0035 m³
+12:55:22 [ERROR]   [FAIL] DRG_Fin_Legs: self-intersections: 1 intersecting non-adjacent face pairs (BVH overlap test)
+12:55:22 [INFO]   [PASS] DRG_Fin_Legs: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:55:22 [INFO]   [PASS] DRG_Fin_Legs: UV map present: UVMap
+12:55:22 [INFO]   [PASS] DRG_Fin_Neck clear of other fins: 0 intersecting face pairs with 5 objects
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal clear of other fins: 0 intersecting face pairs with 5 objects
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Ventral clear of other fins: 0 intersecting face pairs with 5 objects
+12:55:22 [INFO]   [PASS] DRG_Fin_TailFan_Side clear of other fins: 0 intersecting face pairs with 5 objects
+12:55:22 [INFO]   [PASS] DRG_Fin_Legs clear of other fins: 0 intersecting face pairs with 5 objects
+12:55:22 [INFO]   [PASS] Fin thickness (not paper-thin): membranes 16–20 mm at the root, ray ridges 22–32 mm, tapering to a sharp rim
+12:55:22 [INFO]   [PASS] Tail fan height vs reference: model 1.76 m vs reference 1.77 m
+12:55:22 [INFO]   [PASS] Tail fan width vs reference (top view): model 1.32 m vs reference 1.33 m
+12:55:22 [INFO] ASSUMPTION: The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+12:55:22 [INFO] ASSUMPTION: Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+12:55:22 [INFO] Saved project/FSD_M09_fins_v011.blend
+12:56:01 [INFO]   rendered M09_full_three_quarter_front_left.png
+12:56:05 [INFO]   rendered M09_full_left.png
+12:56:09 [INFO]   rendered M09_full_top.png
+12:56:50 [INFO] M09 finished: FAILED_VALIDATION (89.1s)
+12:56:59 [INFO] ========================================================================
+12:56:59 [INFO] M09 – Fins (neck, dorsal, side, leg, tail fan)  (quality=standard)
+12:56:59 [INFO] ========================================================================
+12:56:59 [INFO] Opening project/FSD_M08_dorsal_spikes_v002.blend
+12:57:00 [INFO]   [PASS] DRG_Fin_Neck: geometry present: 796 verts / 1584 edges / 792 faces
+12:57:00 [INFO]   [PASS] DRG_Fin_Neck: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:57:00 [INFO]   [PASS] DRG_Fin_Neck: loose geometry: 0 wire edges, 0 loose verts
+12:57:00 [INFO]   [PASS] DRG_Fin_Neck: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.987e-04)
+12:57:00 [INFO]   [PASS] DRG_Fin_Neck: consistent normals: 0 edges between faces with opposing winding
+12:57:00 [INFO]   [PASS] DRG_Fin_Neck: normals point outward: signed volume 0.0049 m³
+12:57:00 [INFO]   [PASS] DRG_Fin_Neck: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:57:00 [INFO]   [PASS] DRG_Fin_Neck: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:57:00 [INFO]   [PASS] DRG_Fin_Neck: UV map present: UVMap
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: geometry present: 1172 verts / 2340 edges / 1170 faces
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: loose geometry: 0 wire edges, 0 loose verts
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.185e-04)
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: consistent normals: 0 edges between faces with opposing winding
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: normals point outward: signed volume 0.0167 m³
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: UV map present: UVMap
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: geometry present: 1172 verts / 2340 edges / 1170 faces
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: loose geometry: 0 wire edges, 0 loose verts
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.984e-05)
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: consistent normals: 0 edges between faces with opposing winding
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: normals point outward: signed volume 0.0106 m³
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: UV map present: UVMap
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Side: geometry present: 1876 verts / 3744 edges / 1872 faces
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Side: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Side: loose geometry: 0 wire edges, 0 loose verts
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Side: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.919e-04)
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Side: consistent normals: 0 edges between faces with opposing winding
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Side: normals point outward: signed volume 0.0199 m³
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Side: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Side: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Side: UV map present: UVMap
+12:57:00 [INFO]   [PASS] DRG_Fin_Legs: geometry present: 1328 verts / 2640 edges / 1320 faces
+12:57:00 [INFO]   [PASS] DRG_Fin_Legs: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:57:00 [INFO]   [PASS] DRG_Fin_Legs: loose geometry: 0 wire edges, 0 loose verts
+12:57:00 [INFO]   [PASS] DRG_Fin_Legs: degenerate faces: 0 faces with area < 1e-10 m² (min area 8.684e-05)
+12:57:00 [INFO]   [PASS] DRG_Fin_Legs: consistent normals: 0 edges between faces with opposing winding
+12:57:00 [INFO]   [PASS] DRG_Fin_Legs: normals point outward: signed volume 0.0032 m³
+12:57:00 [ERROR]   [FAIL] DRG_Fin_Legs: self-intersections: 1 intersecting non-adjacent face pairs (BVH overlap test)
+12:57:00 [INFO]   [PASS] DRG_Fin_Legs: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:57:00 [INFO]   [PASS] DRG_Fin_Legs: UV map present: UVMap
+12:57:00 [INFO]   [PASS] DRG_Fin_Neck clear of other fins: 0 intersecting face pairs with 5 objects
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal clear of other fins: 0 intersecting face pairs with 5 objects
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Ventral clear of other fins: 0 intersecting face pairs with 5 objects
+12:57:00 [INFO]   [PASS] DRG_Fin_TailFan_Side clear of other fins: 0 intersecting face pairs with 5 objects
+12:57:00 [INFO]   [PASS] DRG_Fin_Legs clear of other fins: 0 intersecting face pairs with 5 objects
+12:57:00 [INFO]   [PASS] Fin thickness (not paper-thin): membranes 16–20 mm at the root, ray ridges 22–32 mm, tapering to a sharp rim
+12:57:00 [INFO]   [PASS] Tail fan height vs reference: model 1.76 m vs reference 1.77 m
+12:57:00 [INFO]   [PASS] Tail fan width vs reference (top view): model 1.32 m vs reference 1.33 m
+12:57:00 [INFO] ASSUMPTION: The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+12:57:00 [INFO] ASSUMPTION: Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+12:57:00 [INFO] Saved project/FSD_M09_fins_v012.blend
+12:57:39 [INFO]   rendered M09_full_three_quarter_front_left.png
+12:57:44 [INFO]   rendered M09_full_left.png
+12:57:48 [INFO]   rendered M09_full_top.png
+12:58:27 [INFO] M09 finished: FAILED_VALIDATION (88.0s)
+12:58:40 [INFO] ========================================================================
+12:58:40 [INFO] M09 – Fins (neck, dorsal, side, leg, tail fan)  (quality=standard)
+12:58:40 [INFO] ========================================================================
+12:58:40 [INFO] Opening project/FSD_M08_dorsal_spikes_v002.blend
+12:58:41 [INFO]   [PASS] DRG_Fin_Neck: geometry present: 796 verts / 1584 edges / 792 faces
+12:58:41 [INFO]   [PASS] DRG_Fin_Neck: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:58:41 [INFO]   [PASS] DRG_Fin_Neck: loose geometry: 0 wire edges, 0 loose verts
+12:58:41 [INFO]   [PASS] DRG_Fin_Neck: degenerate faces: 0 faces with area < 1e-10 m² (min area 2.987e-04)
+12:58:41 [INFO]   [PASS] DRG_Fin_Neck: consistent normals: 0 edges between faces with opposing winding
+12:58:41 [INFO]   [PASS] DRG_Fin_Neck: normals point outward: signed volume 0.0049 m³
+12:58:41 [INFO]   [PASS] DRG_Fin_Neck: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:58:41 [INFO]   [PASS] DRG_Fin_Neck: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:58:41 [INFO]   [PASS] DRG_Fin_Neck: UV map present: UVMap
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: geometry present: 1172 verts / 2340 edges / 1170 faces
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: loose geometry: 0 wire edges, 0 loose verts
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: degenerate faces: 0 faces with area < 1e-10 m² (min area 3.185e-04)
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: consistent normals: 0 edges between faces with opposing winding
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: normals point outward: signed volume 0.0167 m³
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal: UV map present: UVMap
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: geometry present: 1172 verts / 2340 edges / 1170 faces
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: loose geometry: 0 wire edges, 0 loose verts
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.984e-05)
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: consistent normals: 0 edges between faces with opposing winding
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: normals point outward: signed volume 0.0106 m³
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Ventral: UV map present: UVMap
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Side: geometry present: 1876 verts / 3744 edges / 1872 faces
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Side: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Side: loose geometry: 0 wire edges, 0 loose verts
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Side: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.919e-04)
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Side: consistent normals: 0 edges between faces with opposing winding
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Side: normals point outward: signed volume 0.0199 m³
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Side: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Side: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Side: UV map present: UVMap
+12:58:41 [INFO]   [PASS] DRG_Fin_Legs: geometry present: 1328 verts / 2640 edges / 1320 faces
+12:58:41 [INFO]   [PASS] DRG_Fin_Legs: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+12:58:41 [INFO]   [PASS] DRG_Fin_Legs: loose geometry: 0 wire edges, 0 loose verts
+12:58:41 [INFO]   [PASS] DRG_Fin_Legs: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.570e-04)
+12:58:41 [INFO]   [PASS] DRG_Fin_Legs: consistent normals: 0 edges between faces with opposing winding
+12:58:41 [INFO]   [PASS] DRG_Fin_Legs: normals point outward: signed volume 0.0031 m³
+12:58:41 [INFO]   [PASS] DRG_Fin_Legs: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+12:58:41 [INFO]   [PASS] DRG_Fin_Legs: material assigned: MAT_Scale_MetallicBlue, MAT_Fin_Amber
+12:58:41 [INFO]   [PASS] DRG_Fin_Legs: UV map present: UVMap
+12:58:41 [INFO]   [PASS] DRG_Fin_Neck clear of other fins: 0 intersecting face pairs with 5 objects
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Dorsal clear of other fins: 0 intersecting face pairs with 5 objects
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Ventral clear of other fins: 0 intersecting face pairs with 5 objects
+12:58:41 [INFO]   [PASS] DRG_Fin_TailFan_Side clear of other fins: 0 intersecting face pairs with 5 objects
+12:58:41 [INFO]   [PASS] DRG_Fin_Legs clear of other fins: 0 intersecting face pairs with 5 objects
+12:58:41 [INFO]   [PASS] Fin thickness (not paper-thin): membranes 16–20 mm at the root, ray ridges 22–32 mm, tapering to a sharp rim
+12:58:41 [INFO]   [PASS] Tail fan height vs reference: model 1.76 m vs reference 1.77 m
+12:58:41 [INFO]   [PASS] Tail fan width vs reference (top view): model 1.32 m vs reference 1.33 m
+12:58:41 [INFO] ASSUMPTION: The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+12:58:41 [INFO] ASSUMPTION: Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+12:58:41 [INFO] Saved project/FSD_M09_fins_v013.blend
+12:59:19 [INFO]   rendered M09_full_three_quarter_front_left.png
+12:59:23 [INFO]   rendered M09_full_left.png
+12:59:27 [INFO]   rendered M09_full_top.png
+13:00:07 [INFO] M09 finished: COMPLETE (87.2s)
+13:00:07 [INFO] ========================================================================
+13:00:07 [INFO] M10 – Four limbs (legs, feet, toes, limb scales)  (quality=standard)
+13:00:07 [INFO] ========================================================================
+13:00:07 [INFO] Opening project/FSD_M09_fins_v013.blend
+13:00:13 [INFO]   [PASS] DRG_Legs: geometry present: 3528 verts / 7128 edges / 3608 faces
+13:00:13 [INFO]   [PASS] DRG_Legs: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+13:00:13 [INFO]   [PASS] DRG_Legs: loose geometry: 0 wire edges, 0 loose verts
+13:00:13 [INFO]   [PASS] DRG_Legs: degenerate faces: 0 faces with area < 1e-10 m² (min area 4.880e-05)
+13:00:13 [INFO]   [PASS] DRG_Legs: consistent normals: 0 edges between faces with opposing winding
+13:00:13 [INFO]   [PASS] DRG_Legs: normals point outward: signed volume 0.2385 m³
+13:00:13 [ERROR]   [FAIL] DRG_Legs: self-intersections: 39 intersecting non-adjacent face pairs (BVH overlap test)
+13:00:13 [INFO]   [PASS] DRG_Legs: material assigned: MAT_Skin_DarkNavy
+13:00:13 [INFO]   [PASS] DRG_Legs: UV map present: UVMap
+13:00:13 [INFO]   [PASS] DRG_Feet: geometry present: 728 verts / 1520 edges / 800 faces
+13:00:13 [INFO]   [PASS] DRG_Feet: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+13:00:13 [INFO]   [PASS] DRG_Feet: loose geometry: 0 wire edges, 0 loose verts
+13:00:13 [INFO]   [PASS] DRG_Feet: degenerate faces: 0 faces with area < 1e-10 m² (min area 6.055e-05)
+13:00:13 [INFO]   [PASS] DRG_Feet: consistent normals: 0 edges between faces with opposing winding
+13:00:13 [INFO]   [PASS] DRG_Feet: normals point outward: signed volume 0.0120 m³
+13:00:13 [INFO]   [PASS] DRG_Feet: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+13:00:13 [INFO]   [PASS] DRG_Feet: material assigned: MAT_Skin_DarkNavy
+13:00:13 [INFO]   [PASS] DRG_Feet: UV map present: UVMap
+13:00:13 [INFO]   [PASS] DRG_Toes: geometry present: 3104 verts / 6336 edges / 3264 faces
+13:00:13 [INFO]   [PASS] DRG_Toes: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+13:00:13 [INFO]   [PASS] DRG_Toes: loose geometry: 0 wire edges, 0 loose verts
+13:00:13 [INFO]   [PASS] DRG_Toes: degenerate faces: 0 faces with area < 1e-10 m² (min area 9.138e-06)
+13:00:13 [INFO]   [PASS] DRG_Toes: consistent normals: 0 edges between faces with opposing winding
+13:00:13 [INFO]   [PASS] DRG_Toes: normals point outward: signed volume 0.0037 m³
+13:00:13 [INFO]   [PASS] DRG_Toes: self-intersections: 0 intersecting non-adjacent face pairs (BVH overlap test)
+13:00:13 [INFO]   [PASS] DRG_Toes: material assigned: MAT_Skin_DarkNavy
+13:00:13 [INFO]   [PASS] DRG_Toes: UV map present: UVMap
+13:00:13 [INFO]   [PASS] DRG_Scales_Limbs: geometry present: 56508 verts / 106368 edges / 53184 faces
+13:00:13 [INFO]   [PASS] DRG_Scales_Limbs: manifold: 0 non-manifold edges, 0 boundary edges (watertight required: True)
+13:00:13 [INFO]   [PASS] DRG_Scales_Limbs: loose geometry: 0 wire edges, 0 loose verts
+13:00:13 [INFO]   [PASS] DRG_Scales_Limbs: degenerate faces: 0 faces with area < 1e-10 m² (min area 1.089e-06)
+13:00:13 [INFO]   [PASS] DRG_Scales_Limbs: consistent normals: 0 edges between faces with opposing winding
+13:00:13 [INFO]   [PASS] DRG_Scales_Limbs: normals point outward: signed volume 0.0034 m³
+13:00:13 [ERROR]   [FAIL] DRG_Scales_Limbs: self-intersections: 10 intersecting non-adjacent face pairs (BVH overlap test)
+13:00:13 [INFO]   [PASS] DRG_Scales_Limbs: material assigned: MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy
+13:00:13 [INFO]   [PASS] DRG_Scales_Limbs: UV map present: UVMap
+13:00:13 [ERROR]   [FAIL] Limb connectivity (root in body, foot in wrist, toes in foot): 8/24 joints connected; missing: ['Front_L toe 0 rooted in foot', 'Front_L toe 1 rooted in foot', 'Front_L toe 2 rooted in foot', 'Front_L toe 3 rooted in foot', 'Front_R toe 0 rooted in foot', 'Front_R toe 1 rooted in foot', 'Front_R toe 2 rooted in foot', 'Front_R toe 3 rooted in foot', 'Rear_L toe 0 rooted in foot', 'Rear_L toe 1 rooted in foot', 'Rear_L toe 2 rooted in foot', 'Rear_L toe 3 rooted in foot', 'Rear_R toe 0 rooted in foot', 'Rear_R toe 1 rooted in foot', 'Rear_R toe 2 rooted in foot', 'Rear_R toe 3 rooted in foot']
+13:00:13 [INFO]   [PASS] Leg fins attached to limbs: fin roots embedded in the forearm / shin surface
+13:00:13 [INFO]   [PASS] Legs clear of belly plates and body scales: 0 intersecting face pairs with 3 objects
+13:00:13 [INFO]   [PASS] Feet above ground: lowest toe point z = 0.316 m
+13:00:13 [INFO] ASSUMPTION: Limb proportions follow the side view (short legs, feet ~0.4 m above ground, webbed fins below); elbow/knee angles are a neutral swimming pose.
+13:00:13 [INFO] Saved project/FSD_M10_limbs_v002.blend
+13:01:47 [INFO]   rendered M10_full_three_quarter_front_left.png
+13:01:52 [INFO]   rendered M10_full_left.png
+13:01:57 [INFO]   rendered M10_full_top.png
+13:02:47 [INFO] M10 finished: FAILED_VALIDATION (159.6s)
+04:31:18 [INFO] Opening project/FSD_M09_fins_v013.blend

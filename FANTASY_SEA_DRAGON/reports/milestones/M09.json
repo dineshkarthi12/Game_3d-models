@@ -5,14 +5,14 @@
     "09_fin_generator.py"
   ],
   "quality": "standard",
-  "started": "2026-11-26T12:47:14",
-  "finished": "2026-11-26T12:48:47",
-  "duration_s": 92.72,
+  "started": "2026-11-26T12:58:40",
+  "finished": "2026-11-26T13:00:07",
+  "duration_s": 87.22,
   "status": "COMPLETE",
-  "blend": "project/FSD_M09_fins_v009.blend",
+  "blend": "project/FSD_M09_fins_v013.blend",
   "outputs": {
     "blend": [
-      "project/FSD_M09_fins_v009.blend"
+      "project/FSD_M09_fins_v013.blend"
     ],
     "render": [
       "renders/M09/M09_full_three_quarter_front_left.png",
@@ -312,7 +312,7 @@
     {
       "check": "DRG_Fin_Legs: degenerate faces",
       "status": "PASS",
-      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 9.061e-05)",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 1.570e-04)",
       "value": 0,
       "threshold": 0
     },
@@ -326,8 +326,8 @@
     {
       "check": "DRG_Fin_Legs: normals point outward",
       "status": "PASS",
-      "detail": "signed volume 0.0026 m\u00b3",
-      "value": 0.0026365373601180656,
+      "detail": "signed volume 0.0031 m\u00b3",
+      "value": 0.0031448672910839026,
       "threshold": 0
     },
     {

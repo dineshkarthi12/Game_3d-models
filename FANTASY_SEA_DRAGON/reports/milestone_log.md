@@ -429,3 +429,73 @@
 * **Assumptions:**
   * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
   * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T12:51:54 (89.09 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v010.blend`  
+* **Checks:** 53 PASS / 0 WARNING / 0 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 12448, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 140}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M10 – Four limbs (legs, feet, toes, limb scales)
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:54:29 (154.71 s, quality `standard`)  
+* **Scripts:** 10_limb_generator.py  
+* **Project file:** `project/FSD_M10_limbs_v001.blend`  
+* **Checks:** 36 PASS / 0 WARNING / 4 FAIL  
+* limb scales: 2057  
+* limb scales removed (touching body scales/plates/fins): 137  
+* limb joint heights (m): {'Front_L': [1.01, 0.63, 0.44, 0.38], 'Front_R': [1.01, 0.63, 0.44, 0.38], 'Rear_L': [1.03, 0.64, 0.44, 0.37], 'Rear_R': [1.03, 0.64, 0.44, 0.37]}  
+* **Assumptions:**
+  * Limb proportions follow the side view (short legs, feet ~0.4 m above ground, webbed fins below); elbow/knee angles are a neutral swimming pose.
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:56:50 (89.06 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v011.blend`  
+* **Checks:** 52 PASS / 0 WARNING / 1 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 12448, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 140}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T12:58:27 (87.96 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v012.blend`  
+* **Checks:** 52 PASS / 0 WARNING / 1 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 12448, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 140}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M09 – Fins (neck, dorsal, side, leg, tail fan)
+* **Status:** COMPLETE  
+* **Finished:** 2026-11-26T13:00:07 (87.22 s, quality `standard`)  
+* **Scripts:** 09_fin_generator.py  
+* **Project file:** `project/FSD_M09_fins_v013.blend`  
+* **Checks:** 53 PASS / 0 WARNING / 0 FAIL  
+* faces removed from pierced scales/spikes: {'DRG_Scales_Neck': 832, 'DRG_Scales_Tail': 12448, 'DRG_Spikes_Tail': 648, 'DRG_Belly_Plates': 140}  
+* **Assumptions:**
+  * The sheet's tail fan reads as fan lobes in both the side and the top view; it is modelled as four lobes (dorsal, ventral, left, right).  The dorsal lobe doubles as the tail-base dorsal fin.
+  * Leg fins are attached to the limb skeleton (dragon_lib.limbs) that M10 uses for the leg meshes.
+
+## M10 – Four limbs (legs, feet, toes, limb scales)
+* **Status:** FAILED_VALIDATION  
+* **Finished:** 2026-11-26T13:02:47 (159.58 s, quality `standard`)  
+* **Scripts:** 10_limb_generator.py  
+* **Project file:** `project/FSD_M10_limbs_v002.blend`  
+* **Checks:** 37 PASS / 0 WARNING / 3 FAIL  
+* limb scales rejected (curvature overlap): 2  
+* limb scales: 1662  
+* limb scales removed (touching body scales/plates/fins): 92  
+* body faces removed at limb roots: {'DRG_Scales_Flank_L': 1152, 'DRG_Scales_Flank_R': 1152, 'DRG_Belly_Plates': 560}  
+* limb joint heights (m): {'Front_L': [1.13, 0.78, 0.59, 0.53], 'Front_R': [1.13, 0.78, 0.59, 0.53], 'Rear_L': [1.12, 0.77, 0.56, 0.5], 'Rear_R': [1.12, 0.77, 0.56, 0.5]}  
+* **Assumptions:**
+  * Limb proportions follow the side view (short legs, feet ~0.4 m above ground, webbed fins below); elbow/knee angles are a neutral swimming pose.

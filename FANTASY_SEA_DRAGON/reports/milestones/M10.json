@@ -1,0 +1,353 @@
+{
+  "id": "M10",
+  "title": "Four limbs (legs, feet, toes, limb scales)",
+  "scripts": [
+    "10_limb_generator.py"
+  ],
+  "quality": "standard",
+  "started": "2026-11-26T13:00:07",
+  "finished": "2026-11-26T13:02:47",
+  "duration_s": 159.58,
+  "status": "FAILED_VALIDATION",
+  "blend": "project/FSD_M10_limbs_v002.blend",
+  "outputs": {
+    "blend": [
+      "project/FSD_M10_limbs_v002.blend"
+    ],
+    "render": [
+      "renders/M10/M10_full_three_quarter_front_left.png",
+      "renders/M10/M10_full_left.png",
+      "renders/M10/M10_full_top.png",
+      "renders/M10/M10_focus_0.png",
+      "renders/M10/M10_focus_1.png",
+      "renders/M10/M10_aligned_side_left.png",
+      "renders/M10/M10_aligned_bottom.png"
+    ],
+    "preview": [
+      "renders/M10/M10_review_sheet.png"
+    ]
+  },
+  "metrics": {
+    "limb scales rejected (curvature overlap)": 2,
+    "limb scales": 1662,
+    "limb scales removed (touching body scales/plates/fins)": 92,
+    "body faces removed at limb roots": {
+      "DRG_Scales_Flank_L": 1152,
+      "DRG_Scales_Flank_R": 1152,
+      "DRG_Belly_Plates": 560
+    },
+    "limb joint heights (m)": {
+      "Front_L": [
+        1.13,
+        0.78,
+        0.59,
+        0.53
+      ],
+      "Front_R": [
+        1.13,
+        0.78,
+        0.59,
+        0.53
+      ],
+      "Rear_L": [
+        1.12,
+        0.77,
+        0.56,
+        0.5
+      ],
+      "Rear_R": [
+        1.12,
+        0.77,
+        0.56,
+        0.5
+      ]
+    }
+  },
+  "checks": [
+    {
+      "check": "DRG_Legs: geometry present",
+      "status": "PASS",
+      "detail": "3528 verts / 7128 edges / 3608 faces",
+      "value": 3608,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Legs: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Legs: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Legs: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 4.880e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Legs: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Legs: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.2385 m\u00b3",
+      "value": 0.23852709771240468,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Legs: self-intersections",
+      "status": "FAIL",
+      "detail": "39 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 39,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Legs: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Skin_DarkNavy",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Legs: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Feet: geometry present",
+      "status": "PASS",
+      "detail": "728 verts / 1520 edges / 800 faces",
+      "value": 800,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Feet: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Feet: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Feet: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 6.055e-05)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Feet: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Feet: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0120 m\u00b3",
+      "value": 0.012038449891500222,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Feet: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Feet: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Skin_DarkNavy",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Feet: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Toes: geometry present",
+      "status": "PASS",
+      "detail": "3104 verts / 6336 edges / 3264 faces",
+      "value": 3264,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Toes: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Toes: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Toes: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 9.138e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Toes: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Toes: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0037 m\u00b3",
+      "value": 0.003683460833539427,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Toes: self-intersections",
+      "status": "PASS",
+      "detail": "0 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Toes: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Skin_DarkNavy",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Toes: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Limbs: geometry present",
+      "status": "PASS",
+      "detail": "56508 verts / 106368 edges / 53184 faces",
+      "value": 53184,
+      "threshold": null
+    },
+    {
+      "check": "DRG_Scales_Limbs: manifold",
+      "status": "PASS",
+      "detail": "0 non-manifold edges, 0 boundary edges (watertight required: True)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Limbs: loose geometry",
+      "status": "PASS",
+      "detail": "0 wire edges, 0 loose verts",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Limbs: degenerate faces",
+      "status": "PASS",
+      "detail": "0 faces with area < 1e-10 m\u00b2 (min area 1.089e-06)",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Limbs: consistent normals",
+      "status": "PASS",
+      "detail": "0 edges between faces with opposing winding",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Limbs: normals point outward",
+      "status": "PASS",
+      "detail": "signed volume 0.0034 m\u00b3",
+      "value": 0.0033892579900060634,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Limbs: self-intersections",
+      "status": "FAIL",
+      "detail": "10 intersecting non-adjacent face pairs (BVH overlap test)",
+      "value": 10,
+      "threshold": 0
+    },
+    {
+      "check": "DRG_Scales_Limbs: material assigned",
+      "status": "PASS",
+      "detail": "MAT_Scale_MetallicBlue, MAT_Scale_Turquoise, MAT_Scale_Gold, MAT_Scale_DarkNavy",
+      "value": 4,
+      "threshold": 1
+    },
+    {
+      "check": "DRG_Scales_Limbs: UV map present",
+      "status": "PASS",
+      "detail": "UVMap",
+      "value": 1,
+      "threshold": 1
+    },
+    {
+      "check": "Limb connectivity (root in body, foot in wrist, toes in foot)",
+      "status": "FAIL",
+      "detail": "8/24 joints connected; missing: ['Front_L toe 0 rooted in foot', 'Front_L toe 1 rooted in foot', 'Front_L toe 2 rooted in foot', 'Front_L toe 3 rooted in foot', 'Front_R toe 0 rooted in foot', 'Front_R toe 1 rooted in foot', 'Front_R toe 2 rooted in foot', 'Front_R toe 3 rooted in foot', 'Rear_L toe 0 rooted in foot', 'Rear_L toe 1 rooted in foot', 'Rear_L toe 2 rooted in foot', 'Rear_L toe 3 rooted in foot', 'Rear_R toe 0 rooted in foot', 'Rear_R toe 1 rooted in foot', 'Rear_R toe 2 rooted in foot', 'Rear_R toe 3 rooted in foot']",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Leg fins attached to limbs",
+      "status": "PASS",
+      "detail": "fin roots embedded in the forearm / shin surface",
+      "value": null,
+      "threshold": null
+    },
+    {
+      "check": "Legs clear of belly plates and body scales",
+      "status": "PASS",
+      "detail": "0 intersecting face pairs with 3 objects",
+      "value": 0,
+      "threshold": 0
+    },
+    {
+      "check": "Feet above ground",
+      "status": "PASS",
+      "detail": "lowest toe point z = 0.316 m",
+      "value": null,
+      "threshold": null
+    }
+  ],
+  "notes": [],
+  "assumptions": [
+    "Limb proportions follow the side view (short legs, feet ~0.4 m above ground, webbed fins below); elbow/knee angles are a neutral swimming pose."
+  ],
+  "error": null
+}

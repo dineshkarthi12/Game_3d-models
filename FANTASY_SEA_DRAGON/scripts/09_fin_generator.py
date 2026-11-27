@@ -123,17 +123,20 @@ def leg_fins(trunk, rng):
     for name in limbs.LIMBS:
         J = limbs.joints(trunk, name)
         pts, r, u = limbs.limb_path(J)
-        u_hi = 0.93 if J["kind"] == "front" else 0.82     # rear: stop before the ankle turns forward
-        sel = (u > 0.50) & (u < u_hi)
-        P, R = pts[sel], r[sel]
-        idx = np.linspace(0, len(P) - 1, 6).astype(int)
+        sel = (u > 0.52) & (u < 0.92)                      # elbow/knee -> wrist/ankle segment
+        P0, R0 = pts[sel], r[sel]
+        arc = np.concatenate([[0], np.cumsum(np.linalg.norm(np.diff(P0, axis=0), axis=1))])
+        tgt = np.linspace(0, arc[-1], 6)                     # evenly spaced roots by arc length
+        P = np.stack([np.interp(tgt, arc, P0[:, k]) for k in range(3)], 1)
+        R = np.interp(tgt, arc, R0)
+        idx = np.arange(len(P))
         back = np.array([0, 1.0, 0])
         out = np.array([J["side"], 0, 0.0])
-        tang = np.gradient(P, axis=0)[idx]
+        tang = np.gradient(P, axis=0)
         post = np.cross(out, tang)
         post /= np.linalg.norm(post, axis=1, keepdims=True)
         post *= np.sign(post[:, 1:2] + 1e-9)            # posterior side of the limb segment
-        roots = P[idx] + post * (R[idx] * 0.55)[:, None]
+        roots = P + post * (R * 0.55)[:, None]
         # tips first: a flame-shaped edge near the ground, progressing in the same
         # order as the roots along the limb -> consecutive rays can never cross
         n = len(idx)
